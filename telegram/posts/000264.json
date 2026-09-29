@@ -14,7 +14,8 @@
       "duration": "1:22",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/264/264-thumb.jpg"
+      "thumb": "/media/tg/264/264-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Updates for SmartDock DFC, adding new Desktop Styles",

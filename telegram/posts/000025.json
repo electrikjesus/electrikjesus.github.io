@@ -14,7 +14,8 @@
       "duration": "1:19",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/25/25-thumb.jpg"
+      "thumb": "/media/tg/25/25-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Second demo: Booting into Lockdown mode (after whitelisting a couple apps for the user to use)",

@@ -11,7 +11,8 @@
       "duration": "0:58",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/85/85-thumb.jpg"
+      "thumb": "/media/tg/85/85-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS 16: SmartDock Desktop mode experiments <br/><br/>This demo highlights the updates to the Keyboard Shortcuts within SmartDock, and it now lets you assign your own keyboard shortcuts for a variety of activities",

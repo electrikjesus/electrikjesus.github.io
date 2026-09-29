@@ -14,7 +14,8 @@
       "duration": "0:06",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/254/254-thumb.jpg"
+      "thumb": "/media/tg/254/254-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Rounded card options and some speed optimizations",

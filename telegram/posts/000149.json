@@ -14,7 +14,8 @@
       "duration": "0:12",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/149/149-thumb.jpg"
+      "thumb": "/media/tg/149/149-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Waydroid-Linux A16 - Live boot responsiveness",

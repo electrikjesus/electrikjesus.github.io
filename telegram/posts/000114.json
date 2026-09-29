@@ -11,7 +11,8 @@
       "duration": "1:36",
       "ratio": 0.75,
       "round": false,
-      "thumb": "/media/tg/114/114-thumb.jpg"
+      "thumb": "/media/tg/114/114-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Lineage OS 21 - Build #6 <br/>Adding in initial SmartDock DFC and a couple Bass OS changes to disable Navigation and Taskbar",

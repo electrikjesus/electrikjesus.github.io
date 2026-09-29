@@ -14,7 +14,8 @@
       "duration": "0:27",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/31/31-thumb.jpg"
+      "thumb": "/media/tg/31/31-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS 12.1 - Desktop Android multi window solution: (silent) Launching an app, moving it to secondary display from that display, and launching another app on Primary display",

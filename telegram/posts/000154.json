@@ -11,7 +11,8 @@
       "duration": "0:31",
       "ratio": 1.4988,
       "round": false,
-      "thumb": "/media/tg/154/154-thumb.jpg"
+      "thumb": "/media/tg/154/154-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Enabling Android BlurUI by default using our BootConfig app (reboot afterwards for it to take effect)",

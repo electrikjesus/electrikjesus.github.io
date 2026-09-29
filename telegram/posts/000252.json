@@ -11,7 +11,8 @@
       "duration": "0:48",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/252/252-thumb.jpg"
+      "thumb": "/media/tg/252/252-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "What should we call our WIP game launcher? We're trying to go for a very Steam Deck type UX with it",

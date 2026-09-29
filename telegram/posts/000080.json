@@ -11,7 +11,8 @@
       "duration": "1:00",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/80/80-thumb.jpg"
+      "thumb": "/media/tg/80/80-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Quick multi-display demo of Android 16 qpr1<br/><br/>Launching and moving apps across multiple displays",

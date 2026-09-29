@@ -14,7 +14,8 @@
       "duration": "3:58",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/152/152-thumb.jpg"
+      "thumb": "/media/tg/152/152-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Waydroid-Linux EGUI (rust) based installer/control panel",

@@ -14,7 +14,8 @@
       "duration": "1:02",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/84/84-thumb.jpg"
+      "thumb": "/media/tg/84/84-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Display Topology in Android 16",

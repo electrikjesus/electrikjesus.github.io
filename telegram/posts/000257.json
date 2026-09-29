@@ -14,7 +14,8 @@
       "duration": "0:07",
       "ratio": 1.4988,
       "round": false,
-      "thumb": "/media/tg/257/257-thumb.jpg"
+      "thumb": "/media/tg/257/257-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Now the home shelf scrolling works better for large libraries, and the media shelf also pulls in media app related updates for What's New",

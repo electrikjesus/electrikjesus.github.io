@@ -11,7 +11,8 @@
       "duration": "1:00",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/88/88-thumb.jpg"
+      "thumb": "/media/tg/88/88-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Another quick demo for some of the changes going into the Smart Dock desktop framework experiments. <br/><br/>This demo shows off the audio routing interface that is working with the new Bass Audio DSP/API",

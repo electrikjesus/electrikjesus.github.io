@@ -14,7 +14,8 @@
       "duration": "0:27",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/223/223-thumb.jpg"
+      "thumb": "/media/tg/223/223-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Worm Zone arm64 - testing DigitalisX64 (the first open source arm64 -&gt; x86_64 translation layer) on an Intel i5 (circa 2016) with Bass Lineout (A16)",

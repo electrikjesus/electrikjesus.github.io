@@ -11,7 +11,8 @@
       "duration": "0:34",
       "ratio": 1.3333,
       "round": false,
-      "thumb": "/media/tg/98/98-thumb.jpg"
+      "thumb": "/media/tg/98/98-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Added Day/Night pallet support",

@@ -14,7 +14,8 @@
       "duration": "0:47",
       "ratio": 1.4115,
       "round": false,
-      "thumb": "/media/tg/73/73-thumb.jpg"
+      "thumb": "/media/tg/73/73-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "BassRPI - Android 16 builds are also now found on the rpi-imager for the rpi5, rpi500 &amp; rpi500+",

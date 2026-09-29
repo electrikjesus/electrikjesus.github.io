@@ -14,7 +14,8 @@
       "duration": "0:27",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/35/35-thumb.jpg"
+      "thumb": "/media/tg/35/35-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Accessing the Status bar in Desktop mode",

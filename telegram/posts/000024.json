@@ -14,7 +14,8 @@
       "duration": "1:05",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/24/24-thumb.jpg"
+      "thumb": "/media/tg/24/24-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Raspberry Pi 4 - U-Boot based boot menu using askenv command from Glodroid 's bootscript.cpp script for Android A/B boot config<br/><br/>First Demo: Booting into Admin mode",

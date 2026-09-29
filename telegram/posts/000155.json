@@ -11,7 +11,8 @@
       "duration": "0:48",
       "ratio": 1.4988,
       "round": false,
-      "thumb": "/media/tg/155/155-thumb.jpg"
+      "thumb": "/media/tg/155/155-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Enabling panel blur and override transparency for Smart Dock DFC (after enabling Android BlurUI by default from BootConfig app)",

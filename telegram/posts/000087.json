@@ -11,7 +11,8 @@
       "duration": "0:57",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/87/87-thumb.jpg"
+      "thumb": "/media/tg/87/87-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "More demos for the experiments we are doing with Smart Dock as a desktop framework solution for Android. <br/>This demo shows off the new nav handle behavior and customization",

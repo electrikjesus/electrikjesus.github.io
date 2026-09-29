@@ -11,7 +11,8 @@
       "duration": "2:02",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/249/249-thumb.jpg"
+      "thumb": "/media/tg/249/249-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "GameNativeX64 - Shared-Memory performance on HL2, and on-screen controls when keyboard is detached",

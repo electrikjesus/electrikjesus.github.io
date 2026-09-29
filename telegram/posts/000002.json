@@ -11,7 +11,8 @@
       "duration": "1:38",
       "ratio": 1.4988,
       "round": false,
-      "thumb": "/media/tg/2/2-thumb.jpg"
+      "thumb": "/media/tg/2/2-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Recorded a proper demo of vapor-launcher. Available for both arm64 and x86_64 Android. <br/><a href=\"https://github.com/imperador/vapor-launcher/releases\">https://github.com/imperador/vapor-launcher/releases</a>",

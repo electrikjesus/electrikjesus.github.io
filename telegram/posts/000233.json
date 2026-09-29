@@ -14,7 +14,8 @@
       "duration": null,
       "ratio": 1.0,
       "round": false,
-      "thumb": "/media/tg/233/233-thumb.jpg"
+      "thumb": "/media/tg/233/233-thumb.jpg",
+      "poster": "/media/tg/233/233-poster.jpg"
     }
   ],
   "text_html": "Option A",

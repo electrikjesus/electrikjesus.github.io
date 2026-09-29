@@ -11,7 +11,8 @@
       "duration": "0:53",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/79/79-thumb.jpg"
+      "thumb": "/media/tg/79/79-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS RPI (Android 16) demo - Remembering desktop states and running apps across reboots",

@@ -14,7 +14,8 @@
       "duration": "0:32",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/36/36-thumb.jpg"
+      "thumb": "/media/tg/36/36-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Opening multiple instances of an app on both screens",

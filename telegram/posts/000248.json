@@ -11,7 +11,8 @@
       "duration": "1:48",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/248/248-thumb.jpg"
+      "thumb": "/media/tg/248/248-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "GameNativeX64 - Multiple Linux app windows inside Android-x86 (Bass:Lineout A16)",

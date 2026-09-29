@@ -14,7 +14,8 @@
       "duration": "0:29",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/176/176-thumb.jpg"
+      "thumb": "/media/tg/176/176-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Waydroid Multi-display Input now works too",

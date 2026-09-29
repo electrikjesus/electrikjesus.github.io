@@ -11,7 +11,8 @@
       "duration": "0:17",
       "ratio": 1.3333,
       "round": false,
-      "thumb": "/media/tg/96/96-thumb.jpg"
+      "thumb": "/media/tg/96/96-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Working on my latest shader-based live wallpaper",

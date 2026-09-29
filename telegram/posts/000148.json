@@ -14,7 +14,8 @@
       "duration": "1:35",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/148/148-thumb.jpg"
+      "thumb": "/media/tg/148/148-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Booting from live USB into Waydroid-Linux A16",

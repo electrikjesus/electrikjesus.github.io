@@ -11,7 +11,8 @@
       "duration": "0:49",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/86/86-thumb.jpg"
+      "thumb": "/media/tg/86/86-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS 16: SmartDock Desktop mode experiments <br/><br/>Adding a new functional handle mode to Smart Dock that allows it to also act as a navigation gesture bar. It handles home, overview, and back gestures. Will be adding visual feedback for ux as well as fixing a couple crashes here and there next.",

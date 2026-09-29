@@ -11,7 +11,8 @@
       "duration": "0:12",
       "ratio": 0.75,
       "round": false,
-      "thumb": "/media/tg/227/227-thumb.jpg"
+      "thumb": "/media/tg/227/227-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Today's side quest after work was finally getting a new game idea to a playable state. <br/><br/>So I present Blushcraft, a couples game that mixes \"cards against humanity\" type chaos with romantic finesse. It also has a \"fresh start\" mode for people to meet and get to know each other more each round.<br/><br/>Checkout the initial release here:<br/><a href=\"https://github.com/electrikjesus/Blushcraft\">https://github.com/electrikjesus/Blushcraft</a>",

@@ -11,7 +11,8 @@
       "duration": "1:21",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/177/177-thumb.jpg"
+      "thumb": "/media/tg/177/177-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Sharing progress on a project isn't always about showing things working 100%. Sometimes, it helps to show how things are still very broken so others can understand the work involved. <br/>This is one of those cases. Android thinks I have 2 primary displays and is super confused when I try and launch an app from secondary displays desktop mode... So it just quits...",

@@ -11,7 +11,8 @@
       "duration": "0:13",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/145/145-thumb.jpg"
+      "thumb": "/media/tg/145/145-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Fixed the blur by default boot option (too bright out here, lots of glare)",

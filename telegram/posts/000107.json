@@ -11,7 +11,8 @@
       "duration": "1:14",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/107/107-thumb.jpg"
+      "thumb": "/media/tg/107/107-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Build #2: adding FOSS apps, Bliss Touch Mapper, and basic addon_init.rc for touch &amp; display mapping services<br/><br/>### Display Overrides (Displays 0 to 3)<br/>Use these to forcefully configure external monitors or built-in screens.<br/>- <code>persist.ax86.display.&lt;ID&gt;.resolution</code>: Target resolution (e.g., <code>1920x1080</code> or <code>reset</code>).<br/>- <code>persist.ax86.display.&lt;ID&gt;.dpi</code>: Screen density (e.g., <code>240</code> or <code>reset</code>).<br/>- <code>persist.ax86.display.&lt;ID&gt;.orientation</code>: Screen rotation (<code>0</code>=0°, <code>1</code>=90°, <code>2</code>=180°, <code>3</code>=270°, or <code>free</code>).<br/>- <b>Apply Changes</b>: <code>setprop sys.ax86.display.update 1</code>",

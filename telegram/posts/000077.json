@@ -14,7 +14,8 @@
       "duration": "0:27",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/77/77-thumb.jpg"
+      "thumb": "/media/tg/77/77-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Multiple desktops and keyboard shortcuts (Ctrl+home+d) for app switching on A16 (rpi5)",

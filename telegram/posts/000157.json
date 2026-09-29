@@ -11,7 +11,8 @@
       "duration": "1:32",
       "ratio": 1.4988,
       "round": false,
-      "thumb": "/media/tg/157/157-thumb.jpg"
+      "thumb": "/media/tg/157/157-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Who reads the documentation? Well... Now you can, without even connecting to the internet. We include complete documentation on how to customize the OS, right from the app drawer ;)",

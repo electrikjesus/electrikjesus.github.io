@@ -14,7 +14,8 @@
       "duration": "2:49",
       "ratio": 1.4988,
       "round": false,
-      "thumb": "/media/tg/67/67-thumb.jpg"
+      "thumb": "/media/tg/67/67-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Testing out an experiment for signage. This will be Web hosted or self-hosted solution for people that want to do signage over the Internet or over the local network.",

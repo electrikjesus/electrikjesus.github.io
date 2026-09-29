@@ -11,7 +11,8 @@
       "duration": "0:33",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/78/78-thumb.jpg"
+      "thumb": "/media/tg/78/78-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS RPI (Android 16) demo - multiple virtual desktops",

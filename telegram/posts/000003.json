@@ -11,7 +11,8 @@
       "duration": "1:45",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/3/3-thumb.jpg"
+      "thumb": "/media/tg/3/3-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Here is a video of vapor-launcher on the SteamDeck. <br/>This makes for quite the seamless UI experience IMHO.<br/><br/>Download (ARM64 &amp; x86_64):<br/><a href=\"https://github.com/imperador/vapor-launcher/releases\">https://github.com/imperador/vapor-launcher/releases</a>",

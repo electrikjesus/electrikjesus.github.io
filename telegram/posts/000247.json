@@ -11,7 +11,8 @@
       "duration": "3:50",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/247/247-thumb.jpg"
+      "thumb": "/media/tg/247/247-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Now we have hardware accelerated graphics (Intel/AMD) working on GameNative-x64",

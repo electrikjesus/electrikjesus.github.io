@@ -14,7 +14,8 @@
       "duration": "0:17",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/34/34-thumb.jpg"
+      "thumb": "/media/tg/34/34-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Moving apps from secondary to primary display (HYBRID_PC_MODE)",

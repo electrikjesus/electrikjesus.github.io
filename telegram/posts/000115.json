@@ -11,7 +11,8 @@
       "duration": "0:36",
       "ratio": 0.75,
       "round": false,
-      "thumb": "/media/tg/115/115-thumb.jpg"
+      "thumb": "/media/tg/115/115-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Lineage OS 21 - Build #7 <br/>Fixes for proper second screen resolution detection from SmartDock DFC, and updates for. A few more configuration options and services.",

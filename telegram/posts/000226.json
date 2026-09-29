@@ -11,7 +11,8 @@
       "duration": "1:17",
       "ratio": 1.7778,
       "round": false,
-      "thumb": "/media/tg/226/226-thumb.jpg"
+      "thumb": "/media/tg/226/226-thumb.jpg",
+      "poster": null
     }
   ],
   "text_html": "Gameplay demo of SubwaySurfers (arm64) on Bass Lineout (A16) using DigitalisX64 native-bridge solution<br/>(With a nice glare apparently too...)<br/>Very responsive though once it all loads up",
