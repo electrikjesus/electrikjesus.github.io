@@ -76,6 +76,45 @@ function toast(msg) {
   toastTimer = setTimeout(() => bar.classList.remove("show"), 2200);
 }
 
+/* ---------- Filter chips ---------- */
+$$("[data-chip-bar]").forEach((bar) => {
+  const row = $(".chip-row", bar);
+  const [prev, next] = $$(".chip-scroll", bar);
+  const maxScroll = () => row.scrollWidth - row.clientWidth;
+  const update = () => {
+    const left = row.scrollLeft > 1;
+    const right = row.scrollLeft < maxScroll() - 1;
+    bar.classList.toggle("more-left", left);
+    bar.classList.toggle("more-right", right);
+    prev.hidden = !left;
+    next.hidden = !right;
+  };
+  const page = (dir) => row.scrollBy({ left: dir * row.clientWidth * 0.75, behavior: "smooth" });
+  prev.addEventListener("click", () => page(-1));
+  next.addEventListener("click", () => page(1));
+  row.addEventListener("scroll", update, { passive: true });
+  new ResizeObserver(update).observe(row);
+
+  /* A vertical wheel scrolls the chips sideways until they reach an end, then the page scrolls again. */
+  row.addEventListener("wheel", (e) => {
+    if (e.ctrlKey || Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+    const atStart = row.scrollLeft <= 0;
+    const atEnd = row.scrollLeft >= maxScroll() - 1;
+    if ((e.deltaY < 0 && atStart) || (e.deltaY > 0 && atEnd)) return;
+    e.preventDefault();
+    row.scrollLeft += e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+  }, { passive: false });
+
+  const selected = $(".chip.selected", row);
+  if (selected) {
+    const offset = selected.getBoundingClientRect().left - row.getBoundingClientRect().left;
+    if (offset + selected.offsetWidth > row.clientWidth) {
+      row.scrollLeft += offset - (row.clientWidth - selected.offsetWidth) / 2;
+    }
+  }
+  update();
+});
+
 /* ---------- Native share sheet ---------- */
 $$("[data-share]").forEach((btn) =>
   btn.addEventListener("click", async () => {

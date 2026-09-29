@@ -126,12 +126,36 @@ button { font: inherit; color: inherit; }
 .btn-sm { height: 36px; padding: 0 14px; font-size: 14px; }
 .btn.icon-only { width: 44px; padding: 0; }
 
+/* Filter bar: swipes on touch, arrows and the mouse wheel scroll it elsewhere. Edges fade only where more chips are hidden. */
+.chip-bar { position: relative; margin: 8px -16px; --fade: 28px; }
 .chip-row {
-  display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x proximity;
-  padding: 4px 16px 12px; margin: 8px -16px 8px; scrollbar-width: none;
-  mask-image: linear-gradient(90deg, transparent 0, #000 16px, #000 calc(100% - 24px), transparent);
+  --fade-l: 0px; --fade-r: 0px;
+  display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-padding-inline: 16px;
+  padding: 4px 16px 12px; scrollbar-width: none;
+  mask-image: linear-gradient(90deg, transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
 }
 .chip-row::-webkit-scrollbar { display: none; }
+.chip-bar.more-left .chip-row { --fade-l: var(--fade); }
+.chip-bar.more-right .chip-row { --fade-r: var(--fade); }
+.chip-scroll {
+  position: absolute; top: 4px; z-index: 1;
+  display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border-radius: 50%;
+  border: 1px solid var(--outline); background: var(--surface); color: var(--on-surface);
+  box-shadow: var(--shadow-2); cursor: pointer;
+  transition: background .2s var(--ease), transform .2s var(--spring);
+}
+.chip-scroll[hidden] { display: none; }
+.chip-scroll:hover { background: var(--surface-2); }
+.chip-scroll:active { transform: scale(.9); }
+.chip-scroll .icon { width: 22px; height: 22px; }
+.chip-scroll.prev { left: 4px; }
+.chip-scroll.next { right: 4px; }
+@media (pointer: coarse) {
+  .chip-row { scroll-snap-type: x proximity; }
+  .chip-scroll { display: none; }
+}
+@media (pointer: fine) { .chip-bar { --fade: 64px; } }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; flex: none; scroll-snap-align: start;
   height: 34px; padding: 0 14px; border-radius: 999px;
@@ -541,6 +565,8 @@ button { font: inherit; color: inherit; }
 
 @media (min-width: 720px) {
   .main { padding: 12px 24px 48px; }
+  .chip-bar { margin-inline: -4px; }
+  .chip-row { padding-inline: 4px; scroll-padding-inline: 4px; }
   .footer { padding-bottom: 32px; }
   .main + .footer { margin-top: 0; }
   .snackbar { bottom: 24px; }
