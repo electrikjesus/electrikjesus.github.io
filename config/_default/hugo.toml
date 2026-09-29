@@ -7,6 +7,8 @@ canonifyURLs = true
 enableRobotsTXT = true
 # Keep topic names as written ("x86", "SmartDock") instead of title-casing them.
 capitalizeListTitles = false
+# :emoji: shortcodes in articles.
+enableEmoji = true
 
 [taxonomies]
   tag = "tags"

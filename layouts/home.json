@@ -1,13 +1,16 @@
 {{- $out := slice -}}
-{{- range where site.RegularPages "Section" "posts" -}}
+{{- range where site.RegularPages "Section" "in" (slice "posts" "blog") -}}
+  {{- $image := "" -}}
+  {{- with .Params.images -}}{{- $image = strings.TrimPrefix "/" (index . 0) | absURL -}}{{- end -}}
+  {{- if eq .Section "blog" -}}{{- with partial "article-cover.html" . -}}{{- $image = (.Resize "960x webp").Permalink -}}{{- end -}}{{- end -}}
   {{- $out = $out | append (dict
       "t" .Title
       "u" .Permalink
       "d" (.Date.Format "Jan 2, 2006")
-      "s" (.Params.summary | default "")
+      "s" (.Params.summary | default .Description | default "")
       "g" (.Params.tags | default slice)
       "k" (.Params.kinds | default slice)
-      "i" (cond (gt (len (.Params.images | default slice)) 0) (strings.TrimPrefix "/" (index .Params.images 0) | absURL) "")
+      "i" $image
       "x" (.Plain | truncate 3000 "")
   ) -}}
 {{- end -}}

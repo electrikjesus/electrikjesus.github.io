@@ -273,6 +273,20 @@ button { font: inherit; color: inherit; }
 .prose pre code { background: none; padding: 0; font-size: inherit; }
 .prose blockquote { margin: 1em 0; padding: 12px 16px; border-left: 3px solid var(--primary); background: var(--surface-2); border-radius: 4px var(--r-sm) var(--r-sm) 4px; color: var(--muted); }
 .prose .hashtag { font-weight: 500; }
+.prose h4, .prose h5 { font-family: var(--font-display); font-size: 1em; line-height: 1.3; margin: 1.4em 0 .4em; }
+.prose img { border-radius: var(--r-md); margin: 1.2em auto; }
+.prose hr { border: 0; border-top: 1px solid var(--outline); margin: 2em 0; }
+.prose table { width: 100%; border-collapse: collapse; margin: 0 0 1em; font-size: .9em; display: block; overflow-x: auto; }
+.prose th, .prose td { padding: 8px 10px; border-bottom: .5px solid var(--outline); text-align: left; }
+
+/* Long-form articles */
+.article-dek { margin: 10px 0 0; color: var(--muted); font-size: clamp(17px, 2.4vw, 20px); line-height: 1.45; }
+.article-cover { margin: 8px 0 28px; border-radius: var(--r-lg); overflow: hidden; background: var(--surface-3); }
+.article-cover img { width: 100%; height: auto; }
+.article-body { font-size: 18.5px; line-height: 1.75; }
+.article-body > p:first-child::first-letter { font-family: var(--font-display); font-weight: 700; float: left; font-size: 3.3em; line-height: .9; margin: .06em .1em 0 0; color: var(--primary); }
+.card-badge { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px 2px 6px; border-radius: 999px; background: var(--primary-container); color: var(--on-primary-container); font-size: 12px; font-weight: 600; }
+.card-badge .icon { width: 14px; height: 14px; }
 .spoiler { background: var(--surface-3); color: transparent; border-radius: 4px; cursor: pointer; text-shadow: 0 0 8px var(--on-surface); transition: color .3s, text-shadow .3s; }
 .spoiler.revealed { color: inherit; text-shadow: none; background: none; }
 

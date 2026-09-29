@@ -1,7 +1,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 {{ $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
-{{ $desc := cond .IsPage (.Summary | plainify) site.Params.description }}
+{{ $desc := cond .IsPage (.Description | default (.Summary | plainify)) site.Params.description }}
+{{ $ogImage := "" }}
+{{ with index (.Params.images | default slice) 0 }}{{ $ogImage = strings.TrimPrefix "/" . | absURL }}{{ end }}
+{{ if and .IsPage (eq .Section "blog") }}{{ with partial "article-cover.html" . }}{{ $ogImage = (.Resize "1200x jpg").Permalink }}{{ end }}{{ end }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc | truncate 200 }}">
 <link rel="canonical" href="{{ .Permalink }}">
@@ -21,8 +24,8 @@
 <meta property="og:description" content="{{ $desc | truncate 200 }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
-{{ with index (.Params.images | default slice) 0 }}
-<meta property="og:image" content="{{ strings.TrimPrefix "/" . | absURL }}">
+{{ with $ogImage }}
+<meta property="og:image" content="{{ . }}">
 <meta name="twitter:card" content="summary_large_image">
 {{ else }}
 <meta name="twitter:card" content="summary">

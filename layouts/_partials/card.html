@@ -1,7 +1,13 @@
 {{ $p := .page }}
+{{ $article := eq $p.Section "blog" }}
 {{ $thumbs := $p.Params.thumbs | default slice }}
 {{ $count := $p.Params.media_count | default 0 }}
-<article class="card{{ if $thumbs }} has-media{{ else }} text-only{{ end }}{{ if .featured }} featured{{ end }}">
+{{ $summary := $p.Params.summary }}
+{{ if $article }}
+  {{ with partial "article-cover.html" $p }}{{ $thumbs = slice (dict "src" (.Resize "960x webp").RelPermalink) }}{{ end }}
+  {{ $summary = $p.Description | default ($p.Summary | plainify | truncate 220) }}
+{{ end }}
+<article class="card{{ if $thumbs }} has-media{{ else }} text-only{{ end }}{{ if .featured }} featured{{ end }}{{ if $article }} article{{ end }}">
   <a class="card-link" href="{{ $p.Permalink }}">
     {{ with $thumbs }}
       <div class="card-media m{{ len (first 3 .) }}">
@@ -16,18 +22,20 @@
     {{ end }}
     <div class="card-body">
       <div class="card-meta">
+        {{ if $article }}<span class="card-badge">{{ partial "icon.html" "article" }}Article</span>{{ end }}
         <time datetime="{{ $p.Date.Format "2006-01-02T15:04:05Z07:00" }}" data-rel>{{ $p.Date.Format "Jan 2, 2006" }}</time>
         {{ range $p.Params.kinds }}
-          <span class="kind-dot" title="{{ . }}">{{ partial "icon.html" (index (dict "Photos" "photo" "Videos" "video" "Files" "file" "Links" "link") .) }}</span>
+          {{ with index (dict "Photos" "photo" "Videos" "video" "Files" "file" "Links" "link") . }}<span class="kind-dot" title="{{ . }}">{{ partial "icon.html" . }}</span>{{ end }}
         {{ end }}
       </div>
-      <h2 class="card-title" style="view-transition-name: t{{ $p.Params.slug }}">{{ $p.Title }}</h2>
-      {{ with $p.Params.summary }}<p class="card-summary">{{ . }}</p>{{ end }}
+      <h2 class="card-title" style="view-transition-name: t{{ $p.File.ContentBaseName | urlize }}">{{ $p.Title }}</h2>
+      {{ with $summary }}<p class="card-summary">{{ . }}</p>{{ end }}
       <div class="card-foot">
         <span class="card-tags">
           {{ range first 2 ($p.Params.tags | default slice) }}<span class="chip chip-sm">{{ . }}</span>{{ end }}
         </span>
         <span class="card-stats">
+          {{ if $article }}<span class="stat">{{ $p.ReadingTime }} min read</span>{{ end }}
           {{ range first 3 ($p.Params.reactions | default slice) }}<span class="stat">{{ .emoji }} {{ .count }}</span>{{ end }}
           {{ with $p.Params.comment_count }}<span class="stat">{{ partial "icon.html" "chat" }} {{ . }}</span>{{ end }}
         </span>

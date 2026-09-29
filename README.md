@@ -2,7 +2,7 @@
 
 Everything posted to the public Telegram channel [@ejswonderemporium](https://t.me/ejswonderemporium) is turned into a blog post automatically, together with the comments from its chat [@ejswonder](https://t.me/ejswonder). Post once on Telegram and the site updates itself within the hour.
 
-**Live site:** https://electrikjesus.github.io/EJsWonderEmporium/
+**Live site:** https://electrikjesus.github.io/
 
 <p align="center">
   <img src="docs/screenshot-home.png" width="49%" alt="Home page">
@@ -15,6 +15,7 @@ This repository is also a **template**: point one config file at your own channe
 - [Use it for your own channel](#use-it-for-your-own-channel)
 - [Configuration](#configuration)
 - [Branding](#branding)
+- [Writing long-form articles](#writing-long-form-articles)
 - [How it works](#how-it-works)
 - [Running it yourself](#running-it-yourself)
 - [Troubleshooting](#troubleshooting)
@@ -27,6 +28,7 @@ This repository is also a **template**: point one config file at your own channe
 - **Media kept safe.** Photos, video thumbnails and link-preview images are copied into the repository because Telegram's image links expire.
 - **Videos play on the page, streamed from Telegram**, so no video files are stored in the repository. Black thumbnails are replaced with a real frame from the video. Videos too large for Telegram's web preview get a "Watch on Telegram" button. [More on videos](#videos).
 - **Comments** from the linked discussion group appear as chat bubbles, with replies, and your own replies marked **Author**.
+- **Long-form articles** written in Markdown sit in the same feed, with their own reading layout, cover image and reading time. [How to write one](#writing-long-form-articles).
 - **Topics** from your hashtags and from simple keyword rules. Posts can also be filtered by type (photos, videos, files, links).
 - **Modern design** inspired by Android's Material You and iOS:
   - the colour palette is generated from one accent colour
@@ -53,7 +55,7 @@ You need a **public** Telegram channel (one with a `t.me/<name>` link) and a Git
    You can make the edit on github.com with the pencil icon. Committing the change starts the first import.
 4. **Wait a few minutes.** The run is under **Actions → Telegram sync & deploy**. When it finishes, your site is live at the Pages URL.
 
-The copy starts with this channel's posts in it. Because your `channel` setting is different, the first sync deletes them and imports yours from scratch.
+The copy starts with this channel's posts in it. Because your `channel` setting is different, the first sync deletes them and imports yours from scratch. It also includes this site's articles: delete the article folders in `content/blog/` (keep `_index.md`), and replace them with your own if you like.
 
 Your GitHub profile picture becomes the logo and app icon automatically. See [Branding](#branding) to use something else.
 
@@ -165,6 +167,47 @@ The theme is plain Hugo and hand-written CSS and JavaScript, with no build tools
 
 Edit them like any Hugo site.
 
+## Writing long-form articles
+
+Telegram is great for quick updates. For longer write-ups, add an article to the `content/blog/` folder. Articles appear in the main feed with an **Article** badge, under the **Articles** filter, at `/blog/`, and in search and RSS. Each one lives at `/blog/<folder-name>/`.
+
+Each article is a folder containing an `index.md` file and any images it uses:
+
+```
+content/blog/
+  my-new-article/
+    index.md      ← the article
+    cover.jpg     ← optional cover image
+    diagram.png   ← images used in the text
+```
+
+`index.md` starts with a few settings between `---` lines, followed by the article in [Markdown](https://www.markdownguide.org/basic-syntax/):
+
+```markdown
+---
+title: "My new article"
+date: 2026-10-01T09:00:00-04:00
+description: "One sentence shown under the title, on cards and in link previews."
+tags: ["Bliss OS", "Android"]
+image: cover.jpg
+---
+
+## A heading
+
+Some text, a [link](https://example.com), and an image:
+
+![What the image shows](diagram.png)
+```
+
+- **`tags`** work like Telegram hashtags. Using the same names (for example `Bass OS`) puts articles and posts under the same topic.
+- **`image`** is the cover. It's resized automatically. It can also be a path inside `assets/` or an image URL. Leave it out for no cover.
+- **Drafts:** add `draft: true` to keep an article off the site while you work on it. Preview drafts locally with `hugo server -D`.
+- **Old addresses:** add `aliases: ["/old/address/"]` if the article used to live somewhere else, and that address redirects to it.
+
+**Quickest way to start one:** with Hugo installed, run `hugo new content blog/my-new-article/index.md`. This creates the folder with the settings filled in and `draft: true`. Without Hugo, create the file on github.com with **Add file → Create new file** and type `content/blog/my-new-article/index.md` as the name. Committing the article publishes it within a couple of minutes.
+
+The six articles from the old Jekyll blog were imported this way. Their old mixed-case addresses, such as `/blog/Bass-OS-when-the-bass-drops-the-music-gets-better/`, redirect to the new ones.
+
 ## How it works
 
 ```
@@ -234,7 +277,9 @@ Every command accepts `--config path/to/hugo.toml` and `-v` for detailed logs.
 
 ```
 hugo.toml            ← your settings (the only file you need to edit)
+content/blog/        ← your long-form articles
 assets/brand/        fallback logo
+archetypes/          the starting template for new articles
 telegram/            mirrored posts and comments as JSON (written by the workflow)
 static/media/tg/     mirrored images (written by the workflow)
 tgblog/              the sync and render scripts (Python)

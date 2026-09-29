@@ -8,7 +8,7 @@
 # Public address of the site, used for local previews and feeds. On GitHub
 # Pages the deploy workflow fills this in automatically; change it here if you
 # use a custom domain.
-baseURL = "https://electrikjesus.github.io/EJsWonderEmporium/"
+baseURL = "https://electrikjesus.github.io/"
 
 title = "EJ's Wonder Emporium"
 locale = "en-US"

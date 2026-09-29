@@ -1,4 +1,4 @@
-{{- $pages := where site.RegularPages "Section" "posts" -}}
+{{- $pages := where site.RegularPages "Section" "in" (slice "posts" "blog") -}}
 {{- if not .IsHome }}{{ $pages = .RegularPages }}{{ end -}}
 {{- $limit := site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 }}{{ $pages = first $limit $pages }}{{ end -}}
@@ -19,6 +19,7 @@
       <guid>{{ .Permalink }}</guid>
       {{ range .Params.tags }}<category>{{ . }}</category>{{ end }}
       {{ with index (.Params.images | default slice) 0 }}<media:content url="{{ strings.TrimPrefix "/" . | absURL }}" medium="image" />{{ end }}
+      {{ if eq .Section "blog" }}{{ with partial "article-cover.html" . }}<media:content url="{{ (.Resize "1200x webp").Permalink }}" medium="image" />{{ end }}{{ end }}
       <description>{{ replace .Content `poster="/` (printf `poster="%s` ("" | absURL)) | transform.XMLEscape | safeHTML }}</description>
     </item>
     {{- end }}

@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ $channel := hugo.Data.channel }}
-{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $posts := where site.RegularPages "Section" "in" (slice "posts" "blog") }}
+{{ $articles := where $posts "Section" "blog" }}
 {{ $pager := .Paginate $posts }}
 {{ if eq $pager.PageNumber 1 }}
 <section class="hero">
@@ -10,7 +11,8 @@
     <h1 class="large-title" data-large-title>{{ site.Title }}</h1>
     <p class="hero-desc">{{ with site.Params.heroText }}{{ . }}{{ else }}{{ with $channel.description_html }}{{ . | safeHTML }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}</p>
     <div class="hero-stats">
-      <span><b>{{ len $posts }}</b> posts</span>
+      <span><b>{{ sub (len $posts) (len $articles) }}</b> posts</span>
+      {{ with $articles }}<span><b>{{ len . }}</b> article{{ if ne (len .) 1 }}s{{ end }}</span>{{ end }}
       <span><b>{{ len site.Taxonomies.tags }}</b> topics</span>
     </div>
     <div class="hero-actions">

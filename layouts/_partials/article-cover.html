@@ -1,0 +1,10 @@
+{{- /* An article's cover image resource: `image` next to the article, in assets/, or a URL. False if none. */ -}}
+{{- $out := false -}}
+{{- with .Params.image -}}
+  {{- if or (strings.HasPrefix . "http://") (strings.HasPrefix . "https://") -}}
+    {{- with try (resources.GetRemote .) -}}{{- with .Value -}}{{- $out = . -}}{{- end -}}{{- end -}}
+  {{- else -}}
+    {{- with $.Resources.Get . -}}{{- $out = . -}}{{- else -}}{{- with resources.Get . -}}{{- $out = . -}}{{- end -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

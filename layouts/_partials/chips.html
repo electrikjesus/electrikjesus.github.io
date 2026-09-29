@@ -1,7 +1,7 @@
 {{ $current := .current }}
 <div class="chip-row" role="navigation" aria-label="Filter posts">
   <a class="chip{{ if eq $current "" }} selected{{ end }}" href="{{ "" | absURL }}">All</a>
-  {{ range slice (slice "Photos" "photo") (slice "Videos" "video") (slice "Files" "file") (slice "Links" "link") }}
+  {{ range slice (slice "Articles" "article") (slice "Photos" "photo") (slice "Videos" "video") (slice "Files" "file") (slice "Links" "link") }}
     {{ $name := index . 0 }}{{ $icon := index . 1 }}
     {{ with site.GetPage (printf "/kinds/%s" (urlize $name)) }}
       <a class="chip{{ if eq $current $name }} selected{{ end }}" href="{{ .Permalink }}">{{ partial "icon.html" $icon }}{{ $name }}</a>
