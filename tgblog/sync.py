@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 
 import requests
 
+from . import frames
 from .config import Config
 from .parse import parse_channel_page, parse_discussion
 
@@ -146,6 +147,36 @@ class Syncer:
                     m["video"] = self.download(m["remote_video"], folder / f"{key}.mp4", max_bytes=video_limit) or prev.get("video")
                 elif prev.get("video"):
                     m["video"] = prev["video"]
+                if "poster" in prev:
+                    m["poster"] = prev["poster"]
+                else:
+                    self.ensure_poster(owner_id, m, m.get("remote_video"), key)
+
+    def ensure_poster(self, owner_id: int, m: dict, remote_video: str | None, key: str) -> bool:
+        """Replace a black Telegram thumbnail with a frame from the video. Sets m["poster"] once checked."""
+        if "poster" in m or not m.get("thumb"):
+            return False
+        thumb = self.cfg.media_dir / m["thumb"].removeprefix(self.cfg.media_url + "/")
+        level = frames.brightness(thumb) if thumb.exists() else None
+        if level is None:
+            return False
+        m["poster"] = None
+        if level < frames.DARK_LEVEL and remote_video:
+            dest = self.cfg.media_dir / str(owner_id) / f"{key}-poster.jpg"
+            if frames.grab_poster(remote_video, dest, m.get("duration")):
+                m["poster"] = f"{self.cfg.media_url}/{dest.relative_to(self.cfg.media_dir).as_posix()}"
+                self.changed.add(f"media {dest.name}")
+                log.info("post %s: poster frame for black video thumbnail %s", owner_id, key)
+        return True
+
+    def backfill_posters(self, stored: dict, parsed: dict) -> bool:
+        """Check thumbnails of an unchanged post that were stored before poster frames existed."""
+        remote = {m.get("msg_id"): m.get("remote_video") for m in parsed.get("media", []) if m["type"] == "video"}
+        changed = False
+        for m in stored.get("media", []):
+            if m["type"] == "video" and "poster" not in m:
+                changed |= self.ensure_poster(stored["id"], m, remote.get(m.get("msg_id")), str(m.get("msg_id")))
+        return changed
 
     def localize_post(self, post: dict, old: dict | None):
         self.localize_media(post["id"], post["media"], old=(old or {}).get("media"))
@@ -182,6 +213,8 @@ class Syncer:
             for parsed in page["posts"]:
                 old = posts.get(parsed["id"])
                 if old and _signature(parsed) == _signature(old):
+                    if self.backfill_posters(old, parsed):
+                        self.save_post(old)
                     continue
                 merged = {**parsed, "comments": (old or {}).get("comments", []), "comments_count": (old or {}).get("comments_count", 0)}
                 self.localize_post(merged, old)
@@ -215,6 +248,33 @@ class Syncer:
         if channel:
             self.save_channel(channel)
         return touched
+
+    def video_links(self) -> dict:
+        """Current playable URLs for every stored video, which Telegram only hands out with short-lived tokens.
+
+        Returns {"urls": {msg_id: url}, "too_big": [msg_id, ...]} for videos Telegram won't serve on the web.
+        """
+        wanted = sorted(
+            {m["msg_id"] for p in self.load_posts().values() for m in p.get("media", []) if m["type"] == "video" and not m.get("video")},
+            reverse=True,
+        )
+        urls, too_big = {}, []
+        while wanted:
+            top = wanted[0]
+            page = self.fetch_page(before=top + 1)
+            found = {m["msg_id"]: m.get("remote_video") for p in page["posts"] for m in p["media"] if m["type"] == "video"}
+            ids = [p["id"] for p in page["posts"]] + list(found)
+            if not ids:
+                break
+            lo = min(min(ids), top)
+            for mid in [w for w in wanted if w >= lo]:
+                if found.get(mid):
+                    urls[mid] = found[mid]
+                elif mid in found:
+                    too_big.append(mid)
+            wanted = [w for w in wanted if w < lo]
+        log.info("video links: %d playable, %d too big for the web", len(urls), len(too_big))
+        return {"urls": urls, "too_big": sorted(too_big)}
 
     def save_channel(self, info: dict):
         path = self.cfg.data_dir / "channel.json"
@@ -304,7 +364,7 @@ class Syncer:
         return self.changed
 
 
-LOCAL_KEYS = ("src", "thumb", "video", "image", "comments", "comments_count")
+LOCAL_KEYS = ("src", "thumb", "poster", "video", "image", "comments", "comments_count")
 
 
 def _signature(post: dict):

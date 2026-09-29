@@ -90,6 +90,34 @@ $$("[data-share]").forEach((btn) =>
   })
 );
 
+/* ---------- Telegram videos ---------- */
+/* Video links carry tokens that expire; when one no longer loads, show Telegram's own player for that post. */
+const isDark = () => {
+  const t = document.documentElement.dataset.theme;
+  return t === "dark" || (t !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+};
+$$("video[data-tg-post]").forEach((video) =>
+  video.addEventListener("error", () => {
+    const cell = video.closest(".tg-video");
+    if (!cell || cell.classList.contains("tg-embed")) return;
+    const frame = document.createElement("iframe");
+    frame.src = `https://t.me/${video.dataset.tgPost}?embed=1&userpic=false${isDark() ? "&dark=1" : ""}`;
+    frame.title = "Video on Telegram";
+    frame.loading = "lazy";
+    frame.allow = "autoplay; fullscreen";
+    cell.classList.add("tg-embed");
+    cell.replaceChildren(frame);
+  })
+);
+addEventListener("message", (e) => {
+  if (e.origin !== "https://t.me") return;
+  let data;
+  try { data = typeof e.data === "string" ? JSON.parse(e.data) : e.data; } catch { return; }
+  if (data?.event !== "resize" || !data.height) return;
+  const frame = $$(".tg-embed iframe").find((f) => f.contentWindow === e.source);
+  if (frame) frame.style.height = `${data.height}px`;
+});
+
 /* ---------- Lightbox with swipe ---------- */
 const lb = $("[data-lightbox-root]");
 if (lb) {

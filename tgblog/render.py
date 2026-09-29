@@ -140,6 +140,13 @@ def split_title(text_html: str) -> tuple[str | None, str]:
     return sentence, text_html
 
 
+TELEGRAM_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19'
+    'L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3'
+    'l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>'
+)
+
+
 def esc(value) -> str:
     return html.escape(str(value or ""), quote=True)
 
@@ -149,6 +156,9 @@ class Renderer:
         self.cfg = cfg
         self.channel_url = f"https://t.me/{cfg.channel}"
         self.link_map: dict[int, str] = {}
+        videos_file = cfg.root / "data" / "videos.json"
+        videos = json.loads(videos_file.read_text()) if videos_file.exists() else {}
+        self.video_urls: dict[int, str] = {int(k): v for k, v in videos.get("urls", {}).items()}
         self.tme_re = re.compile(rf'href="https?://t\.me/{re.escape(cfg.channel)}/(\d+)(?:\?[^"#]*)?"', re.I)
 
     # ---------- loading & grouping ----------
@@ -204,16 +214,20 @@ class Renderer:
                 )
             elif m["type"] == "video":
                 duration = f'<span class="tg-duration">{esc(m["duration"])}</span>' if m.get("duration") else ""
-                if m.get("video"):
-                    poster = f' poster="{esc(m["thumb"])}"' if m.get("thumb") else ""
+                still = m.get("poster") or m.get("thumb")
+                poster = f' poster="{esc(still)}"' if still else ""
+                round_cls = " round" if m.get("round") else ""
+                src = m.get("video") or self.video_urls.get(m["msg_id"])
+                if src:
                     cells.append(
-                        f'<div class="tg-video" style="--r:{ratio}"><video src="{esc(m["video"])}"{poster} controls playsinline preload="none"></video></div>'
+                        f'<div class="tg-video{round_cls}" style="--r:{ratio}"><video src="{esc(src)}"{poster} controls playsinline preload="none"'
+                        f' data-tg-post="{esc(self.cfg.channel)}/{m["msg_id"]}"></video></div>'
                     )
                 else:
-                    img = f'<img src="{esc(m["thumb"])}" alt="" loading="lazy" decoding="async">' if m.get("thumb") else ""
+                    img = f'<img src="{esc(still)}" alt="" loading="lazy" decoding="async">' if still else ""
                     cells.append(
-                        f'<a class="tg-video{" round" if m.get("round") else ""}" href="{self.tg_url(m["msg_id"])}" style="--r:{ratio}" '
-                        f'title="Watch on Telegram">{img}<span class="tg-play" aria-hidden="true"></span>{duration}</a>'
+                        f'<a class="tg-video{round_cls}" href="{self.tg_url(m["msg_id"])}" style="--r:{ratio}" target="_blank" rel="noopener">'
+                        f'{img}<span class="tg-watch">{TELEGRAM_ICON}Watch on Telegram</span>{duration}</a>'
                     )
             elif m["type"] == "sticker" and m.get("src"):
                 cells.append(f'<span class="tg-sticker"><img src="{esc(m["src"])}" alt="Sticker" loading="lazy"></span>')
@@ -364,9 +378,9 @@ class Renderer:
 
         media = [m for p in group for m in p.get("media", [])]
         visual = [
-            {"src": m.get("src") or m.get("thumb"), "video": m["type"] == "video", "ratio": m.get("ratio")}
+            {"src": m.get("src") or m.get("poster") or m.get("thumb"), "video": m["type"] == "video", "ratio": m.get("ratio")}
             for m in media
-            if m["type"] in ("photo", "video") and (m.get("src") or m.get("thumb"))
+            if m["type"] in ("photo", "video") and (m.get("src") or m.get("poster") or m.get("thumb"))
         ]
         previews = [p["link_preview"] for p in group if p.get("link_preview")]
         cover = visual[0]["src"] if visual else next((lp["image"] for lp in previews if lp.get("image")), None)

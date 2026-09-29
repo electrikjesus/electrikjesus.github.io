@@ -24,7 +24,8 @@ This repository is also a **template**: point one config file at your own channe
 - **Hands-off.** An hourly GitHub Actions job picks up new, edited and deleted posts, and new comments, then redeploys the site.
 - **Whole history.** The first run imports every post the channel has ever published.
 - **Real blog posts.** Several posts sent within a couple of minutes (say, text and then some photos) become one entry. A short first line becomes the title. Line breaks, `###` headings and `-`/`•` bullets become proper paragraphs, headings and lists.
-- **Media kept safe.** Photos, video thumbnails and link-preview images are copied into the repository because Telegram's image links expire. Videos and files link back to Telegram, or small videos can be downloaded to play inline.
+- **Media kept safe.** Photos, video thumbnails and link-preview images are copied into the repository because Telegram's image links expire.
+- **Videos play on the page, streamed from Telegram**, so no video files are stored in the repository. Black thumbnails are replaced with a real frame from the video. Videos too large for Telegram's web preview get a "Watch on Telegram" button. [More on videos](#videos).
 - **Comments** from the linked discussion group appear as chat bubbles, with replies, and your own replies marked **Author**.
 - **Topics** from your hashtags and from simple keyword rules. Posts can also be filtered by type (photos, videos, files, links).
 - **Modern design** inspired by Android's Material You and iOS:
@@ -88,7 +89,7 @@ Everything is in **[`hugo.toml`](hugo.toml)** at the root of the repository. Eac
 | --- | --- | --- |
 | `mergeWindowSeconds` | `120` | Posts sent within this many seconds of each other become one blog entry. `0` turns merging off. |
 | `commentRefreshDays` | `30` | Comments are re-checked on posts newer than this, on every sync. |
-| `videoMaxMB` | `0` | Download videos up to this size so they play on the page. `0` shows a thumbnail that opens the video on Telegram. |
+| `videoMaxMB` | `0` | Copy videos up to this size into the repository instead of streaming them from Telegram. `0` never stores videos. See [Videos](#videos). |
 | `requestDelay` | `0.6` | Seconds to wait between requests to Telegram. |
 
 ### Topics — `[params.topics]`
@@ -179,7 +180,16 @@ Telegram channel ──► GitHub Actions (hourly) ──► telegram/*.json + s
 2. **Render.** `python -m tgblog render` turns the JSON into Hugo pages in `content/posts/`, working out titles, merged posts, topics and links. These pages are rebuilt on every deploy and aren't committed, so changes to the renderer or topics apply to every old post too.
 3. **Build and deploy.** Hugo builds the static site and the workflow publishes it to GitHub Pages.
 
-A scheduled run only redeploys when something changed. Pushing to `main` or starting the workflow by hand always redeploys.
+Every run redeploys the site, even when nothing new was posted, to keep video links fresh (see below).
+
+### Videos
+
+Telegram's public preview serves videos up to about 15 MB, through links that stop working after a while. So on every deploy, `python -m tgblog videos` fetches a fresh link for each video into `data/videos.json`, and the page plays it in its own player. Nothing is downloaded or stored, and the site redeploys every hour so the links stay current.
+
+- **If a link has expired** by the time someone presses play (say, a page left open for a day), the player swaps itself for Telegram's own embedded player for that post.
+- **Videos over the limit** aren't available on Telegram's public web preview at all, so they show their thumbnail with a **Watch on Telegram** button.
+- **Black thumbnails.** Telegram uses the first frame as the thumbnail, which is often black (boot animations, screen recordings). When the sync finds one, it saves a frame from a bit later in the video as the poster image instead. This uses ffmpeg, which is installed from `requirements.txt` via `imageio-ffmpeg`, or taken from your system.
+- **To store small videos after all**, set `videoMaxMB` and they're copied into the repository like photos. Keep in mind that GitHub Pages sites are limited to 1 GB.
 
 ### Starting the workflow by hand
 
@@ -203,6 +213,7 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
 .venv/bin/python -m tgblog sync       # fetch new posts and comments into telegram/
+.venv/bin/python -m tgblog videos     # optional: fresh video links so videos play in the preview
 .venv/bin/python -m tgblog render     # generate content/posts/ for Hugo
 hugo server                           # preview at http://localhost:1313/<repo-name>/
 
@@ -212,8 +223,9 @@ hugo server                           # preview at http://localhost:1313/<repo-n
 | Command | What it does |
 | --- | --- |
 | `tgblog sync` | Fetch new, edited and deleted posts, and comments. Add `--full` to re-crawl everything, or `--no-comments` to skip comments. |
+| `tgblog videos` | Fetch fresh playable video links into `data/videos.json`. Without it, videos show a "Watch on Telegram" button. |
 | `tgblog render` | Generate the Hugo pages from `telegram/`. |
-| `tgblog all` | `sync`, then `render`. |
+| `tgblog all` | `sync`, `videos`, then `render`. |
 | `tgblog reset` | Delete everything mirrored (`telegram/` and `static/media/tg/`). Asks first unless you pass `--yes`. |
 
 Every command accepts `--config path/to/hugo.toml` and `-v` for detailed logs.
@@ -258,6 +270,6 @@ Profile pictures are downloaded fresh on every deploy, so a change shows up afte
 ### Limitations
 
 - Only what Telegram shows publicly can be mirrored.
-- Large videos, polls, voice notes and some stickers appear as a thumbnail or card that links to Telegram.
+- Videos over about 15 MB, polls, voice notes and some stickers appear as a thumbnail or card that links to Telegram.
 - Comment authors are shown with coloured initials, as Telegram's widget doesn't expose their profile photos.
 - Reactions are a snapshot from the last time that post was synced.

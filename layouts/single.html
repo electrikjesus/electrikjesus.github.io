@@ -18,7 +18,8 @@
   </header>
 
   <div class="post-body prose">
-    {{ .Content }}
+    {{/* canonifyURLs rewrites src and href but not poster. */}}
+    {{ replace .Content `poster="/` (printf `poster="%s` ("" | absURL)) | safeHTML }}
   </div>
 
   {{ with .Params.reactions }}

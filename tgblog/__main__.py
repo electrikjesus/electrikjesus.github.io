@@ -1,7 +1,9 @@
 import argparse
+import json
 import logging
 import os
 import sys
+from datetime import datetime, timezone
 
 from .config import load_config
 from .render import Renderer
@@ -13,10 +15,11 @@ def main(argv=None) -> int:
     ap.add_argument("--config", default="hugo.toml", help="site config file (default: hugo.toml)")
     ap.add_argument("-v", "--verbose", action="store_true")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name, help_text in (("sync", "fetch new/edited posts and comments into telegram/"), ("all", "sync, then render")):
+    for name, help_text in (("sync", "fetch new/edited posts and comments into telegram/"), ("all", "sync, fetch video links, then render")):
         s = sub.add_parser(name, help=help_text)
         s.add_argument("--full", action="store_true", help="re-crawl the entire channel history and all comments")
         s.add_argument("--no-comments", action="store_true", help="skip fetching comments")
+    sub.add_parser("videos", help="fetch fresh playable video links into data/videos.json (run right before render)")
     sub.add_parser("render", help="generate Hugo content from telegram/")
     r = sub.add_parser("reset", help="delete all mirrored posts and media (telegram/ and static/media/tg/)")
     r.add_argument("--yes", action="store_true", help="don't ask for confirmation")
@@ -38,6 +41,11 @@ def main(argv=None) -> int:
         if out:
             with open(out, "a") as fh:
                 fh.write(f"changed={'true' if changes else 'false'}\n")
+    if args.cmd in ("videos", "all"):
+        links = Syncer(cfg).video_links()
+        path = cfg.root / "data" / "videos.json"
+        path.parent.mkdir(exist_ok=True)
+        path.write_text(json.dumps({"fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"), **links}, indent=1) + "\n")
     if args.cmd in ("render", "all"):
         Renderer(cfg).run()
     return 0

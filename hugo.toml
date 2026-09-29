@@ -85,8 +85,9 @@ locale = "en-US"
     mergeWindowSeconds = 120
     # Comments are re-checked on posts newer than this many days on every sync.
     commentRefreshDays = 30
-    # Download videos up to this size in MB so they play inline. 0 shows a
-    # thumbnail that links to the video on Telegram instead.
+    # Videos play on the page straight from Telegram, without being stored.
+    # Set a size in MB to copy videos up to that size into the repository
+    # instead. 0 never stores videos.
     videoMaxMB = 0
     # Pause between requests to Telegram, in seconds. Be polite.
     requestDelay = 0.6

@@ -6,10 +6,11 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
+from tgblog import frames
 from tgblog.config import load_config
 from tgblog.parse import clean_html, parse_channel_page, parse_discussion
 from tgblog.render import Renderer, github_repo, paragraphize, split_title
-from tgblog.sync import _signature
+from tgblog.sync import Syncer, _signature
 
 FIXTURES = Path(__file__).parent / "fixtures"
 ROOT = Path(__file__).parent.parent
@@ -193,6 +194,31 @@ class RenderTest(unittest.TestCase):
             front2 = json.loads(second[: second.index("\n}\n") + 2])
             self.assertTrue(front2["comments"][0]["owner"])
 
+    def test_videos_stream_from_telegram(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            (tmp / "hugo.toml").write_text((ROOT / "hugo.toml").read_text())
+            cfg = load_config(tmp / "hugo.toml")
+            cfg.posts_dir.mkdir(parents=True)
+            video = {"type": "video", "duration": "0:05", "ratio": 1.0, "round": False}
+            posts = [
+                {"id": 30, "date": "2026-01-01T10:00:00+00:00", "text_html": "Small", "media": [{**video, "msg_id": 30, "thumb": "/media/tg/30/30-thumb.jpg", "poster": "/media/tg/30/30-poster.jpg"}]},
+                {"id": 40, "date": "2026-01-02T10:00:00+00:00", "text_html": "Big", "media": [{**video, "msg_id": 40, "thumb": "/media/tg/40/40-thumb.jpg", "poster": None}]},
+            ]
+            for p in posts:
+                (cfg.posts_dir / f"{p['id']:06d}.json").write_text(json.dumps(p))
+            (tmp / "data").mkdir()
+            (tmp / "data" / "videos.json").write_text(json.dumps({"urls": {"30": "https://cdn.example/v.mp4?token=x"}, "too_big": [40]}))
+            Renderer(cfg).run()
+
+            small = (cfg.content_dir / "30.md").read_text()
+            self.assertIn('<video src="https://cdn.example/v.mp4?token=x" poster="/media/tg/30/30-poster.jpg"', small)
+            self.assertIn('data-tg-post="ejswonderemporium/30"', small)
+            big = (cfg.content_dir / "40.md").read_text()
+            self.assertNotIn("<video", big)
+            self.assertIn("Watch on Telegram", big)
+            self.assertIn('src="/media/tg/40/40-thumb.jpg"', big)
+
     def test_github_repo(self):
         with tempfile.TemporaryDirectory() as tmp, mock.patch.dict(os.environ):
             os.environ.pop("GITHUB_REPOSITORY", None)
@@ -202,6 +228,33 @@ class RenderTest(unittest.TestCase):
             self.assertEqual(github_repo(Path(tmp)), ("someone", "site"))
             os.environ["GITHUB_REPOSITORY"] = "owner/repo"
             self.assertEqual(github_repo(Path(tmp)), ("owner", "repo"))
+
+
+class VideoTest(unittest.TestCase):
+    def test_seconds(self):
+        self.assertEqual(frames.seconds("1:17"), 77)
+        self.assertEqual(frames.seconds("1:02:03"), 3723)
+        self.assertEqual(frames.seconds(None), 0)
+        self.assertEqual(frames.seconds("live"), 0)
+
+    def test_video_links_walks_pages(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            (tmp / "hugo.toml").write_text((ROOT / "hugo.toml").read_text())
+            cfg = load_config(tmp / "hugo.toml")
+            cfg.posts_dir.mkdir(parents=True)
+            for pid in (5, 50, 51):
+                (cfg.posts_dir / f"{pid:06d}.json").write_text(json.dumps({"id": pid, "media": [{"type": "video", "msg_id": pid}]}))
+            pages = {
+                52: {"posts": [{"id": 48, "media": []}, {"id": 50, "media": [{"type": "video", "msg_id": 50, "remote_video": None}]},
+                               {"id": 51, "media": [{"type": "video", "msg_id": 51, "remote_video": "https://cdn/51.mp4"}]}]},
+                6: {"posts": [{"id": 5, "media": [{"type": "video", "msg_id": 5, "remote_video": "https://cdn/5.mp4"}]}]},
+            }
+            syncer = Syncer(cfg)
+            requested = []
+            syncer.fetch_page = lambda before=None: requested.append(before) or pages[before]
+            self.assertEqual(syncer.video_links(), {"urls": {51: "https://cdn/51.mp4", 5: "https://cdn/5.mp4"}, "too_big": [50]})
+            self.assertEqual(requested, [52, 6])
 
 
 if __name__ == "__main__":

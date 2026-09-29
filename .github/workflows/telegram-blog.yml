@@ -74,9 +74,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/telegram-blog.yml/enable"
 
+  # Deploys on every run, even without new posts, because Telegram's video links expire and are refreshed here.
   deploy:
     needs: sync
-    if: needs.sync.outputs.changed == 'true' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -92,6 +92,10 @@ jobs:
           cache: pip
 
       - run: pip install -r requirements.txt
+
+      - name: Fetch fresh video links
+        continue-on-error: true
+        run: python -m tgblog videos
 
       - name: Generate Hugo content
         run: python -m tgblog render

@@ -19,7 +19,7 @@
       <guid>{{ .Permalink }}</guid>
       {{ range .Params.tags }}<category>{{ . }}</category>{{ end }}
       {{ with index (.Params.images | default slice) 0 }}<media:content url="{{ strings.TrimPrefix "/" . | absURL }}" medium="image" />{{ end }}
-      <description>{{ .Content | transform.XMLEscape | safeHTML }}</description>
+      <description>{{ replace .Content `poster="/` (printf `poster="%s` ("" | absURL)) | transform.XMLEscape | safeHTML }}</description>
     </item>
     {{- end }}
   </channel>
