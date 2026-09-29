@@ -1,0 +1,28 @@
+{
+  "id": 224,
+  "date": "2026-07-29T00:46:03+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "BassAudio - A Bass Addon for A16+<br/><br/>This allows us to switch between multiple audio outputs connected to the device <br/><br/>And it also includes an ALSA Mixer UI too<br/><br/><a href=\"https://youtube.com/shorts/AzOsjHKXES0?is=q3aKLIcsM1HDGvVR\">https://youtube.com/shorts/AzOsjHKXES0?is=q3aKLIcsM1HDGvVR</a>",
+  "link_preview": {
+    "url": "https://youtube.com/shorts/AzOsjHKXES0?is=q3aKLIcsM1HDGvVR",
+    "site": "YouTube",
+    "title": "BassAudio - Output Switching",
+    "description_html": "#tablet #techtok #tech #android #androidonpc",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/224/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

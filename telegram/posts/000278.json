@@ -1,0 +1,34 @@
+{
+  "id": 278,
+  "date": "2026-09-29T22:40:54+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 278,
+      "ratio": 1.7778,
+      "src": "/media/tg/278/278.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 279,
+      "ratio": 1.7778,
+      "src": "/media/tg/278/279.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 280,
+      "ratio": 1.7778,
+      "src": "/media/tg/278/280.jpg"
+    }
+  ],
+  "text_html": "Next addon in the works for Bass builds: Linux Session management<br/><br/>Think of it like a visual cron job type scheduler for the Linux side. Auto-start services on boot, manage them, etc. Even comes with an Inspector for live status readouts.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

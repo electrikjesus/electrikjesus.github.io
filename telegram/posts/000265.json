@@ -1,0 +1,45 @@
+{
+  "id": 265,
+  "date": "2026-09-19T00:49:51+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 265,
+      "ratio": 1.7778,
+      "src": "/media/tg/265/265.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 266,
+      "ratio": 1.7778,
+      "src": "/media/tg/265/266.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 267,
+      "ratio": 0.4487,
+      "src": "/media/tg/265/267.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 268,
+      "ratio": 1.7778,
+      "src": "/media/tg/265/268.jpg"
+    }
+  ],
+  "text_html": "XR Launcher updates: <br/>- Switched over to the GLES engine I used in BumpDesk <br/>- Reworked XR workspace to feel more like Android XR<br/>- Added the icons/widgets/physics features from BumpDesk<br/>- Updates to interactions (normal &amp; mouse-look modes)<br/><br/>Releases: <a href=\"https://github.com/electrikjesus/XR-Launcher/releases\">https://github.com/electrikjesus/XR-Launcher/releases</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

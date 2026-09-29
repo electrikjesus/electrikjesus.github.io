@@ -1,0 +1,67 @@
+{
+  "id": 6,
+  "date": "2024-05-11T03:27:21+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 6,
+      "ratio": 0.7525,
+      "src": "/media/tg/6/6.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 7,
+      "ratio": 0.7525,
+      "src": "/media/tg/6/7.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 8,
+      "ratio": 1.3289,
+      "src": "/media/tg/6/8.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 9,
+      "ratio": 0.7525,
+      "src": "/media/tg/6/9.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 10,
+      "ratio": 0.7525,
+      "src": "/media/tg/6/10.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 11,
+      "ratio": 0.7525,
+      "src": "/media/tg/6/11.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 12,
+      "ratio": 1.3289,
+      "src": "/media/tg/6/12.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 13,
+      "ratio": 1.3289,
+      "src": "/media/tg/6/13.jpg"
+    }
+  ],
+  "text_html": "Lived here for 20 years and this is the first I've seen the northern lights",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

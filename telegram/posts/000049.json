@@ -1,0 +1,23 @@
+{
+  "id": 49,
+  "date": "2025-01-25T19:00:45+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Uploading a few videos this morning all about a proof of concept I have put together for Bass OS. <br/><br/>This first video is of our AIO (all-in-one) concept for Bass OS Android 14. Booting into tablet UI after initial install. <br/><br/><a href=\"https://youtu.be/8YskNGxwQjg?si=v_mOCkCY7ch4m8xD\">https://youtu.be/8YskNGxwQjg?si=v_mOCkCY7ch4m8xD</a>",
+  "link_preview": {
+    "url": "https://youtu.be/8YskNGxwQjg",
+    "site": "YouTube",
+    "title": "POC: Bass OS - AIO - Android 14: Tablet mode",
+    "description_html": "This is a proof of concept build of the upcoming All-In-One type build of Bass OS. <br/><br/>This video is demoing booting into the Tablet UI after initial install.<br/><br/>UPDATE:  The work going into these builds has been released and can be found in our Android 12.1…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/49/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "id": 233,
+  "date": "2026-08-27T03:09:21+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 233,
+      "duration": null,
+      "ratio": 1.0,
+      "round": false,
+      "thumb": "/media/tg/233/233-thumb.jpg"
+    }
+  ],
+  "text_html": "Option A",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "5"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

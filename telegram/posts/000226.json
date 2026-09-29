@@ -1,0 +1,86 @@
+{
+  "id": 226,
+  "date": "2026-07-30T23:08:02+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 226,
+      "duration": "1:17",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/226/226-thumb.jpg"
+    }
+  ],
+  "text_html": "Gameplay demo of SubwaySurfers (arm64) on Bass Lineout (A16) using DigitalisX64 native-bridge solution<br/>(With a nice glare apparently too...)<br/>Very responsive though once it all loads up",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "6"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 224,
+      "author": "The Roo",
+      "author_url": "https://t.me/The_Roo",
+      "initial": "T",
+      "color": 2,
+      "date": "2026-07-31T05:51:04+00:00",
+      "url": "https://t.me/ejswonderemporium/226?comment=224",
+      "reply_to": null,
+      "text_html": "What device again that you test on for these vids?",
+      "media": []
+    },
+    {
+      "id": 225,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-07-31T05:54:33+00:00",
+      "url": "https://t.me/ejswonderemporium/226?comment=225",
+      "reply_to": {
+        "id": 224,
+        "author": "The Roo",
+        "text": "What device again that you test on for these vids?"
+      },
+      "text_html": "This one is a different device, Chuwi UBook X",
+      "media": []
+    },
+    {
+      "id": 226,
+      "author": "Adu",
+      "author_url": "https://t.me/Adu7069",
+      "initial": "A",
+      "color": 4,
+      "date": "2026-08-01T07:29:00+00:00",
+      "url": "https://t.me/ejswonderemporium/226?comment=226",
+      "reply_to": null,
+      "text_html": "Some builds has tag of 30 days trial and some not have so the tag ones will stop working after 30 days and other non tagged ones will require licence to use but will not stop and a popup like activation will appear?",
+      "media": []
+    },
+    {
+      "id": 227,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-08-01T12:54:34+00:00",
+      "url": "https://t.me/ejswonderemporium/226?comment=227",
+      "reply_to": {
+        "id": 226,
+        "author": "Adu",
+        "text": "Some builds has tag of 30 days trial and some not have so the tag ones will stop working after 30 days and other non tagged ones will require licence to use but will not stop and a popup like activation will appear?"
+      },
+      "text_html": "None of them \"stop working\", The trial period is just how long you get to go without seeing a banner or popup",
+      "media": []
+    }
+  ],
+  "comments_count": 4
+}

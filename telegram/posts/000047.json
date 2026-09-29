@@ -1,0 +1,28 @@
+{
+  "id": 47,
+  "date": "2025-01-23T22:29:35+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Just a quick demo of Termux:x11 on Bass OS A14<br/><a href=\"https://youtu.be/KI47jRhhPdw?si=JFfye4yXYcpDyvmI\">https://youtu.be/KI47jRhhPdw?si=JFfye4yXYcpDyvmI</a>",
+  "link_preview": {
+    "url": "https://youtu.be/KI47jRhhPdw",
+    "site": "YouTube",
+    "title": "Bass OS Android 14 v17.8.3 - xfce4 via Termux-x11 (Linux env)",
+    "description_html": "This is just a short video showing off the unreleased work we have on Android 14 so far for Bass OS and Bliss OS. This demo is the Bass OS side of things showing off the desktop version. <br/><br/>Setup script can be found here: https://github.com/electrikjesus/Termux…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/47/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

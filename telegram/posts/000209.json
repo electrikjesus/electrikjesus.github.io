@@ -1,0 +1,96 @@
+{
+  "id": 209,
+  "date": "2026-07-23T19:39:12+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 209,
+      "ratio": 1.5009,
+      "src": "/media/tg/209/209.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 210,
+      "ratio": 1.5009,
+      "src": "/media/tg/209/210.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 211,
+      "ratio": 1.5009,
+      "src": "/media/tg/209/211.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 212,
+      "ratio": 1.5009,
+      "src": "/media/tg/209/212.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 213,
+      "ratio": 1.5009,
+      "src": "/media/tg/209/213.jpg"
+    }
+  ],
+  "text_html": "Bass: Lineout (A16) Desktop Preview release<br/><br/>We are opening the gates for our next iteration of Bass OS builds (Lineout/Submix), and the initial releases are being uploaded one by one to our website. <br/><br/>Check out the downloads section: <br/><a href=\"https://bassos.navotpala.tech/#downloads\">https://bassos.navotpala.tech/#downloads</a><br/><br/>Install Documentation: <a href=\"https://docs.blisscolabs.dev/installation/x86_64-v2/bass_os_aio_android-13-15_install_process/\">https://docs.blisscolabs.dev/installation/x86_64-v2/bass_os_aio_android-13-15_install_process/</a><br/><br/>(Make sure to check out the rest of the documentation site for the features, apps, and interface information)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "4"
+    },
+    {
+      "emoji": "👎",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 197,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-07-23T22:05:24+00:00",
+      "url": "https://t.me/ejswonderemporium/209?comment=197",
+      "reply_to": null,
+      "text_html": "Wow",
+      "media": []
+    },
+    {
+      "id": 218,
+      "author": "dst212",
+      "author_url": "https://t.me/dst212",
+      "initial": "d",
+      "color": 5,
+      "date": "2026-07-28T09:29:36+00:00",
+      "url": "https://t.me/ejswonderemporium/209?comment=218",
+      "reply_to": null,
+      "text_html": "Can this work on a virtual machine? I can't find about it in the docs",
+      "media": []
+    },
+    {
+      "id": 219,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-07-28T12:09:25+00:00",
+      "url": "https://t.me/ejswonderemporium/209?comment=219",
+      "reply_to": {
+        "id": 218,
+        "author": "dst212",
+        "text": "Can this work on a virtual machine? I can't find about it in the docs"
+      },
+      "text_html": "Yes, but not well documented (obviously)",
+      "media": []
+    }
+  ],
+  "comments_count": 3
+}

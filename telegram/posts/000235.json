@@ -1,0 +1,62 @@
+{
+  "id": 235,
+  "date": "2026-08-27T16:45:08+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 235,
+      "duration": null,
+      "ratio": 1.0,
+      "round": false,
+      "thumb": "/media/tg/235/235-thumb.jpg"
+    }
+  ],
+  "text_html": "Or Option C (B+A)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🤯",
+      "count": "2"
+    },
+    {
+      "emoji": "👍",
+      "count": "1"
+    },
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 242,
+      "author": "Anik Mandal",
+      "author_url": "https://t.me/ANIKMANDAL17",
+      "initial": "A",
+      "color": 6,
+      "date": "2026-08-27T16:57:43+00:00",
+      "url": "https://t.me/ejswonderemporium/235?comment=242",
+      "reply_to": null,
+      "text_html": "Option C",
+      "media": []
+    },
+    {
+      "id": 243,
+      "author": "Denis",
+      "author_url": "https://t.me/bdenish",
+      "initial": "D",
+      "color": 2,
+      "date": "2026-08-27T18:32:44+00:00",
+      "url": "https://t.me/ejswonderemporium/235?comment=243",
+      "reply_to": null,
+      "text_html": "Option C has some old-gen vibes to it. Very very cool. Option A gives more modern feeling",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

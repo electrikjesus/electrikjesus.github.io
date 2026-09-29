@@ -1,0 +1,23 @@
+{
+  "id": 22,
+  "date": "2024-08-30T23:26:14+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "<b>Navotpala Tech, aka Bliss Co-Labs Presents - Bass ARM</b><br/><br/>Initial release of Bass ARM for Raspberry Pi 4 has been pushed. Here is a quick walkthrough of the UI:<br/><br/><a href=\"https://www.youtube.com/watch?v=hiPxuLooHbo\">https://www.youtube.com/watch?v=hiPxuLooHbo</a><br/><br/>Release:<br/><a href=\"https://github.com/Bliss-Bass/bass-rpi/releases/tag/v14-20240830154821\">https://github.com/Bliss-Bass/bass-rpi/releases/tag/v14-20240830154821</a>",
+  "link_preview": {
+    "url": "https://youtube.com/watch?v=hiPxuLooHbo",
+    "site": "YouTube",
+    "title": "Bass ARM v14 (Bass-Pi) Desktop - Raspberry Pi 4 - setup and walkthrough",
+    "description_html": "This is a bit of a longer demo this round but it goes through most of the options and features available within our Raspberry Pi builds <br/><br/>Release:<br/>- https://github.com/Bliss-Bass/bass-rpi/releases/tag/v14-20240830154821",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/22/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,25 @@
+{
+  "id": 276,
+  "date": "2026-09-23T15:23:26+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 276,
+      "ratio": 1.3311,
+      "src": "/media/tg/276/276.jpg"
+    }
+  ],
+  "text_html": "With access to Android side data for file import/export",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

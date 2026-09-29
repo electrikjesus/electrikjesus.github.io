@@ -1,0 +1,27 @@
+{
+  "id": 149,
+  "date": "2026-06-02T01:44:33+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 149,
+      "duration": "0:12",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/149/149-thumb.jpg"
+    }
+  ],
+  "text_html": "Waydroid-Linux A16 - Live boot responsiveness",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,38 @@
+{
+  "id": 206,
+  "date": "2026-07-23T17:44:04+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "document",
+      "msg_id": 206,
+      "title": "microg_unofficial_installer_v1_3_2_48_alpha_g4304845b_oss_by_ale5000.zip",
+      "size": "211.6 MB",
+      "caption_html": "MicroG recovery flashable .zip  (MicroG and services install, but some of the other apps do not)"
+    },
+    {
+      "type": "document",
+      "msg_id": 207,
+      "title": "MindTheGapps-14.0.0-x86_64-20250308_074302.zip",
+      "size": "216.6 MB",
+      "caption_html": "Gapps recovery flashable .zip (Allow Google Play Services to update before signing in)"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

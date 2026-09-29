@@ -1,0 +1,23 @@
+{
+  "id": 104,
+  "date": "2026-04-08T16:21:46+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Android-x86, Bliss OS and the Chamber of Secret Forks (Part 2) <br/><br/>In this article, we go over a case study as a proposed solution to prevent strip-mining open-source projects. Treating them as the Community Gardens they are.<br/><br/><a href=\"https://open.substack.com/pub/electrikjesus/p/android-x86-bliss-os-and-the-chamber-617?r=2frikb&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true\">https://open.substack.com/pub/electrikjesus/p/android-x86-bliss-os-and-the-chamber-617?r=2frikb&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true</a>",
+  "link_preview": {
+    "url": "https://open.substack.com/pub/electrikjesus/p/android-x86-bliss-os-and-the-chamber-617?r=2frikb&showWelcomeOnShare=true",
+    "site": "Substack",
+    "title": "Android-x86, Bliss OS and the Chamber of Secret Forks (Part 2)",
+    "description_html": "Article 2: The New Social Contract - Defining \"Infrastructural CSR\"",
+    "layout": "large",
+    "ratio": 2.0,
+    "image": "/media/tg/104/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

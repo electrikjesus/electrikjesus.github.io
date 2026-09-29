@@ -1,0 +1,41 @@
+{
+  "id": 215,
+  "date": "2026-07-23T19:40:25+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "document",
+      "msg_id": 215,
+      "title": "MindTheGapps-16.0.0-x86_64-20260705_021340.zip.sha256sum",
+      "size": "113 B",
+      "caption_html": "A16 MTG gApps for our builds"
+    },
+    {
+      "type": "document",
+      "msg_id": 216,
+      "title": "MindTheGapps-16.0.0-x86_64-20260705_021340.zip",
+      "size": "246.9 MB"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "3"
+    },
+    {
+      "emoji": "👎",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

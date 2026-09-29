@@ -1,0 +1,9 @@
+{{- $out := false -}}
+{{- with partialCached "brand-logo.html" . "brand-logo" -}}
+  {{- if eq .MediaType.SubType "svg" -}}
+    {{- $out = . -}}
+  {{- else -}}
+    {{- $out = .Fill (printf "%dx%d png" $ $) | fingerprint -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

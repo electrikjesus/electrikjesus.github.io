@@ -1,0 +1,18 @@
+{
+  "id": 26,
+  "date": "2024-11-03T18:13:59+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "RSS to Telegram Bot",
+    "url": "https://t.me/RSStT_Bot"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "<b><u>Bass-Kiosk-v15.9-x86_64-OFFICIAL-vanilla-2024110214</u></b><br/><br/><b><u>Bass OS - Android 12.1 - Kiosk Launcher (watermarked) variant</u></b><br/><br/>This is the initial GitHub Release for Bass-Kiosk-v15.9-x86_64-OFFICIAL-vanilla-2024110214, and this update includes a number of changes on top of where our last Kiosk build was.<br/><br/><b>!! This build is not rooted, but you can use adb root !!</b><br/><br/>Updates since last POS build:<br/><br/><b>● </b>Pulled updates from Bliss OS 15.9.x<br/><b>● </b>Fixes for dual booting windows systems<br/><b>● </b>Included per-window rotation support for multi-displays<br/><b>● </b>Updates for MicroG default options<br/><b>● </b>Updated FOSS apps (Aurora Store, Neo-Store, and more)<br/><b>● </b>Updates for RestrictedLauncher (Admin Mode password protection improvements)<br/><b>● </b>Updated Bootsight service - anonymous device registration (all demo builds do not have to license and are free to use as-is) <a href=\"https://docs.blisscolabs.dev/legal/end_user_license_agreement/#4-device-information-collection\">See EULA for more info</a><br/><b>● </b>Lots more, check the changelog and git repos for further details.<br/><br/>Bass Toolkit Build Options:<br/><br/><b>● </b>--ethernetmanager<br/><b>● </b>--minfossapps<br/><b>● </b>--tabletnav<br/><b>● </b>--clearhotseat<br/><b>● </b>--nolarge<br/><b>● </b>--supervanilla<br/><b>● </b>--minimal<br/><b>● </b>--alwaysonsettings<br/><b>● </b>--sof<br/><b>● </b>--silead<br/><b>● </b>--wiz<br/><b>● </b>--aurorastore<br/><b>● </b>--usecalyxmicrog<br/><b>● </b>--privateapp<br/><b>● </b>--kiosk<br/><b>● </b>--noksu<br/><b>● </b>--grubcmdline \"BTLINUX_HAL=1 androidboot.force.win_as_home=1\"<br/><br/><b>Install:</b><br/><br/><b>● </b><a href=\"https://docs.blisscolabs.dev/installation/x86_64-v2/install-from-bootable-usb/\">Install from Bootable USB</a><br/><br/><b>Setup:</b><br/><br/><b>!! The default password for the kiosk launcher settings is </b><code>123</code><b> !!</b><br/><br/><b>● </b><a href=\"https://docs.blisscolabs.dev/setup_and_configuration/booting-into-lockdown-builds/\">Booting into Lockdown Builds</a><br/><br/>via <a href=\"https://github.com/Bliss-Bass/Bass-OS-releases/releases/tag/Bass-Kiosk-v15.9-x86_64-2024110214\">Release notes from Bass-OS-releases</a> (author: electrikjesus)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

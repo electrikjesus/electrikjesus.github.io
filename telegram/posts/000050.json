@@ -1,0 +1,23 @@
+{
+  "id": 50,
+  "date": "2025-01-25T19:16:54+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "In the second video of our AIO (all-in-one) concept for Bass OS Android 14. we are rebooting from Tablet UI into desktop mode for the first time. <br/><a href=\"https://youtu.be/PmbEtd3iY5U?si=hMrpM24gDzaYNrdY\">https://youtu.be/PmbEtd3iY5U?si=hMrpM24gDzaYNrdY</a>",
+  "link_preview": {
+    "url": "https://youtu.be/PmbEtd3iY5U",
+    "site": "YouTube",
+    "title": "POC: Bass OS - AIO - Android 14: Desktop mode",
+    "description_html": "This is another proof of concept demo of our all-in-one version of Bass OS. In this demo we are rebooting from tablet mode and into desktop mode",
+    "layout": "small",
+    "ratio": null,
+    "image": null
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

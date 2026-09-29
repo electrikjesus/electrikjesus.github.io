@@ -1,0 +1,27 @@
+{
+  "id": 217,
+  "date": "2026-07-23T21:35:24+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 217,
+      "ratio": 1.7778,
+      "src": "/media/tg/217/217.jpg"
+    }
+  ],
+  "text_html": "Early test builds of Bass: Submix (A16) are on the Bass OS website: <a href=\"https://bassos.navotpala.tech/#downloads\">https://bassos.navotpala.tech/#downloads</a><br/><br/>As well as SourceForge for now: <br/><a href=\"https://sourceforge.net/projects/bliss-co-labs/files/BlissBass/Bass-Submix/\">https://sourceforge.net/projects/bliss-co-labs/files/BlissBass/Bass-Submix/</a><br/><br/>It's such a wide departure from the normal Android-x86 or Waydroid type setup that it should really have its own category.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,23 @@
+{
+  "id": 55,
+  "date": "2025-02-06T17:27:16+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "<a href=\"https://youtu.be/iJT6_4uLtg0?si=DYdaowx6orkd3V0l\">https://youtu.be/iJT6_4uLtg0?si=DYdaowx6orkd3V0l</a>",
+  "link_preview": {
+    "url": "https://youtu.be/iJT6_4uLtg0",
+    "site": "YouTube",
+    "title": "Bass OS (A14) AIO - Install and setup in under 10 minutes",
+    "description_html": "This video shows us converting an old SAM4S Point of Sale device (2015) from Windows to Android 14 in under 10 minutes. <br/>I also discuss some of the options available in these AIO builds of Bass OS.<br/><br/>We contribute back to the OSS we use in our projects: <br/>…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/55/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

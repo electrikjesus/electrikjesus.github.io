@@ -1,0 +1,20 @@
+{
+  "id": 61,
+  "date": "2025-04-26T01:14:26+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "This will be a few short posts about short, bite-size glimpses into the near future of technology and how it is integrated into our lives. <br/><br/><b>Glimpse of future updates</b><br/><br/>You wake up one morning to a notification that your new OS upgrade is ready. So you sit down in front of your computer and bring up the notification to start the upgrade process. <br/>You are asked to select the devices to upgrade in this stage and the process starts. Your PC shuts down and reboots to the updater which only takes a few seconds to process and place the update files. Then the OS starts to boot up. Within a few seconds, you are met with an updated login screen, and after entering your PIN, you are greeted with a soothing voice, and a question: “Would you like to talk through your update experience or use the mouse and keyboard?”<br/>You speak, and say: “Let’s talk through it this time”, and the voice responds: “Good. I was hoping you would want to try it out. Please let me know if it’s not working for you and we can use the GUI method instead”. You respond: “Thank you for the offer. What’s next?”. And the voice starts asking you a few simple questions about the remaining setup for the new features added to the OS. Once complete, the voice responds that it has finished updating this device, and notices that you have 2 phones, a tablet and another PC with the previous version of the OS installed, then asks if you would like to push an update to those devices now. You respond that you would like to just update my personal phone for now. The voice responds, “Sure, I will get that ready for you now. Do you want to use the same info from the new features you setup on this PC, or do you want to configure your phone differently?”, You tell it that you want to keep the same configuration, and the phone starts the automated update process as well. When complete, both devices reboot into the new OS, and your apps and workspaces continue where you left off before the update.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "😭",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

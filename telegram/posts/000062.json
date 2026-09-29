@@ -1,0 +1,22 @@
+{
+  "id": 62,
+  "date": "2025-04-26T01:19:21+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 62,
+      "ratio": 1.0,
+      "src": "/media/tg/62/62.jpg"
+    }
+  ],
+  "text_html": "(Best AI generated image I could get for that short story. Sorry)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

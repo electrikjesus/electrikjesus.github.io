@@ -1,0 +1,27 @@
+{
+  "id": 253,
+  "date": "2026-09-12T23:13:35+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 253,
+      "duration": "1:51",
+      "ratio": 1.5,
+      "round": false,
+      "thumb": "/media/tg/253/253-thumb.jpg"
+    }
+  ],
+  "text_html": "Game launcher progress: Lots of updates and improvements along with preferences now too",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

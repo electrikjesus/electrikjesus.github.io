@@ -1,0 +1,31 @@
+{
+  "id": 95,
+  "date": "2026-02-24T23:25:39+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 95,
+      "ratio": 1.7778,
+      "src": "/media/tg/95/95.jpg"
+    }
+  ],
+  "text_html": "BumpDesk source has been pushed! Releases too!! <br/>Reimagine your Launcher as a physical environment with icons, piles, widgets, pinning and more<br/><br/><a href=\"https://github.com/electrikjesus/BumpDesk\">https://github.com/electrikjesus/BumpDesk</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "2"
+    },
+    {
+      "emoji": "🤔",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

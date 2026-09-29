@@ -1,0 +1,18 @@
+{{- $brand := site.Params.brand | default dict -}}
+{{- $icons := slice -}}
+{{- range $size := slice 192 512 -}}
+  {{- with partial "brand-icon.html" $size -}}
+    {{- $icons = $icons | append (dict "src" .Permalink "sizes" (cond (eq .MediaType.SubType "svg") "any" (printf "%dx%d" $size $size)) "type" .MediaType.Type "purpose" "any") -}}
+  {{- end -}}
+{{- end -}}
+{{- dict
+    "name" site.Title
+    "short_name" ($brand.shortName | default site.Title)
+    "description" site.Params.description
+    "start_url" ("" | absURL)
+    "scope" ("" | absURL)
+    "display" "standalone"
+    "background_color" "#0e0d12"
+    "theme_color" ($brand.accent | default "#7C4DFF")
+    "icons" ($icons | uniq)
+  | jsonify (dict "indent" "  ") -}}

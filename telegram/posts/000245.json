@@ -1,0 +1,45 @@
+{
+  "id": 245,
+  "date": "2026-08-28T02:06:42+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 245,
+      "duration": null,
+      "ratio": 1.0,
+      "round": false,
+      "thumb": "/media/tg/245/245-thumb.jpg"
+    }
+  ],
+  "text_html": "I ended up going down a rabbit hole, but I think it turned out pretty OK",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 254,
+      "author": "Jis G Jacob 🪷",
+      "author_url": "https://t.me/StudioKeys",
+      "initial": "J",
+      "color": 2,
+      "date": "2026-08-28T07:16:28+00:00",
+      "url": "https://t.me/ejswonderemporium/245?comment=254",
+      "reply_to": null,
+      "text_html": "that AOSP inside at the bottom, kinda looks off",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}

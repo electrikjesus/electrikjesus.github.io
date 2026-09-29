@@ -1,0 +1,81 @@
+{
+  "id": 188,
+  "date": "2026-07-06T15:14:05+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 188,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/188.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 189,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/189.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 190,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/190.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 191,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/191.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 192,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/192.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 193,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/193.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 194,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/194.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 195,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/195.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 196,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/196.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 197,
+      "ratio": 1.7778,
+      "src": "/media/tg/188/197.jpg"
+    }
+  ],
+  "text_html": "Advanced System Tweaks (pt1)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

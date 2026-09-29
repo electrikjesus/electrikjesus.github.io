@@ -1,0 +1,26 @@
+{
+  "id": 16,
+  "date": "2024-07-22T22:51:11+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "Here is an insightful look at how they do that at Valve:<br/><a href=\"https://youtu.be/1MLaQEZtrxA?si=8Of7zVl0M8N4EUWf\">https://youtu.be/1MLaQEZtrxA?si=8Of7zVl0M8N4EUWf</a>",
+  "link_preview": {
+    "url": "https://youtu.be/1MLaQEZtrxA",
+    "site": "YouTube",
+    "title": "Valve's Court Documents Leaked: Everything We Know",
+    "description_html": "Learn Back-end Programming the best way, with https://boot.dev/bellularnews. Use code BELLULARNEWS for 25% off. Sponsored by Boot.<br/>Valve's success is simply stunning. On a $ per employee basis, Steam almost defies belief.<br/><br/>Sources:<br/>https://companiesmarketcap.com/take…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/16/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

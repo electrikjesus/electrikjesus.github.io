@@ -1,0 +1,33 @@
+{
+  "id": 88,
+  "date": "2025-12-27T17:41:52+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 88,
+      "duration": "1:00",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/88/88-thumb.jpg"
+    }
+  ],
+  "text_html": "Another quick demo for some of the changes going into the Smart Dock desktop framework experiments. <br/><br/>This demo shows off the audio routing interface that is working with the new Bass Audio DSP/API",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "4"
+    },
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

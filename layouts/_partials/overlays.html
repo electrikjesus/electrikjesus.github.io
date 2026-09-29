@@ -1,0 +1,20 @@
+<dialog class="sheet search-sheet" data-search-sheet aria-label="Search">
+  <div class="sheet-handle" aria-hidden="true"></div>
+  <form class="search-field" role="search" onsubmit="return false">
+    {{ partial "icon.html" "search" }}
+    <input type="search" name="q" placeholder="Search posts" autocomplete="off" enterkeyhint="search" data-search-input
+           data-index="{{ "index.json" | absURL }}">
+    <button type="button" class="icon-btn" data-search-close aria-label="Close">{{ partial "icon.html" "close" }}</button>
+  </form>
+  <div class="search-results" data-search-results role="listbox"></div>
+</dialog>
+
+<div class="lightbox" data-lightbox-root hidden>
+  <div class="lb-stage" data-lb-stage></div>
+  <button class="lb-btn lb-close" data-lb-close aria-label="Close">{{ partial "icon.html" "close" }}</button>
+  <button class="lb-btn lb-prev" data-lb-prev aria-label="Previous">{{ partial "icon.html" "chevron_left" }}</button>
+  <button class="lb-btn lb-next" data-lb-next aria-label="Next">{{ partial "icon.html" "chevron_right" }}</button>
+  <div class="lb-count" data-lb-count></div>
+</div>
+
+<div class="snackbar" data-snackbar role="status" aria-live="polite"></div>

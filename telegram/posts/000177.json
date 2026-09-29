@@ -1,0 +1,84 @@
+{
+  "id": 177,
+  "date": "2026-06-28T18:49:19+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 177,
+      "duration": "1:21",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/177/177-thumb.jpg"
+    }
+  ],
+  "text_html": "Sharing progress on a project isn't always about showing things working 100%. Sometimes, it helps to show how things are still very broken so others can understand the work involved. <br/>This is one of those cases. Android thinks I have 2 primary displays and is super confused when I try and launch an app from secondary displays desktop mode... So it just quits...",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 141,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-06-28T19:03:32+00:00",
+      "url": "https://t.me/ejswonderemporium/177?comment=141",
+      "reply_to": null,
+      "text_html": "Today I uninstall waydroid and started hating it.",
+      "media": []
+    },
+    {
+      "id": 142,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-06-28T19:03:36+00:00",
+      "url": "https://t.me/ejswonderemporium/177?comment=142",
+      "reply_to": null,
+      "text_html": "",
+      "media": [
+        {
+          "type": "sticker",
+          "msg_id": 142,
+          "src": null
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-06-28T19:15:27+00:00",
+      "url": "https://t.me/ejswonderemporium/177?comment=143",
+      "reply_to": null,
+      "text_html": "The way it's integrated into many distros does leave a lot to be desired",
+      "media": []
+    },
+    {
+      "id": 144,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-06-28T19:16:26+00:00",
+      "url": "https://t.me/ejswonderemporium/177?comment=144",
+      "reply_to": null,
+      "text_html": "The best we can do is work on projects like Waydroid-Linux to act as an example for how things could be done better.",
+      "media": []
+    }
+  ],
+  "comments_count": 4
+}

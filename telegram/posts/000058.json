@@ -1,0 +1,22 @@
+{
+  "id": 58,
+  "date": "2025-02-13T22:27:48+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 58,
+      "ratio": 1.3503,
+      "src": "/media/tg/58/58.jpg"
+    }
+  ],
+  "text_html": "sic: When you can't get Bliss OS to boot after installed, but it works in Live mode just fine",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

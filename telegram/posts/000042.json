@@ -1,0 +1,18 @@
+{
+  "id": 42,
+  "date": "2024-12-04T20:22:42+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "RSS to Telegram Bot",
+    "url": "https://t.me/RSStT_Bot"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "<b><u>Bass-Headwind-MDM-v15.9-x86_64-OFFICIAL-vanilla-2024112415</u></b><br/><br/><b><u>Bass OS - Android 12.1 - Headwind MDM demo variant</u></b><br/><br/>This is the initial GitHub Release for Bass-Headwind-MDM-v15.9-x86_64-OFFICIAL-vanilla-2024112415, and this update includes a number of changes on top of where our last round of builds were.<br/><br/><b>!! This build is not rooted !!</b><br/><br/>Updates since last build:<br/><br/><b>● </b>Updated FOSS apps (Aurora Store, Neo-Store, and more)<br/><b>● </b>Updated Bootsight service - adding fallback values<br/><b>● </b>Added multi-display mouse mode (look for mouse in boot options) - Allows mouse to move from one display to the next more like Linux/Windows<br/><b>● </b>Added Desktop Mode boot options (Forces using freeform on secondary display)<br/><b>● </b>Added backup method for SerialNumber generation on devices that do not populate the board info properly<br/><b>● </b>Fixes for \"Force EFI\" OEM install option<br/><b>● </b>Lots more, check the changelog and git repos for further details.<br/><br/>Bass Toolkit Build Options:<br/><br/><b>● </b>--ethernetmanager<br/><b>● </b>--minfossapps<br/><b>● </b>--tabletnav<br/><b>● </b>--clearhotseat<br/><b>● </b>--nolarge<br/><b>● </b>--supervanilla<br/><b>● </b>--minimal<br/><b>● </b>--alwaysonsettings<br/><b>● </b>--sof<br/><b>● </b>--silead<br/><b>● </b>--smartdock<br/><b>● </b>--wiz<br/><b>● </b>--aurorastore<br/><b>● </b>--usecalyxmicrog<br/><b>● </b>--pwir<br/><b>● </b>--noksu<br/><b>● </b>--watermark<br/><b>● </b>--genmdm<br/><b>● </b>--grubcmdline BTLINUX_HAL=1 androidboot.force.win_as_home=1<br/><br/><b>Install:</b><br/><br/><b>● </b><a href=\"https://docs.blisscolabs.dev/installation/x86_64-v2/install-from-bootable-usb/\">Install from Bootable USB</a><br/><br/><b>Setup:</b><br/><br/><b>● </b><a href=\"https://docs.blisscolabs.dev/setup_and_configuration/booting-into-generic-builds/\">Booting into Generic Builds</a><br/><br/><b>Screenshots/Videos:</b><br/><br/>via <a href=\"https://github.com/Bliss-Bass/Bass-OS-releases/releases/tag/Bass-Headwind-MDM-v15.9-x86_64-2024112415\">Release notes from Bass-OS-releases</a> (author: electrikjesus)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

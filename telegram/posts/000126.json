@@ -1,0 +1,64 @@
+{
+  "id": 126,
+  "date": "2026-05-23T18:26:58+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 126,
+      "ratio": 1.5009,
+      "src": "/media/tg/126/126.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 127,
+      "ratio": 1.5009,
+      "src": "/media/tg/126/127.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 128,
+      "ratio": 1.5009,
+      "src": "/media/tg/126/128.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 129,
+      "ratio": 1.5009,
+      "src": "/media/tg/126/129.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 130,
+      "ratio": 1.5009,
+      "src": "/media/tg/126/130.jpg"
+    }
+  ],
+  "text_html": "Bliss Input Mapper (WIP) and Bliss Display Mapper (also WIP)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 93,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-05-23T18:53:15+00:00",
+      "url": "https://t.me/ejswonderemporium/126?comment=93",
+      "reply_to": null,
+      "text_html": "omg. so great. I should try bassos at least once.",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}

@@ -1,0 +1,62 @@
+{
+  "id": 141,
+  "date": "2026-05-23T18:28:33+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 141,
+      "ratio": 1.5009,
+      "src": "/media/tg/141/141.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 142,
+      "ratio": 1.5009,
+      "src": "/media/tg/141/142.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 143,
+      "ratio": 1.5009,
+      "src": "/media/tg/141/143.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 144,
+      "ratio": 1.5009,
+      "src": "/media/tg/141/144.jpg"
+    }
+  ],
+  "text_html": "Boot Options app (Lets you adjust the boot options from Settings)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    },
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 92,
+      "author": "Anurag Anand",
+      "author_url": "https://t.me/anuraganand15",
+      "initial": "A",
+      "color": 5,
+      "date": "2026-05-23T18:43:38+00:00",
+      "url": "https://t.me/ejswonderemporium/141?comment=92",
+      "reply_to": null,
+      "text_html": "This is one of the best features to be implemented, it removes the headache of using pre boot GRUB configuration for noobs like me 😅",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}

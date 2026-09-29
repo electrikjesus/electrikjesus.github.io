@@ -1,0 +1,29 @@
+{
+  "id": 269,
+  "date": "2026-09-19T01:04:27+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 269,
+      "duration": "0:45",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/269/269-thumb.jpg"
+    }
+  ],
+  "text_html": "Here's a video from the glasses display",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

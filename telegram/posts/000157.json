@@ -1,0 +1,70 @@
+{
+  "id": 157,
+  "date": "2026-06-05T00:51:03+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 157,
+      "duration": "1:32",
+      "ratio": 1.4988,
+      "round": false,
+      "thumb": "/media/tg/157/157-thumb.jpg"
+    }
+  ],
+  "text_html": "Who reads the documentation? Well... Now you can, without even connecting to the internet. We include complete documentation on how to customize the OS, right from the app drawer ;)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 109,
+      "author": "Robin Irie",
+      "author_url": null,
+      "initial": "R",
+      "color": 2,
+      "date": "2026-06-05T00:55:39+00:00",
+      "url": "https://t.me/ejswonderemporium/157?comment=109",
+      "reply_to": null,
+      "text_html": "Is there any future plans to steal things like cross devices services?",
+      "media": []
+    },
+    {
+      "id": 111,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-06-05T01:13:19+00:00",
+      "url": "https://t.me/ejswonderemporium/157?comment=111",
+      "reply_to": {
+        "id": 109,
+        "author": "Robin Irie",
+        "text": "Is there any future plans to steal things like cross devices services?"
+      },
+      "text_html": "No, we develop our own solutions or use open-source ones to help raise up the community around us.",
+      "media": []
+    },
+    {
+      "id": 112,
+      "author": "Robin Irie",
+      "author_url": null,
+      "initial": "R",
+      "color": 2,
+      "date": "2026-06-05T01:23:59+00:00",
+      "url": "https://t.me/ejswonderemporium/157?comment=112",
+      "reply_to": null,
+      "text_html": "That makes sense. I'm not a techie so please forgive my ignorance.",
+      "media": []
+    }
+  ],
+  "comments_count": 3
+}

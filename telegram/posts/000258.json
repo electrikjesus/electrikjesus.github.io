@@ -1,0 +1,30 @@
+{
+  "id": 258,
+  "date": "2026-09-13T17:01:01+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 258,
+      "ratio": 1.3333,
+      "src": "/media/tg/258/258.jpg"
+    }
+  ],
+  "text_html": "Also added a way to set launch options and specify what category you want the app or game to show up in",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

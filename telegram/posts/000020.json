@@ -1,0 +1,23 @@
+{
+  "id": 20,
+  "date": "2024-08-01T18:20:11+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Preview: Bass OS v14, with Lindroid amd64 (only working for VT so far)<br/><a href=\"https://youtu.be/8e2vs02T3aQ?si=3Hlnu3RTbvzBUz72\">https://youtu.be/8e2vs02T3aQ?si=3Hlnu3RTbvzBUz72</a>",
+  "link_preview": {
+    "url": "https://youtu.be/8e2vs02T3aQ",
+    "site": "YouTube",
+    "title": "Preview: Bass OS v14, with Lindroid amd64 (only working for VT so far)",
+    "description_html": "This is a preview of Bass OS v14 (Android 14) with the Lindroid addon. <br/>The current state of development on Lindroid is still a WIP for x86/x86_64, so we don't have display passthrough to Wayland yet for Android-x86 based builds. But we can run any Linux…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/20/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

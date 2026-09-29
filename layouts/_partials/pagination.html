@@ -1,0 +1,7 @@
+{{ if gt .TotalPages 1 }}
+<nav class="pager" aria-label="Pages">
+  {{ if .HasPrev }}<a class="btn btn-tonal" href="{{ .Prev.URL | absURL }}" rel="prev">{{ partial "icon.html" "chevron_left" }} Newer</a>{{ else }}<span></span>{{ end }}
+  <span class="pager-pos">{{ .PageNumber }} / {{ .TotalPages }}</span>
+  {{ if .HasNext }}<a class="btn btn-tonal" href="{{ .Next.URL | absURL }}" rel="next">Older {{ partial "icon.html" "chevron_right" }}</a>{{ else }}<span></span>{{ end }}
+</nav>
+{{ end }}

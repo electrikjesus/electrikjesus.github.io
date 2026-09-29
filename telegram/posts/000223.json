@@ -1,0 +1,49 @@
+{
+  "id": 223,
+  "date": "2026-07-28T00:12:40+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 223,
+      "duration": "0:27",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/223/223-thumb.jpg"
+    }
+  ],
+  "text_html": "Worm Zone arm64 - testing DigitalisX64 (the first open source arm64 -&gt; x86_64 translation layer) on an Intel i5 (circa 2016) with Bass Lineout (A16)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    },
+    {
+      "emoji": "🤯",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 217,
+      "author": "AD",
+      "author_url": "https://t.me/Ano_Domini",
+      "initial": "A",
+      "color": 0,
+      "date": "2026-07-28T01:11:01+00:00",
+      "url": "https://t.me/ejswonderemporium/223?comment=217",
+      "reply_to": null,
+      "text_html": "Damn ☠️",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}

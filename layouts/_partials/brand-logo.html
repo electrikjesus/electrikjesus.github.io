@@ -1,0 +1,31 @@
+{{- /* Source image for the logo and icons: brand.logo (asset path or URL),
+     then the GitHub avatar, then the bundled logo. Returns false if none.
+     The GitHub user is brand.github, else the repo owner found by
+     `tgblog render` (data/repo.json), else the <user>.github.io baseURL host. */ -}}
+{{- $brand := site.Params.brand | default dict -}}
+{{- $out := false -}}
+{{- $src := $brand.logo | default "" -}}
+{{- if not $src -}}
+  {{- $user := $brand.github | default (index (hugo.Data.repo | default dict) "owner") | default "" -}}
+  {{- if not $user -}}
+    {{- with urls.Parse site.BaseURL -}}
+      {{- if strings.HasSuffix .Host ".github.io" -}}{{- $user = strings.TrimSuffix ".github.io" .Host -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $user -}}{{- $src = printf "https://avatars.githubusercontent.com/%s?s=512" . -}}{{- end -}}
+{{- end -}}
+{{- if $src -}}
+  {{- if or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") -}}
+    {{- with try (resources.GetRemote $src) -}}
+      {{- with .Err -}}
+        {{- warnf "brand logo: could not download %s (%s); using the bundled logo" $src . -}}
+      {{- else with .Value -}}
+        {{- $out = . | resources.Copy (printf "brand/logo-remote%s" .MediaType.FirstSuffix.FullSuffix) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- with resources.Get $src -}}{{- $out = . -}}{{- else -}}{{- warnf "brand logo: assets/%s not found" $src -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $out -}}{{- with resources.Get "brand/logo.png" -}}{{- $out = . -}}{{- end -}}{{- end -}}
+{{- return $out -}}

@@ -1,0 +1,117 @@
+name: Telegram sync & deploy
+
+on:
+  schedule:
+    - cron: "17 * * * *"  # hourly; GitHub may delay scheduled runs by a few minutes
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Re-crawl the whole channel history and every comment thread"
+        type: boolean
+        default: false
+      reset:
+        description: "Delete everything mirrored so far and import the channel from scratch"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: write
+
+concurrency:
+  group: telegram-blog
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: 0.167.0
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.sync.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests
+
+      - name: Reset mirror
+        if: inputs.reset
+        run: python -m tgblog reset --yes
+
+      - name: Fetch new Telegram posts and comments
+        id: sync
+        run: python -m tgblog sync ${{ inputs.full && '--full' || '' }}
+
+      - name: Commit changes
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          git add -A telegram static/media
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync Telegram channel posts"
+          git pull --rebase
+          git push
+
+      # Scheduled workflows are disabled after 60 days without repo activity; quiet channels shouldn't stop the mirror.
+      - name: Keep schedule alive
+        if: github.event_name == 'schedule'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/telegram-blog.yml/enable"
+
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true' || github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate Hugo content
+        run: python -m tgblog render
+
+      - name: Install Hugo
+        run: |
+          curl -sSL -o hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i hugo.deb
+
+      - id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Build site
+        env:
+          HUGO_ENVIRONMENT: production
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

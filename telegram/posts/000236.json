@@ -1,0 +1,59 @@
+{
+  "id": 236,
+  "date": "2026-08-27T21:22:08+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 236,
+      "ratio": 1.3333,
+      "src": "/media/tg/236/236.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 237,
+      "ratio": 1.3333,
+      "src": "/media/tg/236/237.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 238,
+      "ratio": 1.3333,
+      "src": "/media/tg/236/238.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 239,
+      "ratio": 1.3333,
+      "src": "/media/tg/236/239.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 240,
+      "ratio": 1.3333,
+      "src": "/media/tg/236/240.jpg"
+    }
+  ],
+  "text_html": "Cooking up an x64 compatible GameNative fork tonight",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤‍🔥",
+      "count": "2"
+    },
+    {
+      "emoji": "👀",
+      "count": "2"
+    },
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

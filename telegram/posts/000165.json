@@ -1,0 +1,22 @@
+{
+  "id": 165,
+  "date": "2026-06-06T16:04:08+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 165,
+      "ratio": 1.6393,
+      "src": "/media/tg/165/165.jpg"
+    }
+  ],
+  "text_html": "BumpDesk Settings overhaul",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

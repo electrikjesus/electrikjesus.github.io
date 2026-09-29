@@ -1,0 +1,26 @@
+{
+  "id": 41,
+  "date": "2024-12-04T20:22:33+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "RSS to Telegram Bot",
+    "url": "https://t.me/RSStT_Bot"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "<a href=\"https://telegra.ph/Bass-Desktop-v159-x86-64-OFFICIAL-vanilla-2024112611-11-26\"><b><u>Bass-Desktop-v15.9-x86_64-OFFICIAL-vanilla-2024112611</u></b></a><br/><br/>via <a href=\"https://github.com/Bliss-Bass/Bass-OS-releases/releases/tag/Bass-Desktop-v15.9-x86_64-2024112611\">Release notes from Bass-OS-releases</a> (author: electrikjesus)",
+  "link_preview": {
+    "url": "https://telegra.ph/Bass-Desktop-v159-x86-64-OFFICIAL-vanilla-2024112611-11-26",
+    "site": "Telegraph",
+    "title": "Bass-Desktop-v15.9-x86_64-OFFICIAL-vanilla-2024112611",
+    "description_html": "Bass OS - Android 12.1 - Desktop variant This is the initial GitHub Release for Bass-Desktop-v15.9-x86_64-OFFICIAL-vanilla-2024112611, and this update includes a number of changes on top of where our last round of builds were. !! This build is rooted with…",
+    "layout": "small",
+    "ratio": null,
+    "image": null
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,29 @@
+{
+  "id": 96,
+  "date": "2026-03-06T01:17:40+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 96,
+      "duration": "0:17",
+      "ratio": 1.3333,
+      "round": false,
+      "thumb": "/media/tg/96/96-thumb.jpg"
+    }
+  ],
+  "text_html": "Working on my latest shader-based live wallpaper",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

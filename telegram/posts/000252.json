@@ -1,0 +1,24 @@
+{
+  "id": 252,
+  "date": "2026-09-12T02:45:21+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 252,
+      "duration": "0:48",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/252/252-thumb.jpg"
+    }
+  ],
+  "text_html": "What should we call our WIP game launcher? We're trying to go for a very Steam Deck type UX with it",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

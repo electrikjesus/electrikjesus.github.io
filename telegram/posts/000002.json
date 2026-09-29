@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "date": "2024-05-04T03:30:54+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 2,
+      "duration": "1:38",
+      "ratio": 1.4988,
+      "round": false,
+      "thumb": "/media/tg/2/2-thumb.jpg"
+    }
+  ],
+  "text_html": "Recorded a proper demo of vapor-launcher. Available for both arm64 and x86_64 Android. <br/><a href=\"https://github.com/imperador/vapor-launcher/releases\">https://github.com/imperador/vapor-launcher/releases</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

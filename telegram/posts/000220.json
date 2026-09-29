@@ -1,0 +1,64 @@
+{
+  "id": 220,
+  "date": "2026-07-24T14:53:27+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "<b>Source for the A14 &amp; A16 releases</b><br/><br/>Core Lineout A16 source is here: <a href=\"https://github.com/los-tv-x86\">https://github.com/los-tv-x86</a><br/><br/>A14 source follows <a href=\"https://t.me/hmtheboy154\">@hmtheboy154</a> 's source here: <a href=\"https://github.com/lineageos-tv-x86\">https://github.com/lineageos-tv-x86</a> with the device tree and manifest using <a href=\"https://github.com/Bliss-Bass/android_device_generic_x86_64_tablet\">https://github.com/Bliss-Bass/android_device_generic_x86_64_tablet</a> and <a href=\"https://github.com/Bliss-Bass/lineage_bass_android\">https://github.com/Bliss-Bass/lineage_bass_android</a> repos<br/><br/>The ax86-toolkit source is private, but not required for contributors",
+  "link_preview": {
+    "url": "https://github.com/los-tv-x86",
+    "site": "GitHub",
+    "title": "los-tv-x86",
+    "description_html": "los-tv-x86 has 45 repositories available. Follow their code on GitHub.",
+    "layout": "large",
+    "ratio": 1.0,
+    "image": "/media/tg/220/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 211,
+      "author": "AD",
+      "author_url": "https://t.me/Ano_Domini",
+      "initial": "A",
+      "color": 0,
+      "date": "2026-07-26T14:01:15+00:00",
+      "url": "https://t.me/ejswonderemporium/220?comment=211",
+      "reply_to": null,
+      "text_html": "I had one question. Since it's opensource can't anyone just compile it and use it ? Ofcourse those who can and know how to compile it. But can they ? <br/>Or they will need some core component that is not opensource",
+      "media": []
+    },
+    {
+      "id": 212,
+      "author": "AD",
+      "author_url": "https://t.me/Ano_Domini",
+      "initial": "A",
+      "color": 0,
+      "date": "2026-07-26T14:03:15+00:00",
+      "url": "https://t.me/ejswonderemporium/220?comment=212",
+      "reply_to": null,
+      "text_html": "Just curious 🤔.",
+      "media": []
+    },
+    {
+      "id": 213,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-07-26T14:22:41+00:00",
+      "url": "https://t.me/ejswonderemporium/220?comment=213",
+      "reply_to": {
+        "id": 211,
+        "author": "AD",
+        "text": "I had one question. Since it's opensource can't anyone just compile it and use it ? Ofcourse those who can and know how to compile it. But can they ?  Or they will need some core component that is not opensource"
+      },
+      "text_html": "It's open core, so the build toolkit, add-ons, etc. all require a source license for access",
+      "media": []
+    }
+  ],
+  "comments_count": 3
+}

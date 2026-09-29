@@ -1,0 +1,27 @@
+{
+  "id": 68,
+  "date": "2025-06-25T22:39:24+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 68,
+      "ratio": 0.75,
+      "src": "/media/tg/68/68.jpg"
+    }
+  ],
+  "text_html": "Let's play a game. How many Android-x86 devices can you spot in this picture?",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "💯",
+      "count": "3"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

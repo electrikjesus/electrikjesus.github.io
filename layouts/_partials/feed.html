@@ -1,0 +1,7 @@
+{{ $pager := .pager }}
+<div class="feed">
+  {{ range $i, $p := $pager.Pages }}
+    {{ partial "card.html" (dict "page" $p "featured" (and $.featureFirst (eq $i 0) (eq $pager.PageNumber 1))) }}
+  {{ end }}
+</div>
+{{ partial "pagination.html" $pager }}

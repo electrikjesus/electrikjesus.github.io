@@ -1,0 +1,37 @@
+{
+  "id": 200,
+  "date": "2026-07-06T15:15:11+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 200,
+      "ratio": 1.7778,
+      "src": "/media/tg/200/200.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 201,
+      "ratio": 1.7778,
+      "src": "/media/tg/200/201.jpg"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "3"
+    },
+    {
+      "emoji": "👎",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

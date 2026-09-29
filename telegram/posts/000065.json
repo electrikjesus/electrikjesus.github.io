@@ -1,0 +1,28 @@
+{
+  "id": 65,
+  "date": "2025-05-20T15:45:22+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Demo of the Boot Config app we are working on<br/><br/>in this demo we are showing the app and its options. It is currently booting into the Desktop UI Bass boot mode, so on the initial configuration screen, all the grayed out options are the ones included in the kernel command line but not included in the static boot config from Grub. <br/><br/>This application allows us to categorize and select various boot configs pulled from a dataset. then it allows the user to select what options they want to include or not include from the static boot config<br/><br/><a href=\"https://youtu.be/cZba-PtNBE0?si=pVruQtfaIFQzj0LQ\">https://youtu.be/cZba-PtNBE0?si=pVruQtfaIFQzj0LQ</a>",
+  "link_preview": {
+    "url": "https://youtu.be/cZba-PtNBE0",
+    "site": "YouTube",
+    "title": "Bass OS 12.1 - Boot Config Editor demo",
+    "description_html": "This is a simple and sweet demo of our integrated boot config editor for the x86_64 versions of Bass OS 12.1/14.0/15.0<br/><br/>in this demo we are showing the app and its options. It is currently booting into the Desktop UI Bass boot mode, so on the initial configuration…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/65/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

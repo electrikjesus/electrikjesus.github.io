@@ -1,0 +1,22 @@
+{
+  "id": 93,
+  "date": "2026-01-23T19:01:43+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 93,
+      "ratio": 1.7778,
+      "src": "/media/tg/93/93.jpg"
+    }
+  ],
+  "text_html": "Also, for s&amp;g's",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

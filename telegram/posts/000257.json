@@ -1,0 +1,32 @@
+{
+  "id": 257,
+  "date": "2026-09-13T17:00:23+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 257,
+      "duration": "0:07",
+      "ratio": 1.4988,
+      "round": false,
+      "thumb": "/media/tg/257/257-thumb.jpg"
+    }
+  ],
+  "text_html": "Now the home shelf scrolling works better for large libraries, and the media shelf also pulls in media app related updates for What's New",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

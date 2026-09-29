@@ -1,0 +1,56 @@
+{
+  "id": 179,
+  "date": "2026-07-06T14:53:40+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 179,
+      "ratio": 1.5009,
+      "src": "/media/tg/179/179.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 180,
+      "ratio": 1.7778,
+      "src": "/media/tg/179/180.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 181,
+      "ratio": 1.7778,
+      "src": "/media/tg/179/181.jpg"
+    }
+  ],
+  "text_html": "<b>Android 16 (r4) - Bass: Lineout</b><br/><br/>Based off of Lineage-23.2, and features: <br/>- SmartDock-DFC (Desktop/Navigation frameworks component)<br/>- Bliss Button Mapper <br/>- Bliss Display Mapper<br/>- Bliss Input Mapper (touch/pointer devices)<br/>- BlissView (Frameworks Validation service)<br/>- BlissTweaks (Advanced System Tweaks)<br/>- and a ton of Desktop mode changes to Android-x86.<br/><br/>Gearing up for A14 &amp; A16 releases of a personal (free) barebones build, along with a Bass build (with all the bells and whistles)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "8"
+    },
+    {
+      "emoji": "👎",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 171,
+      "author": "Adam [offline]",
+      "author_url": "https://t.me/Singh_Adam",
+      "initial": "A",
+      "color": 3,
+      "date": "2026-07-06T15:22:43+00:00",
+      "url": "https://t.me/ejswonderemporium/179?comment=171",
+      "reply_to": null,
+      "text_html": "Thank you so much 🙏👌 for your exceptional work and dedicated efforts. It is highly appreciated❤️",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}

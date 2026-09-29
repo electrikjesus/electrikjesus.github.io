@@ -1,0 +1,28 @@
+{
+  "id": 52,
+  "date": "2025-01-25T19:29:02+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Here is a different POC that includes Google's PC launcher from Android Studios desktop images. <br/><a href=\"https://youtu.be/BWofnTXpbvs?si=6_dJt5auyjZeT6Ap\">https://youtu.be/BWofnTXpbvs?si=6_dJt5auyjZeT6Ap</a>",
+  "link_preview": {
+    "url": "https://youtu.be/BWofnTXpbvs",
+    "site": "YouTube",
+    "title": "POC: Bass OS - Android 14: with Googles PC launcher",
+    "description_html": "This is a simple proof of concept including Google 's. PC launcher from their desktop AVD images available through Android Studio. <br/><br/>This video just demos some of the basic features included with this launcher setup. Very Chrome-O-esque'<br/><br/>This build will…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/52/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

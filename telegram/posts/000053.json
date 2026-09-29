@@ -1,0 +1,28 @@
+{
+  "id": 53,
+  "date": "2025-02-06T16:12:41+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 53,
+      "ratio": 1.4203,
+      "src": "/media/tg/53/53.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 54,
+      "ratio": 1.1029,
+      "src": "/media/tg/53/54.jpg"
+    }
+  ],
+  "text_html": "Bass Pi builds are now live and available from the Raspberry Pi Imager for the RPI4/CM4/RPI400. Future updates and variant options will also be available through the Imager as well as GitHub Releases.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

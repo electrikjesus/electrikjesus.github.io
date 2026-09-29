@@ -1,0 +1,27 @@
+{
+  "id": 25,
+  "date": "2024-10-03T19:23:01+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 25,
+      "duration": "1:19",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/25/25-thumb.jpg"
+    }
+  ],
+  "text_html": "Second demo: Booting into Lockdown mode (after whitelisting a couple apps for the user to use)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

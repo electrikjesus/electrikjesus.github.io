@@ -1,0 +1,70 @@
+{
+  "id": 158,
+  "date": "2026-06-05T00:57:23+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 158,
+      "duration": "0:23",
+      "ratio": 1.4988,
+      "round": false,
+      "thumb": "/media/tg/158/158-thumb.jpg"
+    }
+  ],
+  "text_html": "You can also show your support by purchasing a license for the OS, right from the notifications drawer",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 113,
+      "author": "The Roo",
+      "author_url": "https://t.me/The_Roo",
+      "initial": "T",
+      "color": 2,
+      "date": "2026-06-05T18:41:18+00:00",
+      "url": "https://t.me/ejswonderemporium/158?comment=113",
+      "reply_to": null,
+      "text_html": "I will be happy to! I'm just waiting for the Surface variant. That's not ready yet, right?",
+      "media": []
+    },
+    {
+      "id": 114,
+      "author": "Jasnowidz EMMA",
+      "author_url": "https://t.me/Duchowa18",
+      "initial": "J",
+      "color": 2,
+      "date": "2026-06-06T13:02:05+00:00",
+      "url": "https://t.me/ejswonderemporium/158?comment=114",
+      "reply_to": null,
+      "text_html": "Is Android 17 x86_64 planned? With GO?",
+      "media": []
+    },
+    {
+      "id": 117,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-06-06T13:25:32+00:00",
+      "url": "https://t.me/ejswonderemporium/158?comment=117",
+      "reply_to": {
+        "id": 114,
+        "author": "Jasnowidz EMMA",
+        "text": "Is Android 17 x86_64 planned? With GO?"
+      },
+      "text_html": "There are always plans, or dreams... More like \"long term goals\" TBH...",
+      "media": []
+    }
+  ],
+  "comments_count": 3
+}

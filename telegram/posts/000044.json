@@ -1,0 +1,29 @@
+{
+  "id": 44,
+  "date": "2024-12-24T18:22:10+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 44,
+      "duration": "0:35",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/44/44-thumb.jpg"
+    }
+  ],
+  "text_html": "Triple display Bass OS demo - mouse and interaction across all displays (in connected order)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "4"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

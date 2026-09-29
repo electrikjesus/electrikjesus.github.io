@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ $pager := .Paginate .RegularPages }}
+<header class="page-header">
+  {{ if eq .Kind "term" }}<p class="eyebrow">{{ cond (eq .Data.Plural "kinds") "Type" "Topic" }}</p>{{ end }}
+  <h1 class="large-title" data-large-title>{{ .Title }}</h1>
+  <p class="page-sub">{{ len .RegularPages }} post{{ if ne (len .RegularPages) 1 }}s{{ end }}</p>
+</header>
+{{ partial "chips.html" (dict "current" (cond (eq .Kind "term") .Title "")) }}
+{{ partial "feed.html" (dict "pager" $pager "featureFirst" false) }}
+{{ end }}

@@ -1,0 +1,27 @@
+{
+  "id": 246,
+  "date": "2026-08-28T11:15:09+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 246,
+      "ratio": 1.5009,
+      "src": "/media/tg/246/246.jpg"
+    }
+  ],
+  "text_html": "Some more progress on GameNative for our x64 Android devices",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

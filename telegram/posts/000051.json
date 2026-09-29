@@ -1,0 +1,23 @@
+{
+  "id": 51,
+  "date": "2025-01-25T19:18:56+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "In this last all-in-one demo video of our AIO (all-in-one) concept for Bass OS Android 14, we are booting from desktop mode into kiosk mode and doing a little setup within that. <br/>(Please ignore that Desktop mode is still enabled as that will be corrected when this POC is ready)<br/><br/><a href=\"https://youtu.be/dZiXh6NzGeY?si=4CsKWSbkLQy4Bure\">https://youtu.be/dZiXh6NzGeY?si=4CsKWSbkLQy4Bure</a>",
+  "link_preview": {
+    "url": "https://youtu.be/dZiXh6NzGeY",
+    "site": "YouTube",
+    "title": "POC: Bass OS - AIO - Android 14: Kiosk mode (Admin)",
+    "description_html": "In this last demo of our proof of concept for Bass OS all-in-one builds. We are rebooting from desktop mode to kiosk mode (admin) and showing off a couple points for setup<br/><br/>UPDATE:  The work going into these builds has been released and can be found in our…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/51/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

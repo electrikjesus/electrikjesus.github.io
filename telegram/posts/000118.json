@@ -1,0 +1,130 @@
+{
+  "id": 118,
+  "date": "2026-05-23T18:11:40+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 118,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/118.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 119,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/119.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 120,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/120.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 121,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/121.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 122,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/122.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 123,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/123.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 124,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/124.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 125,
+      "ratio": 1.5009,
+      "src": "/media/tg/118/125.jpg"
+    }
+  ],
+  "text_html": "Lineage based Bass OS in the works (So the Lineage OS Tablet builds + all our new customizations from ax86-toolkit and some from Bass OS. This version has Google Play installed (using flashable MindTheGapps .zip) so I can show off how things look and feel a bit.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "4"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 69,
+      "author": "Anurag Anand",
+      "author_url": "https://t.me/anuraganand15",
+      "initial": "A",
+      "color": 5,
+      "date": "2026-05-23T18:17:20+00:00",
+      "url": "https://t.me/ejswonderemporium/118?comment=69",
+      "reply_to": null,
+      "text_html": "If you don't mind, can we get an iso to use on our laptop to watch video lectures as the coaching app is only available for Android and their website is very bad to be usable to watch the lectures.",
+      "media": []
+    },
+    {
+      "id": 70,
+      "author": "Anurag Anand",
+      "author_url": "https://t.me/anuraganand15",
+      "initial": "A",
+      "color": 5,
+      "date": "2026-05-23T18:18:19+00:00",
+      "url": "https://t.me/ejswonderemporium/118?comment=70",
+      "reply_to": {
+        "id": 69,
+        "author": "Anurag Anand",
+        "text": "If you don't mind, can we get an iso to use on our laptop to watch video lectures as the coaching app is only available for Android and their website is very bad to be usable to watch the lectures."
+      },
+      "text_html": "You can lock down the functionalities as bass os is only for commercial use and i respect it, just allow app download from play store.",
+      "media": []
+    },
+    {
+      "id": 90,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-05-23T18:30:01+00:00",
+      "url": "https://t.me/ejswonderemporium/118?comment=90",
+      "reply_to": {
+        "id": 70,
+        "author": "Anurag Anand",
+        "text": "You can lock down the functionalities as bass os is only for commercial use and i respect it, just allow app download from play store."
+      },
+      "text_html": "The Bass OS demos are not feature limited. And you will only see a license popup occasionally. Plus, the price we ask for it comes to just over $1 a month if averaged. You spend more than that on consumable items I bet",
+      "media": []
+    },
+    {
+      "id": 91,
+      "author": "Anurag Anand",
+      "author_url": "https://t.me/anuraganand15",
+      "initial": "A",
+      "color": 5,
+      "date": "2026-05-23T18:42:17+00:00",
+      "url": "https://t.me/ejswonderemporium/118?comment=91",
+      "reply_to": {
+        "id": 90,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "The Bass OS demos are not feature limited. And you will only see a license popup occasionally. Plus, the price we ask for it comes to just over $1 a month if averaged. You spend more than that on consumable items I bet"
+      },
+      "text_html": "Thank you for replying sir, is it possible to pay in indian currency ?<br/><br/>I am willing to buy the monthly subscription until i finish my studies",
+      "media": []
+    }
+  ],
+  "comments_count": 4
+}

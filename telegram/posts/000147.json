@@ -1,0 +1,15 @@
+{
+  "id": 147,
+  "date": "2026-06-02T01:44:33+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Don't think I've shared anything about this yet in here. So, this is what I've been busy working on for the next version of Waydroid-Linux. <br/>Fully reproducible builds using Debian by default this round.<br/>So more or less, I am making AOSP build handle pulling and packaging a lightweight Debian rootfs/initrd, kernel, firmware, etc. and then build the Android images, then pack it all into an ISO with an installer UI.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

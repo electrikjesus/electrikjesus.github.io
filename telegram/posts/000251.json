@@ -1,0 +1,27 @@
+{
+  "id": 251,
+  "date": "2026-09-07T17:50:59+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 251,
+      "duration": "0:52",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/251/251-thumb.jpg"
+    }
+  ],
+  "text_html": "Desktop Styles for SmartDock DFC",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

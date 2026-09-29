@@ -1,0 +1,45 @@
+{
+  "id": 241,
+  "date": "2026-08-27T22:11:10+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 241,
+      "ratio": 1.3333,
+      "src": "/media/tg/241/241.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 242,
+      "ratio": 1.3333,
+      "src": "/media/tg/241/242.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 243,
+      "ratio": 1.3333,
+      "src": "/media/tg/241/243.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 244,
+      "ratio": 1.3333,
+      "src": "/media/tg/241/244.jpg"
+    }
+  ],
+  "text_html": "Getting a little further into it now",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤‍🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

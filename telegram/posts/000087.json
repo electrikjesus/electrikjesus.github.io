@@ -1,0 +1,24 @@
+{
+  "id": 87,
+  "date": "2025-12-27T17:36:28+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 87,
+      "duration": "0:57",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/87/87-thumb.jpg"
+    }
+  ],
+  "text_html": "More demos for the experiments we are doing with Smart Dock as a desktop framework solution for Android. <br/>This demo shows off the new nav handle behavior and customization",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,24 @@
+{
+  "id": 116,
+  "date": "2026-05-08T17:15:28+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 116,
+      "duration": "0:37",
+      "ratio": 0.75,
+      "round": false,
+      "thumb": "/media/tg/116/116-thumb.jpg"
+    }
+  ],
+  "text_html": "Lineage OS 21 - Build #8 <br/>Fixes for setup wizard and provisioning detection, and switching between Mirror display mode and Multi-display mode",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

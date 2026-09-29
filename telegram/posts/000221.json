@@ -1,0 +1,32 @@
+{
+  "id": 221,
+  "date": "2026-07-26T13:25:08+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Apparently someone put together this article of Bass OS last year, and I completely missed it: <a href=\"https://www.linuxadictos.com/bass-os-el-sistema-operativo-modular-y-personalizable-para-dispositivos.html\">https://www.linuxadictos.com/bass-os-el-sistema-operativo-modular-y-personalizable-para-dispositivos.html</a>",
+  "link_preview": {
+    "url": "https://linuxadictos.com/bass-os-el-sistema-operativo-modular-y-personalizable-para-dispositivos.html",
+    "site": "Linux Adictos",
+    "title": "Bass OS: El sistema operativo modular y personalizable para dispositivos",
+    "description_html": "Descubre qué es Bass OS, sus ventajas y cómo personalizar este sistema operativo para cualquier dispositivo. ¡Toda la información aquí!",
+    "layout": "large",
+    "ratio": 1.5009,
+    "image": "/media/tg/221/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "4"
+    },
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

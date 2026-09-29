@@ -1,0 +1,52 @@
+{
+  "id": 101,
+  "date": "2026-03-21T19:15:21+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Sharing some great new music today:<br/><br/>Doin It More (feat. Blade Brown)<br/>Chase &amp; Status, Blade Brown<br/>Spotify:<br/><a href=\"https://open.spotify.com/track/0cS59ONZfuLfI91rSkC368?si=5NPpMUyDRhOESCiNlgCxfg\">https://open.spotify.com/track/0cS59ONZfuLfI91rSkC368?si=5NPpMUyDRhOESCiNlgCxfg</a>",
+  "link_preview": {
+    "url": "https://open.spotify.com/track/0cS59ONZfuLfI91rSkC368?si=5NPpMUyDRhOESCiNlgCxfg",
+    "site": "Spotify",
+    "title": "Doin It More (feat. Blade Brown)",
+    "description_html": "Chase &amp; Status, Blade Brown · Doin It More (feat. Blade Brown) · Song · 2026",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/101/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 37,
+      "author": "amy",
+      "author_url": "https://t.me/moworola",
+      "initial": "a",
+      "color": 4,
+      "date": "2026-03-21T20:11:01+00:00",
+      "url": "https://t.me/ejswonderemporium/101?comment=37",
+      "reply_to": null,
+      "text_html": "Chase and Status &gt;&gt;&gt;",
+      "media": []
+    },
+    {
+      "id": 38,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-03-21T20:17:26+00:00",
+      "url": "https://t.me/ejswonderemporium/101?comment=38",
+      "reply_to": {
+        "id": 37,
+        "author": "amy",
+        "text": "Chase and Status >>>"
+      },
+      "text_html": "One of the best 💯",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

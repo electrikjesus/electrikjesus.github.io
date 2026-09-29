@@ -1,0 +1,181 @@
+{
+  "id": 100,
+  "date": "2026-03-15T18:04:03+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "document",
+      "msg_id": 100,
+      "title": "MontereyStandby-v1.0.92-debug.apk",
+      "size": "30.4 MB"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    },
+    {
+      "emoji": "🥰",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 22,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-03-15T18:22:31+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=22",
+      "reply_to": null,
+      "text_html": "what's the source code?",
+      "media": []
+    },
+    {
+      "id": 23,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-03-15T18:23:48+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=23",
+      "reply_to": {
+        "id": 22,
+        "author": "E-vun",
+        "text": "what's the source code?"
+      },
+      "text_html": "Not released the source yet. Still tweaking a few things.",
+      "media": []
+    },
+    {
+      "id": 25,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-03-15T18:51:26+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=25",
+      "reply_to": null,
+      "text_html": "Looks like falling / diving into a cave. It horrifies me.",
+      "media": []
+    },
+    {
+      "id": 26,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-03-15T18:52:49+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=26",
+      "reply_to": null,
+      "text_html": "",
+      "media": [
+        {
+          "type": "video",
+          "msg_id": 100,
+          "duration": null,
+          "ratio": 0.75,
+          "round": false,
+          "thumb": "/media/tg/100/c26-100-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-03-15T18:53:09+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=27",
+      "reply_to": null,
+      "text_html": "It looks like a falling into a cave.",
+      "media": [
+        {
+          "type": "video",
+          "msg_id": 100,
+          "duration": "0:27",
+          "ratio": 0.75,
+          "round": false,
+          "thumb": "/media/tg/100/c27-100-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-03-15T18:53:42+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=28",
+      "reply_to": {
+        "id": 25,
+        "author": "E-vun",
+        "text": "Looks like falling / diving into a cave. It horrifies me."
+      },
+      "text_html": "Or exploring miuntains on the depth of  ocean.",
+      "media": []
+    },
+    {
+      "id": 30,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-03-15T19:04:50+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=30",
+      "reply_to": {
+        "id": 27,
+        "author": "E-vun",
+        "text": "It looks like a falling into a cave."
+      },
+      "text_html": "It's touch reactive, so you can strafe l/r/u/d from the home screen",
+      "media": []
+    },
+    {
+      "id": 31,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-03-15T19:05:16+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=31",
+      "reply_to": {
+        "id": 30,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "It's touch reactive, so you can strafe l/r/u/d from the home screen"
+      },
+      "text_html": "I touched it.",
+      "media": []
+    },
+    {
+      "id": 32,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-03-15T19:06:15+00:00",
+      "url": "https://t.me/ejswonderemporium/100?comment=32",
+      "reply_to": {
+        "id": 28,
+        "author": "E-vun",
+        "text": "Or exploring miuntains on the depth of  ocean."
+      },
+      "text_html": "It's supposed to be mimicking peeking through canyons in a misty sunrise/sunset",
+      "media": []
+    }
+  ],
+  "comments_count": 9
+}

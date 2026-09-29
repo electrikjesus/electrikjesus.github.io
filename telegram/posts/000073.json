@@ -1,0 +1,27 @@
+{
+  "id": 73,
+  "date": "2025-10-24T00:48:39+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 73,
+      "duration": "0:47",
+      "ratio": 1.4115,
+      "round": false,
+      "thumb": "/media/tg/73/73-thumb.jpg"
+    }
+  ],
+  "text_html": "BassRPI - Android 16 builds are also now found on the rpi-imager for the rpi5, rpi500 &amp; rpi500+",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

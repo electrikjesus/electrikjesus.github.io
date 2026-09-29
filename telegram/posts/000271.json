@@ -1,0 +1,48 @@
+{
+  "id": 271,
+  "date": "2026-09-21T00:34:53+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 271,
+      "ratio": 1.5009,
+      "src": "/media/tg/271/271.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 272,
+      "ratio": 1.5009,
+      "src": "/media/tg/271/272.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 273,
+      "ratio": 1.5009,
+      "src": "/media/tg/271/273.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 274,
+      "ratio": 1.5009,
+      "src": "/media/tg/271/274.jpg"
+    }
+  ],
+  "text_html": "XR Launcher 0.1.34<br/><br/>Spatial workspace launcher for Android XR glasses, tablets, and large-screen hosts — with the phone as a companion touchpad.<br/><br/>Tag: v0.1.34 · versionCode: 35 · minSdk: 34<br/><br/>This build lands companion multitouch, tray/QS polish, Recents world-lock, wallpaper/HDRI options, and clearer host look modes on tablet.<br/><br/>Highlights:<br/>- Companion touchpad<br/>- Apps icon toggles All Apps on glasses (replaces the wide Close All Apps button)<br/>- 2-finger drag scrolls under the glasses cursor; pinch zooms the Home Space sphere<br/>- 3-finger drag pans look; 2-finger tap right-clicks<br/>- Toolbar icons use high-contrast tints on the dark chrome<br/>- Tray / notifications / QS<br/>- Deduped quick-settings chrome; brightness slider no longer trapped by a parent clickable<br/>- Mouse-look can scrub brightness and a notification scroll handle<br/>- Per-notification X dismiss hits for FPS / companion pointer<br/><br/>Diff: <a href=\"https://github.com/electrikjesus/XR-Launcher/compare/v0.1.19...v0.1.34\">https://github.com/electrikjesus/XR-Launcher/compare/v0.1.19...v0.1.34</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

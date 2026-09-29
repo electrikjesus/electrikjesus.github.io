@@ -1,0 +1,36 @@
+{
+  "id": 81,
+  "date": "2025-11-26T18:13:12+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 81,
+      "ratio": 1.7778,
+      "src": "/media/tg/81/81.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 82,
+      "ratio": 1.7778,
+      "src": "/media/tg/81/82.jpg"
+    }
+  ],
+  "text_html": "<b>BassRPI 16 QPR1 (Bass ARM) Desktop PC - FOSS - RPI5, RPI500, RPI500+</b><br/><br/>This release is targeting the Desktop UI and uses SmartDock along with many of the configs that Google included in the AOSP 16 source. It is also including MicroG (an open source GMS alternative), Aurora Store (open source Google Play Store frontend) and Neo-Store (fdroid client).<br/><br/><a href=\"https://github.com/Bliss-Bass/bass-rpi/releases/tag/BassRPI-16-DesktopPC-qpr1-foss-202511252026-rpi5-rc1\">GitHub Release</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

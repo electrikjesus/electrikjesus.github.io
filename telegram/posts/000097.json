@@ -1,0 +1,24 @@
+{
+  "id": 97,
+  "date": "2026-03-06T01:18:25+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 97,
+      "duration": "0:59",
+      "ratio": 1.3333,
+      "round": false,
+      "thumb": "/media/tg/97/97-thumb.jpg"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

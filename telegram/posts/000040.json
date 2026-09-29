@@ -1,0 +1,35 @@
+{
+  "id": 40,
+  "date": "2024-12-04T20:10:42+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "A new Bass OS - Gamer-E variant has been released: <a href=\"https://github.com/Bliss-Bass/Bass-OS-releases/releases/tag/Bass-Gamer-E-v15.9-x86_64-2024120116\">https://github.com/Bliss-Bass/Bass-OS-releases/releases/tag/Bass-Gamer-E-v15.9-x86_64-2024120116</a>",
+  "link_preview": {
+    "url": "https://github.com/Bliss-Bass/Bass-OS-releases/releases/tag/Bass-Gamer-E-v15.9-x86_64-2024120116",
+    "site": "GitHub",
+    "title": "Release Bass-Gamer-E-v15.9-x86_64-OFFICIAL-vanilla-2024120116 · Bliss-Bass/Bass-OS-releases",
+    "description_html": "Bass OS - Android 12.1 - Gamer-E-MicroG variant<br/>This is the initial GitHub Release for Bass-Gamer-E-v15.9-x86_64-OFFICIAL-vanilla-2024120116, and this update includes a number of changes on top of ...",
+    "layout": "small",
+    "ratio": null,
+    "image": null
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    },
+    {
+      "emoji": "👌",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

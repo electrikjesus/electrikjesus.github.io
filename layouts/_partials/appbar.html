@@ -1,0 +1,29 @@
+<header class="appbar" data-appbar>
+  <div class="appbar-inner">
+    {{ if .IsHome }}
+      <a class="brand" href="{{ "" | absURL }}" aria-label="{{ site.Title }} home">
+        {{ partial "avatar-channel.html" (dict "size" "sm") }}
+        <span class="appbar-title">{{ site.Title }}</span>
+      </a>
+    {{ else }}
+      <a class="icon-btn back-btn" href="{{ "" | absURL }}" data-back aria-label="Back">{{ partial "icon.html" "back" }}</a>
+      <span class="appbar-title compact-title">{{ cond .IsPage .Title (.Title | default site.Title) }}</span>
+    {{ end }}
+    <nav class="appbar-nav" aria-label="Primary">
+      <a href="{{ "" | absURL }}" class="nav-pill{{ if .IsHome }} active{{ end }}">Home</a>
+      <a href="{{ "tags/" | absURL }}" class="nav-pill{{ if eq .Section "tags" }} active{{ end }}">Topics</a>
+      <a href="{{ "search/" | absURL }}" class="nav-pill" data-search-open>Search</a>
+    </nav>
+    <div class="appbar-actions">
+      <a class="icon-btn" href="{{ "search/" | absURL }}" data-search-open aria-label="Search">{{ partial "icon.html" "search" }}</a>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Change theme">
+        <span class="theme-icon theme-auto">{{ partial "icon.html" "auto" }}</span>
+        <span class="theme-icon theme-light">{{ partial "icon.html" "light" }}</span>
+        <span class="theme-icon theme-dark">{{ partial "icon.html" "dark" }}</span>
+      </button>
+      <a class="btn btn-tonal btn-sm hide-sm" href="{{ (printf "https://t.me/%s" site.Params.telegram.channel) }}">
+        {{ partial "icon.html" "telegram" }}<span>Join</span>
+      </a>
+    </div>
+  </div>
+</header>

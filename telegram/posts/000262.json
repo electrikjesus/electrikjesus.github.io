@@ -1,0 +1,38 @@
+{
+  "id": 262,
+  "date": "2026-09-16T02:12:56+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 262,
+      "duration": "0:03",
+      "ratio": null,
+      "round": false,
+      "thumb": "/media/tg/262/262-thumb.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 263,
+      "ratio": 1.3333,
+      "src": "/media/tg/262/263.jpg"
+    }
+  ],
+  "text_html": "GameNativeX64 Linux session: DRM playback through session is working now. Widevine supported. <br/><br/>Other updates include: <br/><br/>Add Mozilla APT and drop snap stubs for Linux Apps browsers. (7e87da44)<br/>Document LSFG-VK x86_64 enablement and DRI3 smoke checks. (fa70b9a3)<br/>Fix blank DRI3 presents by advertising LINEAR only until tiled import works. (a482e266)<br/>Add redeployable vkcube-debug Custom Game for DRI3 present testing. (c7c417a9)<br/>Rebuild x86_64 JNI prebuilts for DRI3 dma-buf zero-copy. (c7d506de)<br/>Add x86 DRI3 GPU zero-copy via AHB/Vulkan dma-buf import. (b8f56a11)<br/>Fix XServerPointerPolicyTest UnsatisfiedLinkError on host JVM. (bc2b8cbc)<br/>Add BLISS_PORT_DEBUG GPU sampler smoke and bump to 67. (1151c861)<br/>Add Intel DRM GPU MHz and frequency-ratio load stand-in. (5699ffc3)<br/>Add DRI3 1.2 linear dma-buf present path for x86_64. (64892cc2)<br/>Update lsfg-vk-android for WineVulkan GPA and hot-reload safety. (cc3814ab)<br/>Enable LSFG-VK on x86_64 with lsfg-vk-android v1.0.4-android. (c4d62a88)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "3"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

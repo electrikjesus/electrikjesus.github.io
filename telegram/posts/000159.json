@@ -1,0 +1,52 @@
+{
+  "id": 159,
+  "date": "2026-06-06T13:24:04+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Ermahgerd! He actually released the album! <a href=\"https://open.spotify.com/album/4vSNQ69cqRe2WgsdPXH3mv?si=fARVVT3VQzameBG7cv-Uuw\">https://open.spotify.com/album/4vSNQ69cqRe2WgsdPXH3mv?si=fARVVT3VQzameBG7cv-Uuw</a>",
+  "link_preview": {
+    "url": "https://open.spotify.com/album/4vSNQ69cqRe2WgsdPXH3mv?si=fARVVT3VQzameBG7cv-Uuw",
+    "site": "Spotify",
+    "title": "SOMA - Album by Skrillex | Spotify",
+    "description_html": "Skrillex · album · 2026 · 13 songs",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/159/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 118,
+      "author": "amy",
+      "author_url": "https://t.me/moworola",
+      "initial": "a",
+      "color": 4,
+      "date": "2026-06-06T13:31:55+00:00",
+      "url": "https://t.me/ejswonderemporium/159?comment=118",
+      "reply_to": null,
+      "text_html": "2026 and we hyped for skrillex",
+      "media": []
+    },
+    {
+      "id": 119,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-06-06T15:00:56+00:00",
+      "url": "https://t.me/ejswonderemporium/159?comment=119",
+      "reply_to": {
+        "id": 118,
+        "author": "amy",
+        "text": "2026 and we hyped for skrillex"
+      },
+      "text_html": "TBH, most people my age are hyped for either the Grateful Dead, Pink Floyd, Kid Rock or Metallica",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

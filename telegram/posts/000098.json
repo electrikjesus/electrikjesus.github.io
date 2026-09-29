@@ -1,0 +1,37 @@
+{
+  "id": 98,
+  "date": "2026-03-06T02:27:29+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 98,
+      "duration": "0:34",
+      "ratio": 1.3333,
+      "round": false,
+      "thumb": "/media/tg/98/98-thumb.jpg"
+    }
+  ],
+  "text_html": "Added Day/Night pallet support",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👏",
+      "count": "2"
+    },
+    {
+      "emoji": "🔥",
+      "count": "1"
+    },
+    {
+      "emoji": "🥰",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

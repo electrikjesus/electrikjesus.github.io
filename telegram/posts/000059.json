@@ -1,0 +1,25 @@
+{
+  "id": 59,
+  "date": "2025-03-06T15:32:59+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "BlissOS Updates",
+    "url": "https://t.me/BlissOS_Updates/358"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 59,
+      "ratio": 1.7778,
+      "src": "/media/tg/59/59.jpg"
+    }
+  ],
+  "text_html": "Join Us at <a class=\"hashtag\" href=\"tg-hashtag:FOSSASIA\">#FOSSASIA</a> Summit 2025 in Bangkok, Thailand from March 13th - 15th! BlissLabs will be attending a booth and showcasing Waydroid &amp;  Bliss OS this year. Get insights into our projects, and catch a glimpse of our vision for the future of Android on Linux hardware at this public event! <a class=\"hashtag\" href=\"tg-hashtag:BlissLabs\">#BlissLabs</a> <a class=\"hashtag\" href=\"tg-hashtag:FOSSASIA25\">#FOSSASIA25</a> <br/><a href=\"https://eventyay.com/e/4c0e0c27/exhibition\">https://eventyay.com/e/4c0e0c27/exhibition</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

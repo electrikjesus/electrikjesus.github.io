@@ -1,0 +1,86 @@
+{
+  "id": 247,
+  "date": "2026-08-28T16:28:30+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 247,
+      "duration": "3:50",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/247/247-thumb.jpg"
+    }
+  ],
+  "text_html": "Now we have hardware accelerated graphics (Intel/AMD) working on GameNative-x64",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    },
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 257,
+      "author": "Jonte",
+      "author_url": "https://t.me/jonte1809",
+      "initial": "J",
+      "color": 3,
+      "date": "2026-08-29T13:03:18+00:00",
+      "url": "https://t.me/ejswonderemporium/247?comment=257",
+      "reply_to": null,
+      "text_html": "does bass os work with Surface Pro 9",
+      "media": []
+    },
+    {
+      "id": 258,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-08-29T13:23:13+00:00",
+      "url": "https://t.me/ejswonderemporium/247?comment=258",
+      "reply_to": {
+        "id": 257,
+        "author": "Jonte",
+        "text": "does bass os work with Surface Pro 9"
+      },
+      "text_html": "We don't release Bass builds with the Surface kernel and IPTS drivers. <br/>Reason why: <br/>Generic build: works on 1000's of devices out of the box<br/>Surface build: Works on 11 devices out of the box",
+      "media": []
+    },
+    {
+      "id": 259,
+      "author": "Jonte",
+      "author_url": "https://t.me/jonte1809",
+      "initial": "J",
+      "color": 3,
+      "date": "2026-08-29T14:26:52+00:00",
+      "url": "https://t.me/ejswonderemporium/247?comment=259",
+      "reply_to": null,
+      "text_html": "is there a way for me to install on Surface Pro 9 cause it installs but touch isnt working",
+      "media": []
+    },
+    {
+      "id": 260,
+      "author": "Jonte",
+      "author_url": "https://t.me/jonte1809",
+      "initial": "J",
+      "color": 3,
+      "date": "2026-08-29T14:36:20+00:00",
+      "url": "https://t.me/ejswonderemporium/247?comment=260",
+      "reply_to": null,
+      "text_html": "and also why not just make a selection for like surface drivers on install or just IPTS drivers on install",
+      "media": []
+    }
+  ],
+  "comments_count": 4
+}

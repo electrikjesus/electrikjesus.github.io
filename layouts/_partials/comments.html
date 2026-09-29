@@ -1,0 +1,38 @@
+{{ $comments := .Params.comments | default slice }}
+{{ if site.Params.telegram.discussion }}
+<section class="comments" id="comments">
+  <h2 class="section-title">Comments {{ with len $comments }}<span class="count">{{ . }}</span>{{ end }}</h2>
+  {{ with $comments }}
+    <ol class="thread">
+      {{ range . }}
+        <li class="comment{{ if .owner }} owner{{ end }}" id="c{{ .id }}">
+          {{ if .owner }}{{ partial "avatar-channel.html" (dict "size" "md") }}{{ else }}<span class="avatar avatar-md c{{ .color }}" aria-hidden="true">{{ .initial }}</span>{{ end }}
+          <div class="bubble">
+            <div class="c-head">
+              {{ if .author_url }}<a class="c-author" href="{{ .author_url }}" rel="nofollow ugc">{{ .author }}</a>{{ else }}<span class="c-author">{{ .author }}</span>{{ end }}
+              {{ if .owner }}<span class="badge">Author</span>{{ end }}
+              {{ with .date }}<a class="c-time" href="{{ $.Params.telegram.url }}"><time datetime="{{ . }}" data-rel>{{ time.Format "Jan 2, 2006" . }}</time></a>{{ end }}
+            </div>
+            {{ with .reply_to }}
+              <a class="c-reply" href="#c{{ .id }}"><b>{{ .author }}</b><span>{{ .text }}</span></a>
+            {{ end }}
+            <div class="c-text">{{ .html | safeHTML }}</div>
+            {{ with .photos }}
+              <div class="c-photos">{{ range . }}<a href="{{ . }}" data-lightbox="c"><img src="{{ . }}" alt="" loading="lazy"></a>{{ end }}</div>
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+  {{ else }}
+    <div class="empty-comments">
+      <span class="empty-icon">{{ partial "icon.html" "chat" }}</span>
+      <p>No comments yet. Start the conversation on Telegram.</p>
+    </div>
+  {{ end }}
+  <a class="btn btn-filled comment-cta" href="{{ .Params.telegram.comments_url | default .Params.telegram.url }}">
+    {{ partial "icon.html" "telegram" }} {{ if $comments }}Join the conversation{{ else }}Comment on Telegram{{ end }}
+  </a>
+  <p class="comments-note">Comments come from the <a href="https://t.me/{{ site.Params.telegram.discussion }}">channel chat</a> and are refreshed about once an hour.</p>
+</section>
+{{ end }}

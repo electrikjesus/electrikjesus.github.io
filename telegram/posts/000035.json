@@ -1,0 +1,27 @@
+{
+  "id": 35,
+  "date": "2024-11-19T01:03:33+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 35,
+      "duration": "0:27",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/35/35-thumb.jpg"
+    }
+  ],
+  "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Accessing the Status bar in Desktop mode",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

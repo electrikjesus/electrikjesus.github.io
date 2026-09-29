@@ -1,0 +1,61 @@
+{
+  "id": 182,
+  "date": "2026-07-06T15:13:19+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 182,
+      "ratio": 1.7778,
+      "src": "/media/tg/182/182.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 183,
+      "ratio": 1.7778,
+      "src": "/media/tg/182/183.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 184,
+      "ratio": 1.7778,
+      "src": "/media/tg/182/184.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 185,
+      "ratio": 1.7778,
+      "src": "/media/tg/182/185.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 186,
+      "ratio": 1.7778,
+      "src": "/media/tg/182/186.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 187,
+      "ratio": 1.7778,
+      "src": "/media/tg/182/187.jpg"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    },
+    {
+      "emoji": "👎",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,59 @@
+{
+  "id": 275,
+  "date": "2026-09-23T15:23:26+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 275,
+      "ratio": 1.3311,
+      "src": "/media/tg/275/275.jpg"
+    }
+  ],
+  "text_html": "OpenShot running on Android with HW acceleration (via GameNativeX64)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 305,
+      "author": "Adu",
+      "author_url": "https://t.me/Adu7069",
+      "initial": "A",
+      "color": 4,
+      "date": "2026-09-23T15:37:42+00:00",
+      "url": "https://t.me/ejswonderemporium/275?comment=305",
+      "reply_to": null,
+      "text_html": "Why am I blocked in bass os group 🥲",
+      "media": []
+    },
+    {
+      "id": 306,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-09-23T16:01:26+00:00",
+      "url": "https://t.me/ejswonderemporium/275?comment=306",
+      "reply_to": {
+        "id": 305,
+        "author": "Adu",
+        "text": "Why am I blocked in bass os group 🥲"
+      },
+      "text_html": "Try to leave and rejoin? I dunno",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

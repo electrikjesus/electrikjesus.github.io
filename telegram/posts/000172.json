@@ -1,0 +1,35 @@
+{
+  "id": 172,
+  "date": "2026-06-13T14:10:56+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Bliss Co-Labs Inc.",
+    "url": null
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 172,
+      "duration": "1:12",
+      "ratio": null,
+      "round": false,
+      "thumb": "/media/tg/172/172-thumb.jpg"
+    },
+    {
+      "type": "video",
+      "msg_id": 173,
+      "duration": "1:32",
+      "ratio": null,
+      "round": false,
+      "thumb": "/media/tg/172/173-thumb.jpg"
+    }
+  ],
+  "text_html": "<b>XR hybrid launcher - Initial demo</b><br/> <br/>Plug your glasses into the phone, and it automatically starts up the companion app on the phone, where you can show the Launcher UI on the glasses display, or start the navigation only mode. <br/>Launcher supports glasses based head tracking and navigation. Cursor/head tracking also works for all other apps launched on the display.<br/>(Glasses used: RayNeo Air 4 Pro<br/>Phone used: Pixel 8 Pro)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

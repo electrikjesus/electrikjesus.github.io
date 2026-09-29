@@ -1,0 +1,17 @@
+{{ $tg := site.Params.telegram }}
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://t.me/{{ $tg.channel }}">{{ partial "icon.html" "telegram" }} Channel</a>
+      {{ with $tg.discussion }}<a href="https://t.me/{{ . }}">{{ partial "icon.html" "chat" }} Chat</a>{{ end }}
+      {{ range site.Params.links }}
+        <a href="{{ .url }}">{{ partial "icon.html" (.icon | default "link") }} {{ .name }}</a>
+      {{ end }}
+      <a href="{{ "index.xml" | absURL }}">{{ partial "icon.html" "rss" }} RSS</a>
+    </div>
+    <p class="footer-note">
+      {{- with site.Params.footerNote }}{{ . }}{{ else }}Posts are published on Telegram first and mirrored here automatically.{{ end }}
+      © {{ now.Year }} {{ site.Params.author | default site.Title }}
+    </p>
+  </div>
+</footer>

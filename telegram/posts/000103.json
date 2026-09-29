@@ -1,0 +1,22 @@
+{
+  "id": 103,
+  "date": "2026-03-31T15:57:16+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 103,
+      "ratio": 0.75,
+      "src": "/media/tg/103/103.jpg"
+    }
+  ],
+  "text_html": "<b>Android-x86, Bliss OS and the Chamber of Secret Forks</b><br/><br/>While at FOSDEM'26 this year, I noticed an issue that I started working towards highlighting as a series on the relationship between corporations and community driven software. <br/><br/>This first article goes over some of the history I have been personally involved with and how to identify what corporate strip mining does for open source projects.<br/><br/>Checkout the first article in this series on Substack:<br/><br/><a href=\"https://open.substack.com/pub/electrikjesus/p/android-x86-bliss-os-and-the-chamber?r=2frikb&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true\">https://open.substack.com/pub/electrikjesus/p/android-x86-bliss-os-and-the-chamber?r=2frikb&amp;utm_campaign=post&amp;utm_medium=web&amp;showWelcomeOnShare=true</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

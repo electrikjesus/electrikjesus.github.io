@@ -1,0 +1,24 @@
+{
+  "id": 85,
+  "date": "2025-12-25T01:13:25+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 85,
+      "duration": "0:58",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/85/85-thumb.jpg"
+    }
+  ],
+  "text_html": "Bass OS 16: SmartDock Desktop mode experiments <br/><br/>This demo highlights the updates to the Keyboard Shortcuts within SmartDock, and it now lets you assign your own keyboard shortcuts for a variety of activities",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

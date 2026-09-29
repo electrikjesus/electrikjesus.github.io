@@ -1,0 +1,45 @@
+{
+  "id": 176,
+  "date": "2026-06-27T03:19:11+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 176,
+      "duration": "0:29",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/176/176-thumb.jpg"
+    }
+  ],
+  "text_html": "Waydroid Multi-display Input now works too",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 139,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-06-27T07:42:35+00:00",
+      "url": "https://t.me/ejswonderemporium/176?comment=139",
+      "reply_to": null,
+      "text_html": "Cool",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}

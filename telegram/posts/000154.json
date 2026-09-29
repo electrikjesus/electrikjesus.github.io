@@ -1,0 +1,29 @@
+{
+  "id": 154,
+  "date": "2026-06-05T00:30:24+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 154,
+      "duration": "0:31",
+      "ratio": 1.4988,
+      "round": false,
+      "thumb": "/media/tg/154/154-thumb.jpg"
+    }
+  ],
+  "text_html": "Enabling Android BlurUI by default using our BootConfig app (reboot afterwards for it to take effect)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🤓",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

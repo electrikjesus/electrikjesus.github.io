@@ -1,0 +1,29 @@
+{
+  "id": 83,
+  "date": "2025-12-20T18:55:05+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 83,
+      "duration": "1:32",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/83/83-thumb.jpg"
+    }
+  ],
+  "text_html": "Quick demo on some of the experiments we are doing with Smart Dock as a full desktop mode solution for Bass OS Desktop frameworks",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

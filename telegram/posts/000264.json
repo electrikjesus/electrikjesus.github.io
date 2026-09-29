@@ -1,0 +1,27 @@
+{
+  "id": 264,
+  "date": "2026-09-17T21:42:08+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 264,
+      "duration": "1:22",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/264/264-thumb.jpg"
+    }
+  ],
+  "text_html": "Updates for SmartDock DFC, adding new Desktop Styles",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

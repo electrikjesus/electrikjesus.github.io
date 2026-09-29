@@ -1,0 +1,14 @@
+<nav class="bottomnav" aria-label="Primary">
+  <a href="{{ "" | absURL }}" class="{{ if or .IsHome (eq .Section "posts") }}active{{ end }}">
+    <span class="bn-icon">{{ partial "icon.html" "home" }}</span><span>Home</span>
+  </a>
+  <a href="{{ "tags/" | absURL }}" class="{{ if in (slice "tags" "kinds") .Section }}active{{ end }}">
+    <span class="bn-icon">{{ partial "icon.html" "grid" }}</span><span>Topics</span>
+  </a>
+  <a href="{{ "search/" | absURL }}" data-search-open class="{{ if eq .Layout "search" }}active{{ end }}">
+    <span class="bn-icon">{{ partial "icon.html" "search" }}</span><span>Search</span>
+  </a>
+  <a href="https://t.me/{{ site.Params.telegram.channel }}">
+    <span class="bn-icon">{{ partial "icon.html" "telegram" }}</span><span>Telegram</span>
+  </a>
+</nav>

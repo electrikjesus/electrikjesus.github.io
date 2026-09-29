@@ -1,0 +1,24 @@
+{
+  "id": 153,
+  "date": "2026-06-05T00:18:52+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 153,
+      "duration": "0:23",
+      "ratio": 1.4965,
+      "round": false,
+      "thumb": "/media/tg/153/153-thumb.jpg"
+    }
+  ],
+  "text_html": "Some of the design that is going into the Lineage 21 based OS for the Desktop version",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

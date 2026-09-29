@@ -1,0 +1,33 @@
+{
+  "id": 170,
+  "date": "2026-06-06T19:36:17+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 170,
+      "ratio": 1.6393,
+      "src": "/media/tg/170/170.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 171,
+      "ratio": 1.6393,
+      "src": "/media/tg/170/171.jpg"
+    }
+  ],
+  "text_html": "M3 Expressive theme and style for BumpDesk (v1.52.24)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

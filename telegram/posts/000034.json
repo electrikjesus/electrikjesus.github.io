@@ -1,0 +1,27 @@
+{
+  "id": 34,
+  "date": "2024-11-19T01:02:39+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 34,
+      "duration": "0:17",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/34/34-thumb.jpg"
+    }
+  ],
+  "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Moving apps from secondary to primary display (HYBRID_PC_MODE)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,29 @@
+{
+  "id": 249,
+  "date": "2026-09-03T15:22:54+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 249,
+      "duration": "2:02",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/249/249-thumb.jpg"
+    }
+  ],
+  "text_html": "GameNativeX64 - Shared-Memory performance on HL2, and on-screen controls when keyboard is detached",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤‍🔥",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

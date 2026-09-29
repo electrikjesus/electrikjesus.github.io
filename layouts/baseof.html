@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default "en" }}" data-theme="auto">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="kind-{{ .Kind }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "appbar.html" . }}
+  <main id="main" class="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "bottomnav.html" . }}
+  {{ partial "overlays.html" . }}
+  {{ $js := resources.Get "js/app.js" | js.Build (dict "minify" true "target" "es2020") | fingerprint }}
+  <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+</body>
+</html>

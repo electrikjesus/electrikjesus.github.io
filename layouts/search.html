@@ -1,0 +1,13 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1 class="large-title" data-large-title>Search</h1>
+</header>
+<div class="search-page">
+  <form class="search-field" role="search" onsubmit="return false">
+    {{ partial "icon.html" "search" }}
+    <input type="search" name="q" placeholder="Search posts, topics, files…" autocomplete="off" autofocus enterkeyhint="search"
+           data-search-input data-index="{{ "index.json" | absURL }}">
+  </form>
+  <div class="search-results" data-search-results role="listbox"></div>
+</div>
+{{ end }}

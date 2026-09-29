@@ -1,0 +1,31 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1 class="large-title" data-large-title>Topics</h1>
+  <p class="page-sub">Browse posts by subject or by type of content.</p>
+</header>
+
+<h2 class="section-title">By type</h2>
+<div class="tile-grid kinds">
+  {{ range slice (slice "Photos" "photo") (slice "Videos" "video") (slice "Files" "file") (slice "Links" "link") }}
+    {{ $name := index . 0 }}{{ $icon := index . 1 }}
+    {{ with site.GetPage (printf "/kinds/%s" (urlize $name)) }}
+      <a class="tile" href="{{ .Permalink }}">
+        <span class="tile-icon">{{ partial "icon.html" $icon }}</span>
+        <span class="tile-name">{{ $name }}</span>
+        <span class="tile-count">{{ len .Pages }}</span>
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
+
+<h2 class="section-title">By topic</h2>
+<div class="tile-grid">
+  {{ range site.Taxonomies.tags.ByCount }}
+    <a class="tile" href="{{ .Page.Permalink }}">
+      <span class="tile-icon hash">#</span>
+      <span class="tile-name">{{ .Page.Title }}</span>
+      <span class="tile-count">{{ .Count }}</span>
+    </a>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,37 @@
+{
+  "id": 166,
+  "date": "2026-06-06T19:27:07+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 166,
+      "ratio": 1.6393,
+      "src": "/media/tg/166/166.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 167,
+      "ratio": 1.6393,
+      "src": "/media/tg/166/167.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 168,
+      "ratio": 1.6393,
+      "src": "/media/tg/166/168.jpg"
+    }
+  ],
+  "text_html": "This mornings release of BumpDesk with a whole lot more work done to it:<br/><a href=\"https://github.com/electrikjesus/BumpDesk/releases\">https://github.com/electrikjesus/BumpDesk/releases</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

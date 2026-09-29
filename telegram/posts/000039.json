@@ -1,0 +1,27 @@
+{
+  "id": 39,
+  "date": "2024-11-19T01:06:04+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 39,
+      "duration": "2:08",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/39/39-thumb.jpg"
+    }
+  ],
+  "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Multiple ways to install a real Web Browser (Firefox)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

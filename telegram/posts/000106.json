@@ -1,0 +1,24 @@
+{
+  "id": 106,
+  "date": "2026-05-02T17:35:37+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 106,
+      "duration": "0:18",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/106/106-thumb.jpg"
+    }
+  ],
+  "text_html": "Working on Lineage OS x86_64 today. Going to see if we can get some FOSS goodness going for the community",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

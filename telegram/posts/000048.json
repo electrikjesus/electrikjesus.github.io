@@ -1,0 +1,28 @@
+{
+  "id": 48,
+  "date": "2025-01-23T23:09:56+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "I also forked and updated Termux-x11-xfce4 scripts to condense things and automate the setup process. One simple command to copy and paste into Termux<br/><br/><a href=\"https://github.com/electrikjesus/Termux-x11-xfce4\">https://github.com/electrikjesus/Termux-x11-xfce4</a>",
+  "link_preview": {
+    "url": "https://github.com/electrikjesus/Termux-x11-xfce4",
+    "site": "GitHub",
+    "title": "GitHub - electrikjesus/Termux-x11-xfce4: Termux xfce4 desktop installation script for termux-x11 app future of termux gyi...",
+    "description_html": "Termux xfce4 desktop installation script for termux-x11 app future of termux gyi... - electrikjesus/Termux-x11-xfce4",
+    "layout": "large",
+    "ratio": 2.0,
+    "image": "/media/tg/48/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "3"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,26 @@
+{
+  "id": 255,
+  "date": "2026-09-13T00:33:09+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "Universal apk releases: <a href=\"https://github.com/Bliss-Bass/BlissDeck/releases/tag/v0.1.0\">https://github.com/Bliss-Bass/BlissDeck/releases/tag/v0.1.0</a>",
+  "link_preview": {
+    "url": "https://github.com/Bliss-Bass/BlissDeck/releases/tag/v0.1.0",
+    "site": "GitHub",
+    "title": "Release v0.1.0 · Bliss-Bass/BlissDeck",
+    "description_html": "BlissDeck 0.1.0<br/>BlissDeck is a landscape Steam-library HOME for Android-x86, Bliss OS, PrimeOS, and Waydroid. It lists installed Android games and apps, launches them, and can pull covers from Stea...",
+    "layout": "large",
+    "ratio": 2.0,
+    "image": "/media/tg/255/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

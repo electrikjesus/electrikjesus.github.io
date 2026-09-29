@@ -1,0 +1,56 @@
+{
+  "id": 219,
+  "date": "2026-07-24T01:58:47+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "I love the one person brave enough to downvote everything, but not brave enough to communicate their opinions. Bravo",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 201,
+      "author": "dst212",
+      "author_url": "https://t.me/dst212",
+      "initial": "d",
+      "color": 5,
+      "date": "2026-07-24T06:13:00+00:00",
+      "url": "https://t.me/ejswonderemporium/219?comment=201",
+      "reply_to": null,
+      "text_html": "Troll. If you give them attention, they win.",
+      "media": []
+    },
+    {
+      "id": 202,
+      "author": "amy",
+      "author_url": "https://t.me/moworola",
+      "initial": "a",
+      "color": 4,
+      "date": "2026-07-24T08:41:44+00:00",
+      "url": "https://t.me/ejswonderemporium/219?comment=202",
+      "reply_to": null,
+      "text_html": "its ragebait",
+      "media": []
+    },
+    {
+      "id": 204,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-07-24T14:50:36+00:00",
+      "url": "https://t.me/ejswonderemporium/219?comment=204",
+      "reply_to": {
+        "id": 202,
+        "author": "amy",
+        "text": "its ragebait"
+      },
+      "text_html": "I still don't agree with people hiding behind the anonymity of a reaction just to troll. It's not helpful to a community.",
+      "media": []
+    }
+  ],
+  "comments_count": 3
+}

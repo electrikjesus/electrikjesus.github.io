@@ -1,0 +1,19 @@
+{
+  "id": 108,
+  "date": "2026-05-02T23:51:10+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": {
+    "id": 107,
+    "author": "EJ's Wonder Emporium",
+    "text": "Build #2: adding FOSS apps, Bliss Touch Mapper, and basic addon_init.rc for touch & display mapping services  ### Display Overrides (Displays 0 to 3) Use these to forcefully configure external monitors or built-in screens. - persist.ax86.display.<ID>.resolution:…"
+  },
+  "media": [],
+  "text_html": "### Touchscreen Mapping (Slots 1 to 4)<br/>Use these to map physical USB touchscreens to specific displays or fix inverted input axes.<br/>- <code>persist.ax86.touch.&lt;SLOT&gt;.vendor</code>: USB Vendor ID (hex, e.g., <code>27c6</code>).<br/>- <code>persist.ax86.touch.&lt;SLOT&gt;.product</code>: USB Product ID (hex, e.g., <code>0118</code>).<br/>- <code>persist.ax86.touch.&lt;SLOT&gt;.display</code>: Target display ID (e.g., <code>local:0</code>, <code>local:1</code>, or <code>none</code> to unmap).<br/>- <code>persist.ax86.touch.&lt;SLOT&gt;.orientation</code>: Hardware rotation of the digitizer (<code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>).<br/>- <code>persist.ax86.touch.&lt;SLOT&gt;.flip_x</code>: Invert X-axis (<code>1</code> or <code>true</code>).<br/>- <code>persist.ax86.touch.&lt;SLOT&gt;.flip_y</code>: Invert Y-axis (<code>1</code> or <code>true</code>).<br/>- <b>Apply Changes</b>: <code>setprop sys.ax86.touch.update 1</code>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

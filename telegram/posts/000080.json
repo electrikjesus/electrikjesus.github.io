@@ -1,0 +1,24 @@
+{
+  "id": 80,
+  "date": "2025-11-19T16:07:50+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 80,
+      "duration": "1:00",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/80/80-thumb.jpg"
+    }
+  ],
+  "text_html": "Quick multi-display demo of Android 16 qpr1<br/><br/>Launching and moving apps across multiple displays",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

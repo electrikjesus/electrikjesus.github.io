@@ -1,0 +1,23 @@
+{
+  "id": 17,
+  "date": "2024-07-25T22:38:08+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Bass OS - Product focused Android OS for x86_64v2 based off Bliss OS source. <br/><br/>We add configuration options, boot parameters, features, apps, APIs and fixes to help solidify the Android-x86/Bliss OS source and prepare it for products. <br/><br/>Learn more at: <a href=\"http://bliss-bass.blisscolabs.dev/\">http://bliss-bass.blisscolabs.dev</a>",
+  "link_preview": {
+    "url": "http://bliss-bass.blisscolabs.dev/",
+    "site": "bassos.navotpala.tech",
+    "title": "Bass OS",
+    "description_html": "Website for Bass OS, a product-focused open-source OS based on AOSP, Android-x86 and Bliss OS that is highly configurable and created to allow a variety of features to be included and configuration options to be tuned out-of-the-box, letting one source cover…",
+    "layout": "small",
+    "ratio": null,
+    "image": null
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

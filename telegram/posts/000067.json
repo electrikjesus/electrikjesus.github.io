@@ -1,0 +1,27 @@
+{
+  "id": 67,
+  "date": "2025-06-07T00:43:21+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 67,
+      "duration": "2:49",
+      "ratio": 1.4988,
+      "round": false,
+      "thumb": "/media/tg/67/67-thumb.jpg"
+    }
+  ],
+  "text_html": "Testing out an experiment for signage. This will be Web hosted or self-hosted solution for people that want to do signage over the Internet or over the local network.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

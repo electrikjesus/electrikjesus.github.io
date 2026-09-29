@@ -1,0 +1,23 @@
+{
+  "id": 208,
+  "date": "2026-07-23T18:21:28+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Latest MicroG flashable zip releases can be found here: <a href=\"https://github.com/Bliss-Bass/microg-unofficial-installer/releases\">https://github.com/Bliss-Bass/microg-unofficial-installer/releases</a>",
+  "link_preview": {
+    "url": "https://github.com/Bliss-Bass/microg-unofficial-installer/releases",
+    "site": "GitHub",
+    "title": "Releases · Bliss-Bass/microg-unofficial-installer",
+    "description_html": "microG unofficial installer (by ale5000) - it installs microG on Android - Bliss-Bass/microg-unofficial-installer",
+    "layout": "large",
+    "ratio": 2.0,
+    "image": "/media/tg/208/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

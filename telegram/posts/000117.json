@@ -1,0 +1,35 @@
+{
+  "id": 117,
+  "date": "2026-05-22T00:44:28+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "Spent a good part of the day working on this to adapt what ale-5000 started for a generic MicroG flashable zip, and get it to work as a nice universal installer for all arch types. And make changes to update all apps within the scripts, fix releases, nightlies, etc. <br/>Check the releases if you want to help test. <br/><a href=\"https://github.com/Bliss-Bass/microg-unofficial-installer\">https://github.com/Bliss-Bass/microg-unofficial-installer</a>",
+  "link_preview": {
+    "url": "https://github.com/Bliss-Bass/microg-unofficial-installer",
+    "site": "GitHub",
+    "title": "GitHub - Bliss-Bass/microg-unofficial-installer: microG unofficial installer (by ale5000) - it installs microG on Android",
+    "description_html": "microG unofficial installer (by ale5000) - it installs microG on Android - Bliss-Bass/microg-unofficial-installer",
+    "layout": "large",
+    "ratio": 2.0,
+    "image": "/media/tg/117/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    },
+    {
+      "emoji": "👏",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

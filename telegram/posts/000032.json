@@ -1,0 +1,27 @@
+{
+  "id": 32,
+  "date": "2024-11-19T01:01:28+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 32,
+      "duration": "0:21",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/32/32-thumb.jpg"
+    }
+  ],
+  "text_html": "Bass OS 12.1 - Desktop Android multi window solution: Launching an app on secondary display from primary display launcher",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,54 @@
+{
+  "id": 145,
+  "date": "2026-05-25T21:07:02+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 145,
+      "duration": "0:13",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/145/145-thumb.jpg"
+    }
+  ],
+  "text_html": "Fixed the blur by default boot option (too bright out here, lots of glare)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "😭",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 95,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-05-25T21:10:31+00:00",
+      "url": "https://t.me/ejswonderemporium/145?comment=95",
+      "reply_to": null,
+      "text_html": "I hate blur most of the time.",
+      "media": []
+    },
+    {
+      "id": 96,
+      "author": "🇻🇳 『OXKY++ ヤ』 #Dipper #CPH2349 #FLOSS ¯¯\\_(ツ)_/¯¯ #FurryFemboy ( ͡° ͜ʖ ͡°) 🇻🇳",
+      "author_url": "https://t.me/UniteXYZ",
+      "initial": "O",
+      "color": 1,
+      "date": "2026-05-26T06:17:26+00:00",
+      "url": "https://t.me/ejswonderemporium/145?comment=96",
+      "reply_to": null,
+      "text_html": "Anti-glare film existed",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

@@ -1,0 +1,50 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    {{ with .Params.kinds }}
+      <div class="post-kinds">{{ range . }}<a class="chip chip-sm" href="{{ printf "kinds/%s/" (urlize .) | absURL }}">{{ . }}</a>{{ end }}</div>
+    {{ end }}
+    <h1 class="large-title post-title" data-large-title style="view-transition-name: t{{ .Params.slug }}">{{ .Title }}</h1>
+    <div class="byline">
+      {{ partial "avatar-channel.html" (dict "size" "md") }}
+      <div class="byline-text">
+        <span class="byline-name">{{ site.Title }}</span>
+        <span class="byline-meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" data-rel data-full>{{ .Date.Format "January 2, 2006 · 15:04 MST" }}</time>
+          {{ with .Params.comment_count }} · <a href="#comments">{{ . }} comment{{ if ne . 1 }}s{{ end }}</a>{{ end }}
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-body prose">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.reactions }}
+    <div class="reactions" aria-label="Reactions on Telegram">
+      {{ range . }}<span class="reaction">{{ .emoji }} <b>{{ .count }}</b></span>{{ end }}
+    </div>
+  {{ end }}
+
+  {{ with .Params.tags }}
+    <div class="post-tags">{{ range . }}<a class="chip" href="{{ printf "tags/%s/" (urlize .) | absURL }}">#{{ . }}</a>{{ end }}</div>
+  {{ end }}
+
+  <div class="post-actions">
+    <button class="btn btn-tonal" type="button" data-share data-title="{{ .Title }}" data-url="{{ .Permalink }}">{{ partial "icon.html" "share" }} Share</button>
+    <a class="btn btn-tonal" href="{{ .Params.telegram.url }}">{{ partial "icon.html" "telegram" }} View on Telegram</a>
+  </div>
+
+  {{ partial "comments.html" . }}
+
+  <nav class="post-nav" aria-label="More posts">
+    {{ with .NextInSection }}
+      <a class="post-nav-card" href="{{ .Permalink }}"><span class="eyebrow">{{ partial "icon.html" "chevron_left" }} Newer</span><span class="post-nav-title">{{ .Title }}</span></a>
+    {{ else }}<span></span>{{ end }}
+    {{ with .PrevInSection }}
+      <a class="post-nav-card next" href="{{ .Permalink }}"><span class="eyebrow">Older {{ partial "icon.html" "chevron_right" }}</span><span class="post-nav-title">{{ .Title }}</span></a>
+    {{ end }}
+  </nav>
+</article>
+{{ end }}

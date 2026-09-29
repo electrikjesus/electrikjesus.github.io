@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ $channel := hugo.Data.channel }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $pager := .Paginate $posts }}
+{{ if eq $pager.PageNumber 1 }}
+<section class="hero">
+  <div class="hero-art" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="hero-content">
+    {{ partial "avatar-channel.html" (dict "size" "xl") }}
+    <h1 class="large-title" data-large-title>{{ site.Title }}</h1>
+    <p class="hero-desc">{{ with site.Params.heroText }}{{ . }}{{ else }}{{ with $channel.description_html }}{{ . | safeHTML }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}</p>
+    <div class="hero-stats">
+      <span><b>{{ len $posts }}</b> posts</span>
+      <span><b>{{ len site.Taxonomies.tags }}</b> topics</span>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-filled" href="{{ (printf "https://t.me/%s" site.Params.telegram.channel) }}">{{ partial "icon.html" "telegram" }} Join channel</a>
+      {{ with site.Params.telegram.discussion }}<a class="btn btn-tonal" href="https://t.me/{{ . }}">{{ partial "icon.html" "chat" }} Chat</a>{{ end }}
+      <a class="btn btn-tonal icon-only" href="{{ "index.xml" | absURL }}" aria-label="RSS feed">{{ partial "icon.html" "rss" }}</a>
+    </div>
+  </div>
+</section>
+{{ else }}
+<header class="page-header"><h1 class="large-title" data-large-title>Latest posts</h1></header>
+{{ end }}
+{{ partial "chips.html" (dict "current" "") }}
+{{ partial "feed.html" (dict "pager" $pager "featureFirst" true) }}
+{{ end }}

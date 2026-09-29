@@ -1,0 +1,28 @@
+{
+  "id": 57,
+  "date": "2025-02-06T18:50:31+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Preview: Bass OS (A14) AIO - In this short video, I am showing how to quickly set up a password protected VNC connection within Android and remote into it through the web. <br/><br/><a href=\"https://youtu.be/kzyEHAEiuaM?si=Cvy9k5in0C-1klLG\">https://youtu.be/kzyEHAEiuaM?si=Cvy9k5in0C-1klLG</a>",
+  "link_preview": {
+    "url": "https://youtu.be/kzyEHAEiuaM",
+    "site": "YouTube",
+    "title": "Bass OS (A14) AIO - Setting up VNC and remoting into your Android device",
+    "description_html": "In this short video, I show how to set up a secure VNC connection to Android and remote into it through the web. <br/><br/>We contribute back to the OSS we use in our projects: <br/>- Installer is based off Bliss OS' bootable_aaropa<br/>- Android 14 source is also from Bliss…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/57/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

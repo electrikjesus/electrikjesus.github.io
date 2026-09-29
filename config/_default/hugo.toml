@@ -1,0 +1,36 @@
+# Theme internals. You shouldn't need to edit this file; all
+# user-facing settings live in hugo.toml at the repository root.
+
+# Generated post HTML uses root-relative links (/media/..., /tags/...);
+# canonify makes them absolute so the site works under a /repo/ subpath.
+canonifyURLs = true
+enableRobotsTXT = true
+# Keep topic names as written ("x86", "SmartDock") instead of title-casing them.
+capitalizeListTitles = false
+
+[taxonomies]
+  tag = "tags"
+  kind = "kinds"
+
+[permalinks.page]
+  posts = "/posts/:slug/"
+
+[mediaTypes."application/manifest+json"]
+  suffixes = ["webmanifest"]
+
+[outputFormats.manifest]
+  mediaType = "application/manifest+json"
+  baseName = "manifest"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["html", "rss", "json", "manifest"]
+  section = ["html", "rss"]
+  term = ["html", "rss"]
+
+[services.rss]
+  limit = 50
+
+[markup.goldmark.renderer]
+  unsafe = true

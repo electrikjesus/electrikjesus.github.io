@@ -1,0 +1,43 @@
+{
+  "id": 232,
+  "date": "2026-08-27T03:09:21+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "I need some opinions on this bootanimation please.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 238,
+      "author": "İlhan Atahan",
+      "author_url": "https://t.me/MrMiy4mo",
+      "initial": "İ",
+      "color": 1,
+      "date": "2026-08-27T07:18:52+00:00",
+      "url": "https://t.me/ejswonderemporium/232?comment=238",
+      "reply_to": null,
+      "text_html": "Option B feels like NOTHING brand, i go with that",
+      "media": []
+    },
+    {
+      "id": 241,
+      "author": "Jis G Jacob 🪷",
+      "author_url": "https://t.me/StudioKeys",
+      "initial": "J",
+      "color": 2,
+      "date": "2026-08-27T16:47:43+00:00",
+      "url": "https://t.me/ejswonderemporium/232?comment=241",
+      "reply_to": null,
+      "text_html": "A anyday",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

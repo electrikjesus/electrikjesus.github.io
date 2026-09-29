@@ -1,0 +1,116 @@
+# =============================================================================
+#  Telegram → Blog · site configuration
+#
+#  This is the only file you need to edit. The sync script and the Hugo theme
+#  both read it. README.md explains every option in more detail.
+# =============================================================================
+
+# Public address of the site, used for local previews and feeds. On GitHub
+# Pages the deploy workflow fills this in automatically; change it here if you
+# use a custom domain.
+baseURL = "https://electrikjesus.github.io/EJsWonderEmporium/"
+
+title = "EJ's Wonder Emporium"
+locale = "en-US"
+
+[pagination]
+  pagerSize = 12                      # posts per page on the home and topic pages
+
+[params]
+  # Used for search engines, link previews and the RSS feed.
+  description = "Android & Linux development, experiments, builds and music from Jon West (electrikjesus), mirrored from Telegram."
+  author = "Jon West"
+  # Text under the site name on the home page. Leave empty to use your
+  # Telegram channel's own description.
+  heroText = ""
+  # Small print in the footer. Leave empty for the default text.
+  footerNote = ""
+
+  # ---------------------------------------------------------------------------
+  #  Telegram
+  # ---------------------------------------------------------------------------
+  [params.telegram]
+    # Public channel username, as in t.me/<channel>. Changing it makes the next
+    # sync start over and import the new channel from scratch.
+    channel = "ejswonderemporium"
+    # Username of the channel's linked discussion group, for comments.
+    # Use "" to turn comments off.
+    discussion = "ejswonder"
+    # Comment authors that get an "Author" badge. Replies you post as the
+    # channel or as the group are detected automatically.
+    ownerNames = ["Jon West"]
+    # Hide the "Forwarded from …" line when forwarding from these usernames
+    # (for example your personal account).
+    hideForwardedFrom = ["electrikjesus"]
+
+  # ---------------------------------------------------------------------------
+  #  Branding
+  # ---------------------------------------------------------------------------
+  [params.brand]
+    # Short name used for the home-screen app icon label.
+    shortName = "Wonder Emporium"
+    # Main colour. The whole palette (light and dark) is derived from it.
+    accent = "#7C4DFF"
+    # Two extra colours for the animated glow behind the home page header.
+    glow = ["#00C2FF", "#FF5FA2"]
+    # Your logo. The favicon and app icons are generated from it. Leave empty
+    # to use your GitHub profile picture. Otherwise give a path inside assets/
+    # (e.g. "brand/logo.png") or an image URL; square, at least 512×512.
+    logo = ""
+    # GitHub username whose profile picture is the default logo. Leave empty
+    # to use the owner of this repository.
+    github = ""
+    # Avatar shown in the header and on posts:
+    #   "logo"     – the logo above
+    #   "telegram" – your channel's Telegram profile photo (falls back to the logo)
+    #   "initials" – the initials below on an accent-coloured circle
+    avatar = "logo"
+    initials = "EJ"
+
+  # ---------------------------------------------------------------------------
+  #  Footer links (the Telegram channel, chat and RSS links are added for you)
+  #  icon: github, youtube, x, globe, mail, link
+  # ---------------------------------------------------------------------------
+  [[params.links]]
+    name = "GitHub"
+    url = "https://github.com/electrikjesus"
+    icon = "github"
+
+  # ---------------------------------------------------------------------------
+  #  Mirroring behaviour
+  # ---------------------------------------------------------------------------
+  [params.mirror]
+    # Posts sent within this many seconds of each other become one blog entry
+    # (for example a text post followed by a few photos). 0 disables merging.
+    mergeWindowSeconds = 120
+    # Comments are re-checked on posts newer than this many days on every sync.
+    commentRefreshDays = 30
+    # Download videos up to this size in MB so they play inline. 0 shows a
+    # thumbnail that links to the video on Telegram instead.
+    videoMaxMB = 0
+    # Pause between requests to Telegram, in seconds. Be polite.
+    requestDelay = 0.6
+
+  # ---------------------------------------------------------------------------
+  #  Topics
+  #  A post is tagged with a topic when any of its patterns match the post text
+  #  (case-insensitive regular expressions). Hashtags in posts always become
+  #  tags too. Delete this whole section if you only want hashtags.
+  # ---------------------------------------------------------------------------
+  [params.topics]
+    "Bass OS" = ['\bbass(?:[\s-]?os)?\b']
+    "Bliss OS" = ['\bbliss']
+    "SmartDock" = ['smart\s?dock']
+    "LineageOS" = ['lineage']
+    "Waydroid" = ['waydroid']
+    "Raspberry Pi" = ['raspberry', '\brpi\b', '\bpi\s?[345]\b']
+    "Termux" = ['termux']
+    "Kiosk" = ['kiosk']
+    "POS" = ['\bpos\b', 'point[\s-]of[\s-]sale']
+    "MicroG" = ['microg']
+    "Linux" = ['\blinux\b']
+    "x86" = ['\bx86']
+    "Desktop Mode" = ['\bdesktop\b']
+    "Launchers" = ['launcher']
+    "XR" = ['\bxr\b', 'android xr', 'glasses']
+    "Music" = ['spotify', 'soundcloud', '\bmy (?:new )?(?:song|track|mix)\b']

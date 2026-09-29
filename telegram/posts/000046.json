@@ -1,0 +1,23 @@
+{
+  "id": 46,
+  "date": "2025-01-07T21:27:40+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Bass Pi - Booting into Lockdown mode: <a href=\"https://youtu.be/88drhQgwtJk\">https://youtu.be/88drhQgwtJk</a>",
+  "link_preview": {
+    "url": "https://youtu.be/88drhQgwtJk",
+    "site": "YouTube",
+    "title": "Bass Pi - Restricted: Lockdown Mode boot: Bass OS Kiosk mode for the Raspberry Pi 4",
+    "description_html": "Uboot menu &amp; initial startup of Bass Pi, showcasing an out of the box experience for using the free version of Restricted Launcher from Navotpala Tech. <br/>Restricted Launcher when booted in Admin mode allows you to use all the features of Android while unlocked.…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/46/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

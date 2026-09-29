@@ -1,0 +1,29 @@
+{
+  "id": 270,
+  "date": "2026-09-19T01:09:51+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 270,
+      "duration": null,
+      "ratio": 0.7967,
+      "round": false,
+      "thumb": "/media/tg/270/270-thumb.jpg"
+    }
+  ],
+  "text_html": "And the video from the companion display (phone app)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

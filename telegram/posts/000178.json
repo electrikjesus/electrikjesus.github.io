@@ -1,0 +1,58 @@
+{
+  "id": 178,
+  "date": "2026-06-29T16:07:03+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 178,
+      "duration": "0:41",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/178/178-thumb.jpg"
+    }
+  ],
+  "text_html": "Bass:Submix (aka Waydroid-Linux) - Multidisplay mouse and window dragging",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 146,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-07-01T14:29:13+00:00",
+      "url": "https://t.me/ejswonderemporium/178?comment=146",
+      "reply_to": null,
+      "text_html": "<a href=\"https://www.instagram.com/reel/DZQcFaXtH9l/\">https://www.instagram.com/reel/DZQcFaXtH9l/</a><br/>looks like your work",
+      "media": []
+    },
+    {
+      "id": 147,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-07-01T14:57:35+00:00",
+      "url": "https://t.me/ejswonderemporium/178?comment=147",
+      "reply_to": {
+        "id": 146,
+        "author": "E-vun",
+        "text": "https://www.instagram.com/reel/DZQcFaXtH9l/ looks like your work"
+      },
+      "text_html": "That might actually be based off the new Boringdroid updates (also a BlissLabs project)",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

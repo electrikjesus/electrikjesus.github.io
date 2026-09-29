@@ -1,0 +1,16 @@
+{{- $brand := site.Params.brand | default dict -}}
+{{- $mode := $brand.avatar | default "logo" -}}
+{{- $src := "" -}}
+{{- if eq $mode "telegram" -}}
+  {{- with hugo.Data.channel -}}{{- $src = .photo | default "" -}}{{- end -}}
+{{- end -}}
+{{- if and (eq $src "") (ne $mode "initials") -}}
+  {{- with partial "brand-icon.html" 192 -}}{{- $src = .RelPermalink -}}{{- end -}}
+{{- end -}}
+<span class="avatar avatar-{{ .size }} avatar-channel" aria-hidden="true">
+  {{- if $src -}}
+    <img src="{{ $src }}" alt="">
+  {{- else -}}
+    <span>{{ $brand.initials | default (substr site.Title 0 2) }}</span>
+  {{- end -}}
+</span>

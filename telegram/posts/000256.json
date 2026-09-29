@@ -1,0 +1,25 @@
+{
+  "id": 256,
+  "date": "2026-09-13T00:33:09+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 256,
+      "ratio": 1.5009,
+      "src": "/media/tg/256/256.jpg"
+    }
+  ],
+  "text_html": "On an arm64 android only device",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

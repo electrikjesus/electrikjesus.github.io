@@ -1,0 +1,28 @@
+{
+  "id": 225,
+  "date": "2026-07-30T19:45:02+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Bass Lineout (Android 16) builds are updated on the website and now include DigitalisX64, and ax86-power addons. <br/><a href=\"https://bassos.navotpala.tech/#downloads\">https://bassos.navotpala.tech/#downloads</a>",
+  "link_preview": {
+    "url": "https://bassos.navotpala.tech/",
+    "site": "Bass OS",
+    "title": "Bass OS - Android x86_64, Raspberry Pi & VirtIO Kiosk OS",
+    "description_html": "Bass OS is a product-focused Android OS for x86_64 PCs, Raspberry Pi 4/5, VirtIO VMs, and Linux via Waydroid/Submix-built for kiosks, POS, digital signage, tablets, and custom hardware.",
+    "layout": "large",
+    "ratio": 1.9048,
+    "image": "/media/tg/225/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "2"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

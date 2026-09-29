@@ -1,0 +1,54 @@
+{
+  "id": 109,
+  "date": "2026-05-04T01:18:11+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 109,
+      "ratio": 1.5009,
+      "src": "/media/tg/109/109.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 110,
+      "ratio": 1.5009,
+      "src": "/media/tg/109/110.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 111,
+      "ratio": 1.5009,
+      "src": "/media/tg/109/111.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 112,
+      "ratio": 1.5009,
+      "src": "/media/tg/109/112.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 113,
+      "ratio": 1.5009,
+      "src": "/media/tg/109/113.jpg"
+    }
+  ],
+  "text_html": "Build #4 (#3 had a bug): Now the build toolkit generates a secure platform key for signing the build, and also includes BlissView (frameworks integrity validation service), along with Bliss Display Mapper, and moving them all (Including BlissTouchMapper) into Settings &gt; System (like the other Lineage Extra Settings apps). <br/>MicroG is also included and working (updated vendor/foss &amp; vendor/foss_userapp for A14+) in this version. Next build will be adding some finishing touches (bootanimation and wallpaper customization options, and a few other features)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

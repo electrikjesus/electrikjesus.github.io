@@ -1,0 +1,28 @@
+{
+  "id": 163,
+  "date": "2026-06-06T16:03:37+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 163,
+      "ratio": 1.6393,
+      "src": "/media/tg/163/163.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 164,
+      "ratio": 1.6393,
+      "src": "/media/tg/163/164.jpg"
+    }
+  ],
+  "text_html": "A couple more screenshots",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

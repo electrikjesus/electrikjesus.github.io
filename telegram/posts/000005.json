@@ -1,0 +1,22 @@
+{
+  "id": 5,
+  "date": "2024-05-05T20:53:44+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 5,
+      "ratio": 1.0,
+      "src": "/media/tg/5/5.jpg"
+    }
+  ],
+  "text_html": "There are a ton of new updates that have been pushed to Bass Toolkit, bringing it to it's 100'th commit! Some of the most notable are:<br/>- Expanded microG options (including CalyxOS microG source)<br/>- Updated boot options for desktop, lockdown, tablet, restricted launcher, and more<br/>- Added build flag to include <a href=\"https://t.me/xtr1260\">@xtr1260</a> 's ax86 Start Menu app (for use with Launcher3's Taskbar)<br/>- Updated ADB secure flags<br/>- Added build option to enable SystemUI Blur<br/>- Updated Restricted Launcher apps<br/>- Widened scope of our platform/release key generation scripts<br/>- And much more (some hidden treasures)<br/><br/>Checkout the source: <br/><a href=\"https://github.com/Bliss-Bass/bass-os\">https://github.com/Bliss-Bass/bass-os</a>",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

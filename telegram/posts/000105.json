@@ -1,0 +1,48 @@
+{
+  "id": 105,
+  "date": "2026-04-13T22:26:07+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Been on Substack for 2 weeks now, and I already have 8 subscribers! Who wants to help me make it to my goal of 10? <br/><a href=\"https://substack.com/@electrikjesus\">https://substack.com/@electrikjesus</a>",
+  "link_preview": {
+    "url": "https://substack.com/@electrikjesus",
+    "site": "Substack",
+    "title": "Jon West (electrikjesus) | Substack",
+    "description_html": "Working to make the dreams of those around me become reality. Most of my work is in Android on x86 and Android Desktop development, or further automation of the AOSP development and build process",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/105/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 42,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-04-13T22:27:34+00:00",
+      "url": "https://t.me/ejswonderemporium/105?comment=42",
+      "reply_to": null,
+      "text_html": "Sorry bro I'm too lasy to register.",
+      "media": []
+    },
+    {
+      "id": 43,
+      "author": "E-vun",
+      "author_url": "https://t.me/Eeevaaan",
+      "initial": "E",
+      "color": 4,
+      "date": "2026-04-13T22:27:58+00:00",
+      "url": "https://t.me/ejswonderemporium/105?comment=43",
+      "reply_to": null,
+      "text_html": "To sign up.",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

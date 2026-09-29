@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{{ $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
+{{ $desc := cond .IsPage (.Summary | plainify) site.Params.description }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc | truncate 200 }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fdf8ff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141218">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="{{ site.Params.brand.shortName | default site.Title }}">
+{{ with partial "brand-icon.html" 48 }}<link rel="icon" href="{{ .Permalink }}" type="{{ .MediaType.Type }}">{{ end }}
+{{ with partial "brand-icon.html" 180 }}<link rel="apple-touch-icon" href="{{ .Permalink }}">{{ end }}
+{{ with site.Home.OutputFormats.Get "manifest" }}<link rel="manifest" href="{{ .Permalink }}">{{ end }}
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
+
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ cond .IsHome site.Title .Title }}">
+<meta property="og:description" content="{{ $desc | truncate 200 }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+{{ with index (.Params.images | default slice) 0 }}
+<meta property="og:image" content="{{ strings.TrimPrefix "/" . | absURL }}">
+<meta name="twitter:card" content="summary_large_image">
+{{ else }}
+<meta name="twitter:card" content="summary">
+{{ end }}
+{{ if .IsPage }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+
+<script>
+  (function () {
+    var t = localStorage.getItem("theme") || "auto";
+    document.documentElement.dataset.theme = t;
+  })();
+</script>
+{{ $brand := site.Params.brand | default dict }}
+{{ $glow := $brand.glow | default (slice "#00C2FF" "#FF5FA2") }}
+<style>:root { --seed: {{ $brand.accent | default "#7C4DFF" | safeCSS }}; --glow-1: {{ index $glow 0 | safeCSS }}; --glow-2: {{ index $glow 1 | default (index $glow 0) | safeCSS }}; }</style>
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">

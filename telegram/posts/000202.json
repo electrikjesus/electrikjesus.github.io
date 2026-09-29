@@ -1,0 +1,40 @@
+{
+  "id": 202,
+  "date": "2026-07-23T17:43:40+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 202,
+      "ratio": 1.5009,
+      "src": "/media/tg/202/202.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 203,
+      "ratio": 1.5009,
+      "src": "/media/tg/202/203.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 204,
+      "ratio": 1.5009,
+      "src": "/media/tg/202/204.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 205,
+      "ratio": 1.5009,
+      "src": "/media/tg/202/205.jpg"
+    }
+  ],
+  "text_html": "Bass: Lineout (A14) Desktop release<br/><br/>We are opening the gates for our next iteration of Bass OS builds (Lineout/Submix), and the initial releases are being uploaded one by one to our website. <br/><br/>Check out the downloads section: <br/><a href=\"https://bassos.navotpala.tech/#downloads\">https://bassos.navotpala.tech/#downloads</a><br/><br/>Install Documentation: <a href=\"https://docs.blisscolabs.dev/installation/x86_64-v2/bass_os_aio_android-13-15_install_process/\">https://docs.blisscolabs.dev/installation/x86_64-v2/bass_os_aio_android-13-15_install_process/</a><br/><br/>(Make sure to check out the rest of the documentation site for the features, apps, and interface information)",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
