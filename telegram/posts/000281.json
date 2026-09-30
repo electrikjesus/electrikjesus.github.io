@@ -1,0 +1,39 @@
+{
+  "id": 281,
+  "date": "2026-09-30T15:36:15+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "document",
+      "msg_id": 281,
+      "title": "MindTheGapps-16.0.0-x86_64-20260911_143533.zip.sha256sum",
+      "size": "113 B",
+      "caption_html": "<b>Optional fingerprint override (flashable zip)</b><br/><br/>Place a config file on the device <b>before</b> flashing to optionally spoof <code>ro.build.fingerprint</code> (useful for Play certification style setups).<br/><br/>Checked in order (first found wins):<br/><br/><code>/sdcard/mtg-config.txt</code><br/><code>/sdcard/MindTheGapps.prop</code><br/>Same directory as the zip being flashed<br/>Example:<br/><pre># fingerprint: none | fugu | cheets | tangorpro<br/>fingerprint=tangorpro<br/><br/># props_mode: fingerprint | full<br/>props_mode=fingerprint</pre>"
+    },
+    {
+      "type": "document",
+      "msg_id": 282,
+      "title": "MindTheGapps-16.0.0-x86_64-20260911_143533.zip",
+      "size": "246.9 MB"
+    },
+    {
+      "type": "document",
+      "msg_id": 283,
+      "title": "flashing.md",
+      "size": "1.2 KB",
+      "caption_html": "Flashing options for the latest MTGapps x86_64 (A16)"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
