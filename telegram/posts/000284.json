@@ -1,0 +1,38 @@
+{
+  "id": 284,
+  "date": "2026-10-03T12:23:35+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "document",
+      "msg_id": 284,
+      "title": "FLASHING.md",
+      "size": "2.9 KB",
+      "caption_html": "MindTheGapps (A16) Updates<br/><br/>## Optional: fingerprint config (before flashing)<br/><br/>To optionally set a Play-style build fingerprint, create a config file on the device <b>before</b> you flash.<br/><br/>### File name<br/><br/>Use either:<br/><br/>- <code>mtg-config.txt</code><br/>- <code>MindTheGapps.prop</code><br/><br/>### Where to put it<br/><br/>The installer checks these locations in order (first match wins):<br/><br/>1. Internal storage root (`/sdcard/`)<br/>2. Documents (`/sdcard/Documents/`)<br/>3. Download / Downloads (`/sdcard/Download/` or `/sdcard/Downloads/`)<br/>4. The same folder as the zip you are flashing<br/><br/>On many devices, saving from a text editor into <b>Documents</b> or <b>Downloads</b> is easiest.<br/><br/>### Example config<br/><br/><pre># fingerprint: none | fugu | hatch | cheets | tangorpro<br/>fingerprint=tangorpro<br/><br/># props_mode: fingerprint | full<br/>props_mode=fingerprint</pre>"
+    },
+    {
+      "type": "document",
+      "msg_id": 285,
+      "title": "MindTheGapps-16.0.0-x86_64-20261003_120619.zip",
+      "size": "246.9 MB"
+    },
+    {
+      "type": "document",
+      "msg_id": 286,
+      "title": "MindTheGapps-16.0.0-x86_64-20261003_120619.zip.sha256sum",
+      "size": "113 B"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
