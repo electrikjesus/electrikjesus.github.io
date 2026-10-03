@@ -31,7 +31,12 @@
   "text_html": "",
   "link_preview": null,
   "poll": null,
-  "reactions": [],
+  "reactions": [
+    {
+      "emoji": "👏",
+      "count": "1"
+    }
+  ],
   "unsupported": false,
   "comments": [],
   "comments_count": 0
