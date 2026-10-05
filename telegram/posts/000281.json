@@ -34,6 +34,19 @@
   "poll": null,
   "reactions": [],
   "unsupported": false,
-  "comments": [],
-  "comments_count": 0
+  "comments": [
+    {
+      "id": 318,
+      "author": "Adu",
+      "author_url": "https://t.me/Adu7069",
+      "initial": "A",
+      "color": 4,
+      "date": "2026-10-05T02:01:22+00:00",
+      "url": "https://t.me/ejswonderemporium/281?comment=318",
+      "reply_to": null,
+      "text_html": "It will help in  to spoof play integrity?",
+      "media": []
+    }
+  ],
+  "comments_count": 1
 }
