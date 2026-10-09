@@ -1,0 +1,37 @@
+{
+  "id": 287,
+  "date": "2026-10-09T20:31:39+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 287,
+      "duration": "0:32",
+      "ratio": null,
+      "round": false,
+      "thumb": "/media/tg/287/287-thumb.jpg",
+      "poster": null
+    },
+    {
+      "type": "photo",
+      "msg_id": 288,
+      "ratio": 1.3311,
+      "src": "/media/tg/287/288.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 289,
+      "ratio": 1.3311,
+      "src": "/media/tg/287/289.jpg"
+    }
+  ],
+  "text_html": "Getting Steam games to play/work on a Googlebook today. Had to add some updates so far to GameNativeX64 to support 32bit emulation when the kernel doesn't ship with support, and a couple other things. <br/>Working nicely so far though",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
