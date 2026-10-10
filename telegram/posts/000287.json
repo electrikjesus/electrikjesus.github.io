@@ -30,7 +30,12 @@
   "text_html": "Getting Steam games to play/work on a Googlebook today. Had to add some updates so far to GameNativeX64 to support 32bit emulation when the kernel doesn't ship with support, and a couple other things. <br/>Working nicely so far though",
   "link_preview": null,
   "poll": null,
-  "reactions": [],
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
   "unsupported": false,
   "comments": [],
   "comments_count": 0

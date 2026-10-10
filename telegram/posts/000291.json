@@ -1,0 +1,23 @@
+{
+  "id": 291,
+  "date": "2026-10-09T22:53:28+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "<a href=\"https://youtu.be/29FUUqvpScM\">https://youtu.be/29FUUqvpScM</a><br/><br/><b>GameNative-x64 on the Acer Googlebook</b><br/><br/>Here is a video of what all I have working on the Acer Googlebook so far with my GameNative-x64 fork. <br/>Changes made for the Googlebook (and others): <br/>- 32bit emulation added for kernels that don't include support<br/>- Linux Session &amp; Apps are also now working<br/>- Rendering artifacts on newer Intel chipsets resolved. <br/>- Sidebar overlay added to Linux App/Session windows (Back or Shift+Esc)<br/>- Per-App scaling support for Linux apps<br/><br/>(For best performance, you will still want to switch to DRI3 presentation in settings)<br/><br/>Updates are released in the GameNative-x64 repo: <a href=\"https://github.com/Bliss-Bass/GameNative-x64\">https://github.com/Bliss-Bass/GameNative-x64</a><br/><br/><a class=\"hashtag\" href=\"tg-hashtag:Proton\">#Proton</a> <a class=\"hashtag\" href=\"tg-hashtag:GameNativeX64\">#GameNativeX64</a> <a class=\"hashtag\" href=\"tg-hashtag:Googlebook\">#Googlebook</a> <a class=\"hashtag\" href=\"tg-hashtag:Android\">#Android</a> <a class=\"hashtag\" href=\"tg-hashtag:Android\">#Android</a>-x86 <a class=\"hashtag\" href=\"tg-hashtag:Bliss\">#Bliss</a>-Bass <a class=\"hashtag\" href=\"tg-hashtag:Steam\">#Steam</a> <a class=\"hashtag\" href=\"tg-hashtag:Valve\">#Valve</a> <a class=\"hashtag\" href=\"tg-hashtag:Linux\">#Linux</a> <a class=\"hashtag\" href=\"tg-hashtag:Firefox\">#Firefox</a>",
+  "link_preview": {
+    "url": "https://youtu.be/29FUUqvpScM",
+    "site": "YouTube",
+    "title": "GameNative-x64 on the Acer Googlebook",
+    "description_html": "Here is a video of what all I have working on the Acer Googlebook so far with my GameNative-x64 fork. <br/>Changes made for the Googlebook (and others): <br/>- 32bit emulation added for kernels that don't include support<br/>- Linux Session &amp; Apps are also now working…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/291/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
