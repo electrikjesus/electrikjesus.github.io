@@ -1,0 +1,25 @@
+{
+  "id": 292,
+  "date": "2026-10-11T12:52:41+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 292,
+      "duration": "0:14",
+      "ratio": 1.6,
+      "round": false,
+      "thumb": "/media/tg/292/292-thumb.jpg",
+      "poster": null
+    }
+  ],
+  "text_html": "Got SmartDock-DFC integrated into Googlebook OS using Shizuku, and I much prefer this mode of interaction/navigation",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
