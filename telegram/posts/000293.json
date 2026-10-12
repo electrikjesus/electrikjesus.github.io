@@ -1,0 +1,37 @@
+{
+  "id": 293,
+  "date": "2026-10-12T22:40:07+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 293,
+      "duration": "1:18",
+      "ratio": null,
+      "round": false,
+      "thumb": "/media/tg/293/293-thumb.jpg",
+      "poster": null
+    },
+    {
+      "type": "photo",
+      "msg_id": 294,
+      "ratio": 1.3289,
+      "src": "/media/tg/293/294.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 295,
+      "ratio": 1.3289,
+      "src": "/media/tg/293/295.jpg"
+    }
+  ],
+  "text_html": "SmartDock-DFC integration on Googlebook via our SmartDock Deployment app from Linux. <br/><br/>All permissions granted with a locked down clone of Shizuku (Bass Helper) so as not to conflict with other Shizuku installs if found on device.",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
