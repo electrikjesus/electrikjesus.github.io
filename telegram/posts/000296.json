@@ -1,0 +1,22 @@
+{
+  "id": 296,
+  "date": "2026-10-13T15:34:54+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 296,
+      "ratio": 1.6,
+      "src": "/media/tg/296/296.jpg"
+    }
+  ],
+  "text_html": "Progress Update for SmartDock-DFC on the Googlebook:<br/><br/>- Got the My Phone apps list support added to SmartDock-DFC now. <br/>- Fixed fullscreen hide/show of the dock/taskbar",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
