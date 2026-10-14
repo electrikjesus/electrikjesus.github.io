@@ -1,0 +1,34 @@
+{
+  "id": 297,
+  "date": "2026-10-14T00:39:33+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 297,
+      "ratio": 1.6,
+      "src": "/media/tg/297/297.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 298,
+      "ratio": 1.6,
+      "src": "/media/tg/297/298.jpg"
+    },
+    {
+      "type": "photo",
+      "msg_id": 299,
+      "ratio": 1.6,
+      "src": "/media/tg/297/299.jpg"
+    }
+  ],
+  "text_html": "It's a terrible framerate, but it is also Cyberpunk 2077 running on a Googlebook...",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

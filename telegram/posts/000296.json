@@ -17,6 +17,35 @@
   "poll": null,
   "reactions": [],
   "unsupported": false,
-  "comments": [],
-  "comments_count": 0
+  "comments": [
+    {
+      "id": 335,
+      "author": "Adu",
+      "author_url": "https://t.me/Adu7069",
+      "initial": "A",
+      "color": 4,
+      "date": "2026-10-14T02:27:08+00:00",
+      "url": "https://t.me/ejswonderemporium/296?comment=335",
+      "reply_to": null,
+      "text_html": "Does this is will come to us (x86-64) version?",
+      "media": []
+    },
+    {
+      "id": 336,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-10-14T02:57:01+00:00",
+      "url": "https://t.me/ejswonderemporium/296?comment=336",
+      "reply_to": {
+        "id": 335,
+        "author": "Adu",
+        "text": "Does this is will come to us (x86-64) version?"
+      },
+      "text_html": "This is on an Intel Googlebook",
+      "media": []
+    }
+  ],
+  "comments_count": 2
 }
