@@ -34,6 +34,51 @@
     }
   ],
   "unsupported": false,
-  "comments": [],
-  "comments_count": 0
+  "comments": [
+    {
+      "id": 337,
+      "author": "جيوفاني",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "ج",
+      "color": 5,
+      "date": "2026-10-22T11:11:01+00:00",
+      "url": "https://t.me/ejswonderemporium/297?comment=337",
+      "reply_to": null,
+      "text_html": "Hello<br/><br/>I want to ask you a question regarding the Bliss OS system.<br/><br/>I played Farlight 84 on Mumu Player android 12+15  The game runs without problems and the emulator is not recognized.<br/><br/>But when I tried running the game on Bliss OS Android 12, the emulator was detected and prevented me from using the game. Do you have any idea what makes the system so vulnerable, and how I can make it like the Mumu player emulator?",
+      "media": []
+    },
+    {
+      "id": 338,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-10-22T12:19:03+00:00",
+      "url": "https://t.me/ejswonderemporium/297?comment=338",
+      "reply_to": {
+        "id": 337,
+        "author": "جيوفاني",
+        "text": "Hello  I want to ask you a question regarding the Bliss OS system.  I played Farlight 84 on Mumu Player android 12+15  The game runs without problems and the emulator is not recognized.  But when I tried running the game on Bliss OS Android 12, the emulator…"
+      },
+      "text_html": "Different games use different techniques. Some detect a keyboard or mouse, while others detect an x86 based CPU. So it's hard to tell without being able to see the code for the game",
+      "media": []
+    },
+    {
+      "id": 339,
+      "author": "جيوفاني",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "ج",
+      "color": 5,
+      "date": "2026-10-22T12:21:09+00:00",
+      "url": "https://t.me/ejswonderemporium/297?comment=339",
+      "reply_to": {
+        "id": 338,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "Different games use different techniques. Some detect a keyboard or mouse, while others detect an x86 based CPU. So it's hard to tell without being able to see the code for the game"
+      },
+      "text_html": "I did that using the rea tool. I am now analyzing the application from within.",
+      "media": []
+    }
+  ],
+  "comments_count": 3
 }
