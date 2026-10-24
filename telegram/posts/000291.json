@@ -9,8 +9,8 @@
   "link_preview": {
     "url": "https://youtu.be/29FUUqvpScM",
     "site": "YouTube",
-    "title": "GameNative-x64 on the Acer Googlebook",
-    "description_html": "Here is a video of what all I have working on the Acer Googlebook so far with my GameNative-x64 fork. <br/>Changes made for the Googlebook (and others): <br/>- 32bit emulation added for kernels that don't include support<br/>- Linux Session &amp; Apps are also now working…",
+    "title": "Steam Games on Googlebook via GameNative-x64",
+    "description_html": "Play steam games on googlebook, Bass OS, Bliss OS, Android-x86 and more. <br/><br/>Here is a video of what all I have working on the Acer Googlebook so far with my GameNative-x64 fork. <br/>Changes made for the Googlebook (and others): <br/>- 32bit emulation added for kernels…",
     "layout": "small",
     "ratio": null,
     "image": "/media/tg/291/preview.jpg"

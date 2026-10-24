@@ -1,0 +1,41 @@
+{
+  "id": 300,
+  "date": "2026-10-24T17:25:43+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 300,
+      "duration": "0:30",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/300/300-thumb.jpg",
+      "poster": null
+    }
+  ],
+  "text_html": "GameNative-x64 Preview (Bass Lineout A16):<br/>Setting up a distro (proot-distro) per ctrl+alt+f# key for F4-F6. F1-F3 are Android console. F7 Android GUI",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 341,
+      "author": "جيوفاني",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "ج",
+      "color": 5,
+      "date": "2026-10-24T18:03:53+00:00",
+      "url": "https://t.me/ejswonderemporium/300?comment=341",
+      "reply_to": null,
+      "text_html": "This system dont start with me,  i have hp intel i5 6G",
+      "media": []
+    }
+  ],
+  "comments_count": 1
+}
