@@ -1,0 +1,128 @@
+{
+  "id": 301,
+  "date": "2026-11-04T20:21:46+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "Material U Desktop mode style updates to Launcher3/SystemUI on Lineage 23.2<br/><a href=\"https://youtu.be/PfiUUqj4cRo?is=FK8LIElanT4AYeOP\">https://youtu.be/PfiUUqj4cRo?is=FK8LIElanT4AYeOP</a>",
+  "link_preview": {
+    "url": "https://youtu.be/PfiUUqj4cRo?is=FK8LIElanT4AYeOP",
+    "site": "YouTube",
+    "title": "Android 16 Desktop Mode updates - Material You theme",
+    "description_html": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/301/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 343,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-04T20:22:41+00:00",
+      "url": "https://t.me/ejswonderemporium/301?comment=343",
+      "reply_to": null,
+      "text_html": "I add game helper of phoenix  into bliss os",
+      "media": []
+    },
+    {
+      "id": 344,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-04T20:22:51+00:00",
+      "url": "https://t.me/ejswonderemporium/301?comment=344",
+      "reply_to": null,
+      "text_html": "",
+      "media": [
+        {
+          "type": "photo",
+          "msg_id": 344,
+          "ratio": 1.7778,
+          "src": "/media/tg/301/c344-344.jpg"
+        },
+        {
+          "type": "photo",
+          "msg_id": 345,
+          "ratio": 1.7778,
+          "src": "/media/tg/301/c344-345.jpg"
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-04T21:04:35+00:00",
+      "url": "https://t.me/ejswonderemporium/301?comment=349",
+      "reply_to": {
+        "id": 345,
+        "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+        "text": ""
+      },
+      "text_html": "It would be illegal for us to use it though without licensing",
+      "media": []
+    },
+    {
+      "id": 350,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-04T21:06:19+00:00",
+      "url": "https://t.me/ejswonderemporium/301?comment=350",
+      "reply_to": {
+        "id": 349,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "It would be illegal for us to use it though without licensing"
+      },
+      "text_html": "I don't own a well-known company; I'll do what I want. No one will hold me accountable.",
+      "media": []
+    },
+    {
+      "id": 351,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-04T21:07:17+00:00",
+      "url": "https://t.me/ejswonderemporium/301?comment=351",
+      "reply_to": {
+        "id": 350,
+        "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+        "text": "I don't own a well-known company; I'll do what I want. No one will hold me accountable."
+      },
+      "text_html": "Feel free to share though. Others can benefit even though we can not use it directly",
+      "media": []
+    },
+    {
+      "id": 352,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-04T21:10:19+00:00",
+      "url": "https://t.me/ejswonderemporium/301?comment=352",
+      "reply_to": {
+        "id": 351,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "Feel free to share though. Others can benefit even though we can not use it directly"
+      },
+      "text_html": "There are some minor problems I'm facing, and I'm sharing a lot of things.",
+      "media": []
+    }
+  ],
+  "comments_count": 7
+}

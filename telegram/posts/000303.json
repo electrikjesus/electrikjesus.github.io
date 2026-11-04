@@ -1,0 +1,55 @@
+{
+  "id": 303,
+  "date": "2026-11-04T20:24:20+00:00",
+  "service": false,
+  "forwarded_from": {
+    "name": "Jon West",
+    "url": "https://t.me/electrikjesus"
+  },
+  "reply_to": null,
+  "media": [],
+  "text_html": "Holo (retro) Desktop mode style updates to Launcher3/SystemUI on Lineage 23.2<br/><a href=\"https://youtu.be/lNLgowhgpiQ?is=oV48Ewa6PvE8BfFB\">https://youtu.be/lNLgowhgpiQ?is=oV48Ewa6PvE8BfFB</a>",
+  "link_preview": {
+    "url": "https://youtu.be/lNLgowhgpiQ?is=oV48Ewa6PvE8BfFB",
+    "site": "YouTube",
+    "title": "Android 16 Desktop Mode updates - Holo style",
+    "description_html": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/303/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 348,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-04T20:26:00+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=348",
+      "reply_to": null,
+      "text_html": "Why isn't there more intensive development in this field now? Artificial intelligence tools have made everything easier. I would like to contribute to creating an integrated system.",
+      "media": []
+    },
+    {
+      "id": 354,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-04T21:18:06+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=354",
+      "reply_to": {
+        "id": 348,
+        "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+        "text": "Why isn't there more intensive development in this field now? Artificial intelligence tools have made everything easier. I would like to contribute to creating an integrated system."
+      },
+      "text_html": "That's a good question. My guess is the lack of interest",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}
