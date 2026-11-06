@@ -65,7 +65,55 @@
       },
       "text_html": "Unfortunately, there needs to be a revolution in this field now; things have become easier than before.",
       "media": []
+    },
+    {
+      "id": 357,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-05T20:53:20+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=357",
+      "reply_to": {
+        "id": 356,
+        "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+        "text": "Unfortunately, there needs to be a revolution in this field now; things have become easier than before."
+      },
+      "text_html": "Those types of revolutions can only start when people share with others. And so far, I honestly am the only one I see sharing stuff like this.",
+      "media": []
+    },
+    {
+      "id": 359,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-05T20:55:00+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=359",
+      "reply_to": {
+        "id": 357,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "Those types of revolutions can only start when people share with others. And so far, I honestly am the only one I see sharing stuff like this."
+      },
+      "text_html": "Unfortunately",
+      "media": []
+    },
+    {
+      "id": 360,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-05T21:03:18+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=360",
+      "reply_to": {
+        "id": 359,
+        "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+        "text": "Unfortunately"
+      },
+      "text_html": "I am open to suggestions of where else I could be sharing and promoting what we do. <br/>Current platforms:<br/>- Mastadon<br/>- BlueSky<br/>- Threads<br/>- X<br/>- Youtube<br/>- TikTok<br/>- LinkedIn (product related)<br/>- Sometimes on Reddit (rare lately)<br/>- SubStack (with articles and large format posts)",
+      "media": []
     }
   ],
-  "comments_count": 3
+  "comments_count": 6
 }
