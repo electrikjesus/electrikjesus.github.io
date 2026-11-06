@@ -19,7 +19,12 @@
     "image": "/media/tg/303/preview.jpg"
   },
   "poll": null,
-  "reactions": [],
+  "reactions": [
+    {
+      "emoji": "🔥",
+      "count": "1"
+    }
+  ],
   "unsupported": false,
   "comments": [
     {
@@ -113,7 +118,39 @@
       },
       "text_html": "I am open to suggestions of where else I could be sharing and promoting what we do. <br/>Current platforms:<br/>- Mastadon<br/>- BlueSky<br/>- Threads<br/>- X<br/>- Youtube<br/>- TikTok<br/>- LinkedIn (product related)<br/>- Sometimes on Reddit (rare lately)<br/>- SubStack (with articles and large format posts)",
       "media": []
+    },
+    {
+      "id": 361,
+      "author": "Çağlar",
+      "author_url": "https://t.me/ccelik97",
+      "initial": "Ç",
+      "color": 2,
+      "date": "2026-11-06T12:56:19+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=361",
+      "reply_to": {
+        "id": 360,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "I am open to suggestions of where else I could be sharing and promoting what we do.  Current platforms: - Mastadon - BlueSky - Threads - X - Youtube - TikTok - LinkedIn (product related) - Sometimes on Reddit (rare lately) - SubStack (with articles and large…"
+      },
+      "text_html": "Answer: GitHub.<br/><br/>And then, I suppose occasionally cross-post about it on Reddit, without overdoing it.<br/><br/>Nowhere else real people exist.",
+      "media": []
+    },
+    {
+      "id": 362,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-06T13:02:38+00:00",
+      "url": "https://t.me/ejswonderemporium/303?comment=362",
+      "reply_to": {
+        "id": 361,
+        "author": "Çağlar",
+        "text": "Answer: GitHub.  And then, I suppose occasionally cross-post about it on Reddit, without overdoing it.  Nowhere else real people exist."
+      },
+      "text_html": "GitHub is a given, since that's where all the releases end up for public projects",
+      "media": []
     }
   ],
-  "comments_count": 6
+  "comments_count": 8
 }
