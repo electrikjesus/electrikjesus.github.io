@@ -1,0 +1,31 @@
+{
+  "id": 307,
+  "date": "2026-11-10T16:14:33+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "photo",
+      "msg_id": 307,
+      "ratio": 2.2284,
+      "src": "/media/tg/307/307.jpg"
+    }
+  ],
+  "text_html": "",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    },
+    {
+      "emoji": "🥰",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}

@@ -1,0 +1,32 @@
+{
+  "id": 306,
+  "date": "2026-11-10T16:14:13+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "Yay! Some promotion for GameNativeX64 from XDA! <br/><a href=\"https://youtu.be/1MQf083AbHg?is=gVa8BWuxc-INW8C9\">https://youtu.be/1MQf083AbHg?is=gVa8BWuxc-INW8C9</a>",
+  "link_preview": {
+    "url": "https://youtu.be/1MQf083AbHg?is=gVa8BWuxc-INW8C9",
+    "site": "YouTube",
+    "title": "Can You Actually Game on a Googlebook?",
+    "description_html": "Brought to you by XDB Builder: https://xdb.xda-developers.com/<br/><br/>Can you game on a Googlebook?<br/> <br/>Let's be honest, gaming isn't the *main* reason anyone's buying one of these new Google laptops. But if you're already interested in a Googlebook then you might…",
+    "layout": "small",
+    "ratio": null,
+    "image": "/media/tg/306/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "👍",
+      "count": "1"
+    },
+    {
+      "emoji": "🥰",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
