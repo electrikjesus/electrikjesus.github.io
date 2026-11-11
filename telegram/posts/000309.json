@@ -1,0 +1,23 @@
+{
+  "id": 309,
+  "date": "2026-11-10T23:45:09+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [],
+  "text_html": "<b>We just updated GameNativeX64 to fix some issues</b> (v1.2.0-x64.31)!!<br/>We fixed a few issues with black screen and no sound on some devices using software copy, added automatic DRI3 presentation compatibility detection, and made a few input issues around mouse/touchpad/touchscreen/stylus on our devices too. <br/><br/>Download the update here: <br/><a href=\"https://github.com/Bliss-Bass/GameNative-x64/releases/tag/v1.2.0-x64.31\">https://github.com/Bliss-Bass/GameNative-x64/releases/tag/v1.2.0-x64.31</a>",
+  "link_preview": {
+    "url": "https://github.com/Bliss-Bass/GameNative-x64/releases/tag/v1.2.0-x64.31",
+    "site": "GitHub",
+    "title": "Release v1.2.0-x64.31 · Bliss-Bass/GameNative-x64",
+    "description_html": "GameNative x64 1.2.0-x64.31<br/>GameNative ported to x86_64 (bionic) for Bass:Lineout / ax86 tablets — run Windows games<br/>through Proton/Wine on Intel or AMD Android devices, with hardware Vulkan.<br/>Upstr...",
+    "layout": "large",
+    "ratio": 2.0,
+    "image": "/media/tg/309/preview.jpg"
+  },
+  "poll": null,
+  "reactions": [],
+  "unsupported": false,
+  "comments": [],
+  "comments_count": 0
+}
