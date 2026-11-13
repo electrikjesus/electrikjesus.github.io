@@ -30,7 +30,70 @@
       "reply_to": null,
       "text_html": "Add 32bit app",
       "media": []
+    },
+    {
+      "id": 375,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-12T20:08:53+00:00",
+      "url": "https://t.me/ejswonderemporium/309?comment=375",
+      "reply_to": null,
+      "text_html": "I've installed Gzmaster gamehelper inside Bass OS Android 16. It's almost working, but there are some issues I'd like to resolve.<br/><br/><a href=\"https://t.me/dctr2000\">@dctr2000</a>",
+      "media": [
+        {
+          "type": "photo",
+          "msg_id": 375,
+          "ratio": 1.7778,
+          "src": "/media/tg/309/c375-375.jpg"
+        },
+        {
+          "type": "photo",
+          "msg_id": 376,
+          "ratio": 1.7778,
+          "src": "/media/tg/309/c375-376.jpg"
+        },
+        {
+          "type": "photo",
+          "msg_id": 377,
+          "ratio": 1.7778,
+          "src": "/media/tg/309/c375-377.jpg"
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-12T20:23:27+00:00",
+      "url": "https://t.me/ejswonderemporium/309?comment=378",
+      "reply_to": {
+        "id": 374,
+        "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+        "text": "Add 32bit app"
+      },
+      "text_html": "32bit app support is already added to GNX64. What app failed to work for you?",
+      "media": []
+    },
+    {
+      "id": 379,
+      "author": "𝑮𝒊𝒐𝒗𝒂𝒏𝒏𝒊",
+      "author_url": "https://t.me/dctr2000",
+      "initial": "𝑮",
+      "color": 5,
+      "date": "2026-11-12T20:24:45+00:00",
+      "url": "https://t.me/ejswonderemporium/309?comment=379",
+      "reply_to": {
+        "id": 378,
+        "author": "EJ's Wonder Emporium chat",
+        "text": "32bit app support is already added to GNX64. What app failed to work for you?"
+      },
+      "text_html": "I haven't tried the latest version yet. I'm currently busy installing the Phoenix game helper keymapper within the bass os system. This is already exhausting; there are so many problems I'm trying to solve.",
+      "media": []
     }
   ],
-  "comments_count": 1
+  "comments_count": 6
 }
