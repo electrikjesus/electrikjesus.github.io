@@ -20,6 +20,19 @@
   "poll": null,
   "reactions": [],
   "unsupported": false,
-  "comments": [],
-  "comments_count": 0
+  "comments": [
+    {
+      "id": 385,
+      "author": "Sarita Bhagat",
+      "author_url": null,
+      "initial": "S",
+      "color": 6,
+      "date": "2026-11-15T04:36:47+00:00",
+      "url": "https://t.me/ejswonderemporium/310?comment=385",
+      "reply_to": null,
+      "text_html": "It will release soon?",
+      "media": []
+    }
+  ],
+  "comments_count": 1
 }
