@@ -1,0 +1,59 @@
+{
+  "id": 311,
+  "date": "2026-11-16T21:44:45+00:00",
+  "service": false,
+  "forwarded_from": null,
+  "reply_to": null,
+  "media": [
+    {
+      "type": "video",
+      "msg_id": 311,
+      "duration": "1:22",
+      "ratio": 1.7778,
+      "round": false,
+      "thumb": "/media/tg/311/311-thumb.jpg",
+      "poster": null
+    }
+  ],
+  "text_html": "Bringing back that KitKat vibe to Android",
+  "link_preview": null,
+  "poll": null,
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
+  "unsupported": false,
+  "comments": [
+    {
+      "id": 394,
+      "author": "orlimors",
+      "author_url": "https://t.me/orlimors",
+      "initial": "o",
+      "color": 1,
+      "date": "2026-11-17T00:14:50+00:00",
+      "url": "https://t.me/ejswonderemporium/311?comment=394",
+      "reply_to": null,
+      "text_html": "what computer is that? and what specs?",
+      "media": []
+    },
+    {
+      "id": 395,
+      "author": "EJ's Wonder Emporium chat",
+      "author_url": "https://t.me/ejswonder",
+      "initial": "E",
+      "color": 2,
+      "date": "2026-11-17T01:00:18+00:00",
+      "url": "https://t.me/ejswonderemporium/311?comment=395",
+      "reply_to": {
+        "id": 394,
+        "author": "orlimors",
+        "text": "what computer is that? and what specs?"
+      },
+      "text_html": "Chuwi UBook XPro (2022 I think)<br/>Intel Core i7-7Y75",
+      "media": []
+    }
+  ],
+  "comments_count": 2
+}

@@ -18,7 +18,12 @@
   "text_html": "Lineage 24 - x86_64 with our new MTGapps + pixel_extras options. This one is including the NexusDesktopLauncher shipped with the Googlebook, plus a few overlays to make it all work with Lineage",
   "link_preview": null,
   "poll": null,
-  "reactions": [],
+  "reactions": [
+    {
+      "emoji": "❤",
+      "count": "1"
+    }
+  ],
   "unsupported": false,
   "comments": [
     {
